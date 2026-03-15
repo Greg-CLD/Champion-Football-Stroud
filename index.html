@@ -421,7 +421,10 @@
         <div class="jfb-reflections-container">
             <h2 class="jfb-ref-title">Jules' Latest Reflection</h2>
             <div id="reflections-content">
-                <p class="jfr-loading">Loading reflections...</p>
+                <div class="jfr-state jfr-loading" role="status" aria-live="polite">
+                    <p class="jfr-state-title">Loading latest reflection</p>
+                    <p class="jfr-state-note">Getting Jules' newest update ready...</p>
+                </div>
             </div>
         </div>
     </div>
@@ -533,8 +536,13 @@
                     .replace(/'/g, '&#39;');
             }
 
-            var emptyStateHtml = '<div class="jfr-state"><p class="jfr-state-title">No reflection yet</p><p class="jfr-state-note">Jules\' latest reflection will appear here soon.</p></div>';
-            var errorStateHtml = '<div class="jfr-state"><p class="jfr-state-title">Reflections are taking a little break</p><p class="jfr-state-note">Please check back shortly for Jules\' latest update.</p></div>';
+            function jfbSetReflectionsState(title, note) {
+                document.getElementById('reflections-content').innerHTML =
+                    '<div class="jfr-state" role="status" aria-live="polite">' +
+                    '<p class="jfr-state-title">' + jfbEscapeHtml(title) + '</p>' +
+                    '<p class="jfr-state-note">' + jfbEscapeHtml(note) + '</p>' +
+                    '</div>';
+            }
 
             fetch('files/reflections.md')
                 .then(function(response) {
@@ -544,6 +552,11 @@
                     throw new Error('Network response was not ok');
                 })
                 .then(function(text) {
+                    if (text.trim().length === 0) {
+                        jfbSetReflectionsState('No reflection yet', 'Jules\' latest reflection will appear here soon.');
+                        return;
+                    }
+
                     var lines = text.split(/\r?\n/);
                     var latestLines = [];
                     var latestHeading = '';
@@ -568,7 +581,7 @@
                     }
 
                     if (latestHeading.length === 0) {
-                        document.getElementById('reflections-content').innerHTML = emptyStateHtml;
+                        jfbSetReflectionsState('No reflection yet', 'Jules\' latest reflection will appear here soon.');
                         return;
                     }
 
@@ -613,8 +626,8 @@
 
                     document.getElementById('reflections-content').innerHTML = html;
                 })
-                .catch(function(error) {
-                    document.getElementById('reflections-content').innerHTML = errorStateHtml;
+                .catch(function() {
+                    jfbSetReflectionsState('Reflections are taking a little break', 'Please check back shortly for Jules\' latest update.');
                 });
         });
     </script>
