@@ -446,6 +446,20 @@
             { icon: "🔄", title: "Turning with the ball", note: "Changing direction fast" }
         ];
 
+        function jfbScrollToElement(element, offset) {
+            if (!element) {
+                return;
+            }
+
+            var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var top = element.getBoundingClientRect().top + window.pageYOffset - (offset || 0);
+
+            window.scrollTo({
+                top: Math.max(0, top),
+                behavior: reducedMotion ? 'auto' : 'smooth'
+            });
+        }
+
         // Function to render the cards to the page
         function jfbRenderSkills(skillsArray) {
             var container = document.getElementById('jfb-skills-grid');
@@ -479,10 +493,12 @@
         }
 
         // Function to handle switching between the two tabs
-        function jfbSwitchTab(tabName) {
+        function jfbSwitchTab(tabName, shouldScroll) {
             var btnLearned = document.getElementById('jfb-btn-learned');
             var btnPractising = document.getElementById('jfb-btn-practising');
             var resultArea = document.getElementById('jfb-random-result');
+            var gridArea = document.getElementById('jfb-skills-grid');
+            var shouldScrollToGrid = shouldScroll !== false;
 
             if (tabName === 'learned') {
                 btnLearned.classList.add('jfb-active');
@@ -504,6 +520,10 @@
                 
                 jfbRenderSkills(jfbPractising);
             }
+
+            if (shouldScrollToGrid === true) {
+                jfbScrollToElement(gridArea, 24);
+            }
         }
 
         // Function to pick a random practicing skill
@@ -512,12 +532,14 @@
             var skill = jfbPractising[randomIndex];
             var resultArea = document.getElementById('jfb-random-result');
 
+            // Automatically switch to the practising tab to match the context
+            jfbSwitchTab('practising', false);
+
             // Set the content of the message box
             resultArea.innerHTML = '<strong>' + skill.icon + ' ' + skill.title + '</strong>' + skill.note;
             resultArea.style.display = 'inline-block';
 
-            // Automatically switch to the practising tab to match the context
-            jfbSwitchTab('practising');
+            jfbScrollToElement(resultArea, 32);
         }
 
         // Run this once when the page loads to show the Learned skills by default
