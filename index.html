@@ -286,6 +286,26 @@
             text-align: center;
         }
 
+        .jfr-state {
+            text-align: center;
+            background: #F4F7F4;
+            border: 1px solid rgba(76, 175, 80, 0.18);
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            color: #4A5568;
+        }
+
+        .jfr-state-title {
+            margin: 0 0 0.35rem 0;
+            color: #1A237E;
+            font-size: 1rem;
+        }
+
+        .jfr-state-note {
+            margin: 0;
+            line-height: 1.6;
+        }
+
         /* --- ACCESSIBILITY & FOCUS --- */
         #jules-football-block button:focus-visible {
             outline: 3px solid #FF9800;
@@ -507,6 +527,18 @@
            MARKDOWN FETCH & PARSE LOGIC
            ================================================================== */
         document.addEventListener('DOMContentLoaded', function() {
+            function jfbEscapeHtml(text) {
+                return String(text)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+            }
+
+            var emptyStateHtml = '<div class="jfr-state"><p class="jfr-state-title">No reflection yet</p><p class="jfr-state-note">Jules\' latest reflection will appear here soon.</p></div>';
+            var errorStateHtml = '<div class="jfr-state"><p class="jfr-state-title">Reflections are taking a little break</p><p class="jfr-state-note">Please check back shortly for Jules\' latest update.</p></div>';
+
             fetch('files/reflections.md')
                 .then(function(response) {
                     if (response.ok) {
@@ -515,14 +547,14 @@
                     throw new Error('Network response was not ok');
                 })
                 .then(function(text) {
-                    var lines = text.split('\n');
+                    var lines = text.split(/\r?\n/);
                     var latestLines = [];
                     var latestHeading = '';
                     var inLatest = false;
-                    var fallback = '<p class="jfb-ref-p jfr-loading">Jules\' latest reflection will appear here soon.</p>';
 
                     for (var i = 0; i < lines.length; i++) {
-                        var line = lines[i].trim();
+                        var rawLine = lines[i];
+                        var line = (rawLine || '').trim();
 
                         if (line.startsWith('## ')) {
                             if (inLatest === false) {
@@ -539,11 +571,11 @@
                     }
 
                     if (latestHeading.length === 0) {
-                        document.getElementById('reflections-content').innerHTML = fallback;
+                        document.getElementById('reflections-content').innerHTML = emptyStateHtml;
                         return;
                     }
 
-                    var html = '<h3 class="jfb-ref-h2">' + latestHeading + '</h3>';
+                    var html = '<h3 class="jfb-ref-h2">' + jfbEscapeHtml(latestHeading) + '</h3>';
                     var inList = false;
 
                     for (var j = 0; j < latestLines.length; j++) {
@@ -562,7 +594,7 @@
                                 html += '<ul>';
                                 inList = true;
                             }
-                            html += '<li>' + entryLine.substring(2).trim() + '</li>';
+                            html += '<li>' + jfbEscapeHtml(entryLine.substring(2).trim()) + '</li>';
                             continue;
                         }
 
@@ -572,9 +604,9 @@
                         }
 
                         if (entryLine.startsWith('### ')) {
-                            html += '<h4 class="jfb-ref-h3">' + entryLine.substring(4).trim() + '</h4>';
+                            html += '<h4 class="jfb-ref-h3">' + jfbEscapeHtml(entryLine.substring(4).trim()) + '</h4>';
                         } else {
-                            html += '<p class="jfb-ref-p">' + entryLine + '</p>';
+                            html += '<p class="jfb-ref-p">' + jfbEscapeHtml(entryLine) + '</p>';
                         }
                     }
 
@@ -585,7 +617,7 @@
                     document.getElementById('reflections-content').innerHTML = html;
                 })
                 .catch(function(error) {
-                    document.getElementById('reflections-content').innerHTML = '<p class="jfb-ref-p jfr-loading">Jules\' latest reflection will appear here soon.</p>';
+                    document.getElementById('reflections-content').innerHTML = errorStateHtml;
                 });
         });
     </script>
