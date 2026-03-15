@@ -400,7 +400,7 @@
          ================================================================== -->
     <div class="jfb-reflections-section">
         <div class="jfb-reflections-container">
-            <h2 class="jfb-ref-title">My Football Diary</h2>
+            <h2 class="jfb-ref-title">Jules' Latest Reflection</h2>
             <div id="reflections-content">
                 <p class="jfr-loading">Loading reflections...</p>
             </div>
@@ -507,7 +507,7 @@
            MARKDOWN FETCH & PARSE LOGIC
            ================================================================== */
         document.addEventListener('DOMContentLoaded', function() {
-            fetch('reflections.md')
+            fetch('files/reflections.md')
                 .then(function(response) {
                     if (response.ok) {
                         return response.text();
@@ -515,48 +515,77 @@
                     throw new Error('Network response was not ok');
                 })
                 .then(function(text) {
-                    var html = '';
-                    var inList = false;
                     var lines = text.split('\n');
+                    var latestLines = [];
+                    var latestHeading = '';
+                    var inLatest = false;
+                    var fallback = '<p class="jfb-ref-p jfr-loading">Jules\' latest reflection will appear here soon.</p>';
 
-                    // Minimal custom parser, strictly avoiding && and || 
                     for (var i = 0; i < lines.length; i++) {
                         var line = lines[i].trim();
 
-                        if (line.startsWith('* ')) {
-                            if (inList === false) {
-                                html += '<ul>\n';
-                                inList = true;
+                        if (line.startsWith('## ')) {
+                            if (inLatest === false) {
+                                inLatest = true;
+                                latestHeading = line.substring(3).trim();
+                                continue;
                             }
-                            html += '<li>' + line.substring(2) + '</li>\n';
-                        } else {
+                            break;
+                        }
+
+                        if (inLatest === true) {
+                            latestLines.push(line);
+                        }
+                    }
+
+                    if (latestHeading.length === 0) {
+                        document.getElementById('reflections-content').innerHTML = fallback;
+                        return;
+                    }
+
+                    var html = '<h3 class="jfb-ref-h2">' + latestHeading + '</h3>';
+                    var inList = false;
+
+                    for (var j = 0; j < latestLines.length; j++) {
+                        var entryLine = latestLines[j];
+
+                        if (entryLine.length === 0) {
                             if (inList === true) {
-                                html += '</ul>\n';
+                                html += '</ul>';
                                 inList = false;
                             }
+                            continue;
+                        }
 
-                            if (line.length > 0) {
-                                if (line.startsWith('### ')) {
-                                    html += '<h4 class="jfb-ref-h3">' + line.substring(4) + '</h4>\n';
-                                } else if (line.startsWith('## ')) {
-                                    html += '<h3 class="jfb-ref-h2">' + line.substring(3) + '</h3>\n';
-                                } else if (line.startsWith('# ')) {
-                                    html += '<h2 class="jfb-ref-h1">' + line.substring(2) + '</h2>\n';
-                                } else {
-                                    html += '<p class="jfb-ref-p">' + line + '</p>\n';
-                                }
+                        if (entryLine.startsWith('- ') || entryLine.startsWith('* ')) {
+                            if (inList === false) {
+                                html += '<ul>';
+                                inList = true;
                             }
+                            html += '<li>' + entryLine.substring(2).trim() + '</li>';
+                            continue;
+                        }
+
+                        if (inList === true) {
+                            html += '</ul>';
+                            inList = false;
+                        }
+
+                        if (entryLine.startsWith('### ')) {
+                            html += '<h4 class="jfb-ref-h3">' + entryLine.substring(4).trim() + '</h4>';
+                        } else {
+                            html += '<p class="jfb-ref-p">' + entryLine + '</p>';
                         }
                     }
 
                     if (inList === true) {
-                        html += '</ul>\n';
+                        html += '</ul>';
                     }
 
                     document.getElementById('reflections-content').innerHTML = html;
                 })
                 .catch(function(error) {
-                    document.getElementById('reflections-content').innerHTML = '<p class="jfb-ref-p jfr-loading">Check back soon for my latest football updates!</p>';
+                    document.getElementById('reflections-content').innerHTML = '<p class="jfb-ref-p jfr-loading">Jules\' latest reflection will appear here soon.</p>';
                 });
         });
     </script>
