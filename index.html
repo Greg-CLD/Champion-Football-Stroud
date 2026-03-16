@@ -497,5 +497,107 @@
          JAVASCRIPT LOGIC
          ================================================================== -->
     <script>
-        /* (You can keep exactly your Javascript in here untouched from the last snippet) */
-        var jfbLearned =
+        var jfbLearned = [
+            { icon: '⚽', name: 'Passing with both feet', note: 'I can pass to my teammate with my right and left foot.' },
+            { icon: '🏃', name: 'Dribbling in space', note: 'I keep the ball close when I run through cones.' },
+            { icon: '🛡️', name: 'Defending position', note: 'I stay goal-side and slow the attacker down.' },
+            { icon: '🎯', name: 'Aiming shots', note: 'I look up and try to shoot into the corners.' }
+        ];
+
+        var jfbPractising = [
+            { icon: '🔄', name: 'Drag backs', note: 'Pulling the ball back quickly to change direction.' },
+            { icon: '🦵', name: 'Keep ups', note: 'Foot-to-knee touches with good control.' },
+            { icon: '👀', name: 'Scanning before pass', note: 'Looking up before I receive and pass.' },
+            { icon: '⚡', name: 'Recovering quickly', note: 'Running back to position straight after a goal.' }
+        ];
+
+        function jfbRenderSkills(category) {
+            var grid = document.getElementById('jfb-skills-grid');
+            var list = category === 'practising' ? jfbPractising : jfbLearned;
+
+            grid.innerHTML = list.map(function(skill) {
+                return '<article class="jfb-card">' +
+                    '<div class="jfb-card-icon" aria-hidden="true">' + skill.icon + '</div>' +
+                    '<h3 class="jfb-card-title">' + skill.name + '</h3>' +
+                    '<p class="jfb-card-note">' + skill.note + '</p>' +
+                '</article>';
+            }).join('');
+        }
+
+        function jfbSwitchTab(category) {
+            var learnedBtn = document.getElementById('jfb-btn-learned');
+            var practisingBtn = document.getElementById('jfb-btn-practising');
+
+            var isLearned = category === 'learned';
+            learnedBtn.classList.toggle('jfb-active', isLearned);
+            practisingBtn.classList.toggle('jfb-active', !isLearned);
+            learnedBtn.setAttribute('aria-selected', isLearned ? 'true' : 'false');
+            practisingBtn.setAttribute('aria-selected', !isLearned ? 'true' : 'false');
+
+            jfbRenderSkills(category);
+        }
+
+        function jfbPickRandom() {
+            jfbSwitchTab('practising');
+
+            var choice = jfbPractising[Math.floor(Math.random() * jfbPractising.length)];
+            var result = document.getElementById('jfb-random-result');
+            result.style.display = 'block';
+            result.innerHTML = '<strong>' + choice.icon + ' ' + choice.name + '</strong><span>' + choice.note + '</span>';
+        }
+
+        function jfbRenderReflection(markdown) {
+            var container = document.getElementById('reflections-content');
+            var latestMatch = markdown.match(/##\s+Latest reflection([\s\S]*)$/i);
+
+            if (!latestMatch) {
+                container.innerHTML = '<div class="jfr-state"><p class="jfr-state-title">No reflection found yet.</p></div>';
+                return;
+            }
+
+            var sectionText = latestMatch[1];
+            var headingRegex = /^###\s+(.+)$/gm;
+            var headings = [];
+            var match;
+
+            while ((match = headingRegex.exec(sectionText)) !== null) {
+                headings.push({ title: match[1], index: match.index, length: match[0].length });
+            }
+
+            var html = '<h2>Latest reflection</h2>';
+            headings.forEach(function(item, idx) {
+                var start = item.index + item.length;
+                var end = idx + 1 < headings.length ? headings[idx + 1].index : sectionText.length;
+                var block = sectionText.slice(start, end);
+                var bullets = block
+                    .split('\n')
+                    .map(function(line) { return line.trim(); })
+                    .filter(function(line) { return line.indexOf('- ') === 0; })
+                    .map(function(line) { return '<li>' + line.slice(2) + '</li>'; })
+                    .join('');
+
+                html += '<h3>' + item.title + '</h3>';
+                html += bullets ? '<ul>' + bullets + '</ul>' : '<p>No details yet.</p>';
+            });
+
+            container.innerHTML = html;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            jfbSwitchTab('learned');
+
+            fetch('files/reflections.md')
+                .then(function(response) {
+                    if (!response.ok) {
+                        throw new Error('Reflection file could not be loaded.');
+                    }
+                    return response.text();
+                })
+                .then(jfbRenderReflection)
+                .catch(function() {
+                    var container = document.getElementById('reflections-content');
+                    container.innerHTML = '<div class="jfr-state"><p class="jfr-state-title">Could not load reflection right now.</p><p class="jfr-state-note" style="color:#2E7D32;">Please try again soon.</p></div>';
+                });
+        });
+    </script>
+</section>
