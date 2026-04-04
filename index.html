@@ -401,6 +401,79 @@
             box-shadow: 0 0px 0px;
         }
 
+        /* --- KEY FOOTBALL SKILLS SECTION --- */
+        .jfb-key-skills-section {
+            padding: 3rem 1.5rem;
+            background-color: #FFF9C4;
+            text-align: center;
+            border-top: 5px solid #FFD54F;
+            border-bottom: 5px solid #FFD54F;
+        }
+
+        .jfb-key-skills-title {
+            margin: 0 0 0.5rem 0;
+            color: #1A237E;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #FFF, 3px 3px 0px rgba(0,0,0,0.1);
+        }
+
+        .jfb-key-skills-intro {
+            margin: 0 0 2rem 0;
+            color: #E65100;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        .jfb-key-skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .jfb-key-skill-badge {
+            background: #FFFFFF;
+            padding: 1rem 0.75rem;
+            border-radius: 16px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            border: 4px solid #CE93D8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .jfb-key-skill-badge:hover {
+            transform: scale(1.06);
+            border-color: #AB47BC;
+            z-index: 10;
+        }
+
+        .jfb-key-skill-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .jfb-key-skill-name {
+            font-size: 1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #1A237E;
+            margin: 0 0 0.25rem 0;
+        }
+
+        .jfb-key-skill-desc {
+            font-size: 0.85rem;
+            color: #4A5568;
+            margin: 0;
+            line-height: 1.3;
+            font-weight: 600;
+        }
+
         /* --- DESKTOP LAYOUT --- */
         @media (min-width: 768px) {
             .jfb-hero { height: 450px; display: block; }
@@ -435,6 +508,51 @@
             <span class="jfb-label">🌟 For young football stars!</span>
             <h2 class="jfb-title">Champion Football Stroud</h2>
             <p class="jfb-intro">Welcome! We love football. 🥅 This page is all about skills, practice, and having fun on the pitch! Ready, Set, GOAL! 🏆</p>
+        </div>
+    </div>
+
+    <!-- ==================================================================
+         KEY FOOTBALL SKILLS AREA
+         ================================================================== -->
+    <div class="jfb-key-skills-section">
+        <h2 class="jfb-key-skills-title">⭐ Key Football Skills</h2>
+        <p class="jfb-key-skills-intro">Every great player works on these skills!</p>
+        <div class="jfb-key-skills-grid">
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">⚽</div>
+                <h3 class="jfb-key-skill-name">Dribbling</h3>
+                <p class="jfb-key-skill-desc">Control the ball while you move</p>
+            </div>
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">🎯</div>
+                <h3 class="jfb-key-skill-name">Passing</h3>
+                <p class="jfb-key-skill-desc">Get the ball to your teammate</p>
+            </div>
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">🥅</div>
+                <h3 class="jfb-key-skill-name">Shooting</h3>
+                <p class="jfb-key-skill-desc">Aim and hit the target</p>
+            </div>
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">🦶</div>
+                <h3 class="jfb-key-skill-name">First Touch</h3>
+                <p class="jfb-key-skill-desc">Control the ball when it comes to you</p>
+            </div>
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">🔄</div>
+                <h3 class="jfb-key-skill-name">Turning</h3>
+                <p class="jfb-key-skill-desc">Change direction quickly with the ball</p>
+            </div>
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">⚖️</div>
+                <h3 class="jfb-key-skill-name">Balance</h3>
+                <p class="jfb-key-skill-desc">Stay steady on your feet</p>
+            </div>
+            <div class="jfb-key-skill-badge">
+                <div class="jfb-key-skill-emoji" aria-hidden="true">🏃</div>
+                <h3 class="jfb-key-skill-name">Movement</h3>
+                <p class="jfb-key-skill-desc">Find space and get into position</p>
+            </div>
         </div>
     </div>
 
