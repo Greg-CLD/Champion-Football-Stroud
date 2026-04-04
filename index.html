@@ -1,10 +1,10 @@
-<section id="jules-football-block">
+<section id="football-skills-block">
     <style>
         /* ==================================================================
-           JULES FOOTBALL BLOCK STYLES - PLAYGROUND UPGRADE!
+           FOOTBALL SKILLS BLOCK STYLES - PLAYGROUND UPGRADE!
            ================================================================== */
 
-        #jules-football-block {
+        #football-skills-block {
             font-family: 'Comic Sans MS', 'Chalkboard SE', system-ui, -apple-system, sans-serif;
             color: #1A237E;
             max-width: 1200px;
@@ -15,7 +15,7 @@
             background: #F4F7F4;
         }
 
-        #jules-football-block * {
+        #football-skills-block * {
             box-sizing: border-box;
         }
 
@@ -28,11 +28,6 @@
             background-image: radial-gradient(circle at 100% 0%, #B3E5FC 0%, transparent 60%);
             overflow: hidden;
             border-bottom: 5px solid #0277BD;
-        }
-
-        .jfb-football-decor {
-            /* Now handled by CSS emojis below! */
-            display: none;
         }
 
         /* BOUNCING FOOTBALL ANIMATION FOR KIDS */
@@ -195,7 +190,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            animation: bounceIn 0.5s;
+            animation: bounceSpin 0.5s;
         }
 
         .jfb-card-title {
@@ -263,8 +258,7 @@
 
         /* --- FIXTURES SECTION --- */
         .jfb-fixtures-section {
-            margin-top: 1rem;
-            padding: 0 1.5rem 3rem;
+            padding: 3rem 1.5rem;
             background-color: #F4F7F4;
         }
 
@@ -563,16 +557,16 @@
 
         <!-- Tab Navigation -->
         <div class="jfb-tabs" role="tablist" aria-label="Football Skills Tabs">
-            <button class="jfb-tab jfb-active" role="tab" aria-selected="true" id="jfb-btn-learned" onclick="jfbSwitchTab('learned')">
+            <button class="jfb-tab jfb-active" role="tab" aria-selected="true" aria-controls="jfb-skills-grid" id="jfb-btn-learned" onclick="jfbSwitchTab('learned')">
                 🥇 Skills We've Learned
             </button>
-            <button class="jfb-tab" role="tab" aria-selected="false" id="jfb-btn-practising" onclick="jfbSwitchTab('practising')">
+            <button class="jfb-tab" role="tab" aria-selected="false" aria-controls="jfb-skills-grid" id="jfb-btn-practising" onclick="jfbSwitchTab('practising')">
                 ⏱️ Skills to Practise
             </button>
         </div>
 
         <!-- Cards Container (Populated by JavaScript) -->
-        <div class="jfb-grid" id="jfb-skills-grid" role="tabpanel" aria-live="polite">
+        <div class="jfb-grid" id="jfb-skills-grid" role="tabpanel" aria-labelledby="jfb-btn-learned" aria-live="polite">
             <!-- Cards will appear here automatically -->
         </div>
 
@@ -646,12 +640,14 @@
         function jfbSwitchTab(category) {
             var learnedBtn = document.getElementById('jfb-btn-learned');
             var practisingBtn = document.getElementById('jfb-btn-practising');
+            var grid = document.getElementById('jfb-skills-grid');
 
             var isLearned = category === 'learned';
             learnedBtn.classList.toggle('jfb-active', isLearned);
             practisingBtn.classList.toggle('jfb-active', !isLearned);
             learnedBtn.setAttribute('aria-selected', isLearned ? 'true' : 'false');
             practisingBtn.setAttribute('aria-selected', !isLearned ? 'true' : 'false');
+            grid.setAttribute('aria-labelledby', isLearned ? 'jfb-btn-learned' : 'jfb-btn-practising');
 
             jfbRenderSkills(category);
         }
