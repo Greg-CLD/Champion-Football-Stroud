@@ -312,6 +312,95 @@
             box-shadow: 0 0px 0px;
         }
 
+        /* --- TRAINING VIDEOS SECTION --- */
+        .jfb-videos-section {
+            padding: 3rem 1.5rem;
+            background-color: #81D4FA;
+            background-image: radial-gradient(circle at 20% 80%, #B3E5FC 0%, transparent 50%);
+            text-align: center;
+        }
+
+        .jfb-videos-title {
+            margin: 0 0 0.5rem 0;
+            color: #1A237E;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0px #FFF, 3px 3px 0px rgba(0,0,0,0.1);
+        }
+
+        .jfb-videos-intro {
+            margin: 0 0 2rem 0;
+            color: #0D47A1;
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        .jfb-videos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .jfb-video-card {
+            background: #FFFFFF;
+            padding: 1.5rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 5px solid #FF9800;
+        }
+
+        .jfb-video-card:hover {
+            transform: scale(1.05) rotate(2deg);
+            border-color: #F57C00;
+            z-index: 10;
+        }
+
+        .jfb-video-card-title {
+            font-size: 1.35rem;
+            margin: 0 0 0.5rem 0;
+            color: #1A237E;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .jfb-video-card-desc {
+            margin: 0 0 1rem 0;
+            color: #4A5568;
+            font-size: 1.05rem;
+            line-height: 1.4;
+            flex-grow: 1;
+        }
+
+        .jfb-video-btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 999px;
+            padding: 0.8rem 1.8rem;
+            font-weight: 800;
+            font-size: 1.05rem;
+            text-transform: uppercase;
+            box-shadow: 0 6px 0px #388E3C;
+            transition: all 0.1s ease;
+            margin-bottom: 6px;
+        }
+
+        .jfb-video-btn:hover {
+            filter: brightness(1.05);
+        }
+
+        .jfb-video-btn:active {
+            transform: translateY(6px);
+            box-shadow: 0 0px 0px;
+        }
+
         /* --- DESKTOP LAYOUT --- */
         @media (min-width: 768px) {
             .jfb-hero { height: 450px; display: block; }
@@ -381,6 +470,17 @@
     </div>
 
     <!-- ==================================================================
+         TRAINING VIDEOS AREA
+         ================================================================== -->
+    <div class="jfb-videos-section">
+        <h2 class="jfb-videos-title">🎬 Training Videos</h2>
+        <p class="jfb-videos-intro">Watch these videos to level up your skills!</p>
+        <div class="jfb-videos-grid" id="jfb-videos-grid">
+            <!-- Video cards will appear here automatically -->
+        </div>
+    </div>
+
+    <!-- ==================================================================
          PARENT ZONE AREA
          ================================================================== -->
     <div class="jfb-fixtures-section">
@@ -438,6 +538,24 @@
             jfbRenderSkills(category);
         }
 
+        // VIDEO LIST — edit these entries to update the videos shown on the page
+        var jfbVideos = [
+            { title: 'Dribbling Skills for Beginners', url: 'https://www.youtube.com/watch?v=PLACEHOLDER1', description: 'Learn how to dribble past defenders.' },
+            { title: 'How to Pass Like a Pro', url: 'https://www.youtube.com/watch?v=PLACEHOLDER2', description: 'Passing tips for young players.' },
+            { title: 'Shooting Practice Drills', url: 'https://www.youtube.com/watch?v=PLACEHOLDER3', description: 'Fun drills to improve your shots.' }
+        ];
+
+        function jfbRenderVideos() {
+            var grid = document.getElementById('jfb-videos-grid');
+            grid.innerHTML = jfbVideos.map(function(video) {
+                return '<article class="jfb-video-card">' +
+                    '<h3 class="jfb-video-card-title">' + video.title + '</h3>' +
+                    '<p class="jfb-video-card-desc">' + video.description + '</p>' +
+                    '<a class="jfb-video-btn" href="' + video.url + '" target="_blank" rel="noopener noreferrer">▶️ Watch Video</a>' +
+                '</article>';
+            }).join('');
+        }
+
         function jfbPickRandom() {
             jfbSwitchTab('practising');
 
@@ -449,6 +567,7 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             jfbSwitchTab('learned');
+            jfbRenderVideos();
         });
     </script>
 </section>
