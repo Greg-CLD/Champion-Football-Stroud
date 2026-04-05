@@ -1,0 +1,233 @@
+{
+  "essentials": [
+    {
+      "id": "passing",
+      "title": "Passing",
+      "icon": "target",
+      "summary": "Pass the ball with care so your teammate can play next.",
+      "linkedPracticeAreas": ["keep-the-ball", "attack-the-goal", "support-play-off-the-ball"],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "receiving",
+      "title": "Receiving",
+      "icon": "first-touch",
+      "summary": "Take your first touch into space so you stay calm on the ball.",
+      "linkedPracticeAreas": ["keep-the-ball", "attack-the-goal", "support-play-off-the-ball"],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "dribbling",
+      "title": "Dribbling",
+      "icon": "ball",
+      "summary": "Keep the ball close when you move so you can change direction quickly.",
+      "linkedPracticeAreas": ["attack-the-goal", "support-play-off-the-ball"],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "turning-and-shielding",
+      "title": "Turning and shielding",
+      "icon": "turn",
+      "summary": "Use your body and small turns to keep the ball safe and escape pressure.",
+      "linkedPracticeAreas": ["keep-the-ball", "attack-the-goal"],
+      "videos": [
+        {
+          "title": "How to Do the Zidane Roulette",
+          "url": "https://www.youtube.com/watch?v=RmmWrETzWfA",
+          "description": "A spin move to turn away from pressure."
+        },
+        {
+          "title": "Double Turn for Kids",
+          "url": "https://www.youtube.com/watch?v=O32wHarDd-U",
+          "description": "A simple turn to help you protect the ball."
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "running-with-the-ball",
+      "title": "Running with the ball",
+      "icon": "run",
+      "summary": "Push the ball into space and run with balance when the path opens up.",
+      "linkedPracticeAreas": ["attack-the-goal"],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "shooting",
+      "title": "Shooting",
+      "icon": "goal",
+      "summary": "Look up, strike through the ball, and try to hit the target.",
+      "linkedPracticeAreas": ["attack-the-goal"],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "tackling-and-winning-the-ball",
+      "title": "Tackling and winning the ball",
+      "icon": "shield",
+      "summary": "Stay balanced, time your challenge, and try to win the ball cleanly.",
+      "linkedPracticeAreas": ["defend"],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "movement-and-awareness",
+      "title": "Movement and awareness",
+      "icon": "eyes",
+      "summary": "Look around, find space, and help your team with smart movement.",
+      "linkedPracticeAreas": ["defend", "keep-the-ball", "support-play-off-the-ball"],
+      "videos": [],
+      "resources": []
+    }
+  ],
+  "practiceAreas": [
+    {
+      "id": "defend",
+      "title": "Defend",
+      "icon": "navy",
+      "summary": "Help your team stay safe by getting back, staying alert, and making it hard to score.",
+      "theme": "navy",
+      "linkedSkills": ["tackling-and-winning-the-ball", "movement-and-awareness"],
+      "simpleRules": [
+        {
+          "id": "get-behind-the-ball",
+          "title": "Get behind the ball",
+          "description": "Run back so you are between the ball and your goal.",
+          "linkedSkills": ["movement-and-awareness"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "look-over-your-shoulder",
+          "title": "Look over your shoulder",
+          "description": "Keep checking around you so you can spot danger early.",
+          "linkedSkills": ["movement-and-awareness"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "slow-them-down",
+          "title": "Slow them down",
+          "description": "Stay balanced and delay the attacker until help arrives.",
+          "linkedSkills": ["tackling-and-winning-the-ball"],
+          "videos": [],
+          "resources": []
+        }
+      ],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "keep-the-ball",
+      "title": "Keep the Ball",
+      "icon": "teal",
+      "summary": "Help your team stay in control with calm touches and safe passes.",
+      "theme": "teal",
+      "linkedSkills": ["passing", "receiving", "turning-and-shielding", "movement-and-awareness"],
+      "simpleRules": [
+        {
+          "id": "play-the-way-you-face",
+          "title": "Play the way you face",
+          "description": "Use the side you can already see when pressure is close.",
+          "linkedSkills": ["receiving", "turning-and-shielding"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "take-the-ball-pass-the-ball",
+          "title": "Take the ball, pass the ball",
+          "description": "Control it and move it on quickly when the simple pass is there.",
+          "linkedSkills": ["passing", "receiving"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "use-the-safe-pass",
+          "title": "Use the safe pass",
+          "description": "If the risky pass is not on, keep it simple and keep the ball.",
+          "linkedSkills": ["passing"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "say-man-on",
+          "title": "Say \"man-on\"",
+          "description": "Help your teammate with a loud warning when pressure is coming.",
+          "linkedSkills": ["movement-and-awareness"],
+          "videos": [],
+          "resources": []
+        }
+      ],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "attack-the-goal",
+      "title": "Attack the Goal",
+      "icon": "orange",
+      "summary": "Be brave near goal and keep moving to dangerous spaces.",
+      "theme": "orange",
+      "linkedSkills": ["shooting", "running-with-the-ball", "dribbling", "passing", "receiving"],
+      "simpleRules": [
+        {
+          "id": "go-to-the-golden-goal-area",
+          "title": "Go to the golden goal area",
+          "description": "Make runs into the best scoring spots in front of goal.",
+          "linkedSkills": ["movement-and-awareness", "shooting"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "follow-in",
+          "title": "Follow in",
+          "description": "Keep running after a shot so you are ready for rebounds.",
+          "linkedSkills": ["shooting", "movement-and-awareness"],
+          "videos": [],
+          "resources": []
+        }
+      ],
+      "videos": [],
+      "resources": []
+    },
+    {
+      "id": "support-play-off-the-ball",
+      "title": "Support Play Off the Ball",
+      "icon": "purple",
+      "summary": "Move for your teammates so the game feels easier when you do not have the ball.",
+      "theme": "purple",
+      "linkedSkills": ["movement-and-awareness", "receiving", "passing", "dribbling"],
+      "simpleRules": [
+        {
+          "id": "find-space",
+          "title": "Find space",
+          "description": "Move away from defenders and into gaps where you can help.",
+          "linkedSkills": ["movement-and-awareness", "receiving"],
+          "videos": [],
+          "resources": []
+        },
+        {
+          "id": "stay-wide",
+          "title": "Stay wide",
+          "description": "Use the width of the pitch to stretch the defenders.",
+          "linkedSkills": ["movement-and-awareness", "passing"],
+          "videos": [],
+          "resources": []
+        }
+      ],
+      "videos": [],
+      "resources": []
+    }
+  ],
+  "generalVideos": [
+    {
+      "title": "Basic Football Skills",
+      "url": "https://www.youtube.com/watch?v=ekesFXtK8go",
+      "description": "A friendly skills video that covers lots of football basics."
+    }
+  ],
+  "generalResources": []
+}

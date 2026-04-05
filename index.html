@@ -1,4 +1,4 @@
-<section id="football-skills-block">
+﻿<section id="football-skills-block">
     <style>
         /* ==================================================================
            FOOTBALL SKILLS BLOCK STYLES - PLAYGROUND UPGRADE!
@@ -17,6 +17,15 @@
 
         #football-skills-block * {
             box-sizing: border-box;
+        }
+
+        #football-skills-block button,
+        #football-skills-block a {
+            font: inherit;
+        }
+
+        #football-skills-block [hidden] {
+            display: none !important;
         }
 
         /* --- HERO SECTION: Stadium & Fun Vibes --- */
@@ -687,6 +696,325 @@
             font-weight: 600;
         }
 
+        .jfb-section-head {
+            max-width: 760px;
+            margin: 0 auto 2rem auto;
+            text-align: center;
+        }
+
+        .jfb-section-title {
+            margin: 0 0 0.6rem 0;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .jfb-section-copy {
+            margin: 0;
+            font-size: 1.05rem;
+            line-height: 1.5;
+            font-weight: 700;
+        }
+
+        .jfb-skills-section .jfb-section-title {
+            color: #FFFFFF;
+            text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.35), 3px 3px 0 rgba(0, 0, 0, 0.12);
+        }
+
+        .jfb-skills-section .jfb-section-copy {
+            color: #F4FFF5;
+        }
+
+        .jfb-videos-section .jfb-section-title {
+            color: #1A237E;
+            text-shadow: 1px 1px 0 #FFF, 3px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .jfb-videos-section .jfb-section-copy {
+            color: #0D47A1;
+        }
+
+        .jfb-skills-shell {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        #jfb-skills-grid {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            margin-bottom: 0;
+        }
+
+        .jfb-card-button,
+        .jfb-rule-card,
+        .jfb-link-card,
+        .jfb-parent-tip {
+            border-radius: 18px;
+            background: #FFFFFF;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+        }
+
+        .jfb-card-button {
+            border: 5px solid #64B5F6;
+            padding: 1.2rem 1rem;
+            text-align: left;
+            cursor: pointer;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+            color: #1A237E;
+        }
+
+        .jfb-card-button:hover,
+        .jfb-card-button:focus-visible {
+            transform: translateY(-4px) rotate(1deg);
+            outline: none;
+        }
+
+        .jfb-card-button.jfb-selected {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 22px rgba(26, 35, 126, 0.22);
+        }
+
+        .jfb-card-button[data-theme="navy"],
+        .jfb-detail-panel[data-theme="navy"],
+        .jfb-rule-card[data-theme="navy"] {
+            border-color: #283593;
+        }
+
+        .jfb-card-button[data-theme="teal"],
+        .jfb-detail-panel[data-theme="teal"],
+        .jfb-rule-card[data-theme="teal"] {
+            border-color: #00897B;
+        }
+
+        .jfb-card-button[data-theme="orange"],
+        .jfb-detail-panel[data-theme="orange"],
+        .jfb-rule-card[data-theme="orange"] {
+            border-color: #EF6C00;
+        }
+
+        .jfb-card-button[data-theme="purple"],
+        .jfb-detail-panel[data-theme="purple"],
+        .jfb-rule-card[data-theme="purple"] {
+            border-color: #8E24AA;
+        }
+
+        .jfb-card-button[data-theme="essentials"].jfb-selected,
+        .jfb-detail-panel[data-theme="essentials"] {
+            border-color: #1976D2;
+        }
+
+        .jfb-card-top {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.85rem;
+        }
+
+        .jfb-card-kicker {
+            display: inline-flex;
+            align-items: center;
+            background: #E8F5E9;
+            color: #2E7D32;
+            border-radius: 999px;
+            padding: 0.3rem 0.7rem;
+            font-size: 0.74rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.55rem;
+        }
+
+        .jfb-card-button[data-theme="navy"] .jfb-card-kicker {
+            background: #E8EAF6;
+            color: #283593;
+        }
+
+        .jfb-card-button[data-theme="teal"] .jfb-card-kicker {
+            background: #E0F2F1;
+            color: #00796B;
+        }
+
+        .jfb-card-button[data-theme="orange"] .jfb-card-kicker {
+            background: #FFF3E0;
+            color: #EF6C00;
+        }
+
+        .jfb-card-button[data-theme="purple"] .jfb-card-kicker {
+            background: #F3E5F5;
+            color: #8E24AA;
+        }
+
+        .jfb-card-icon,
+        .jfb-detail-icon {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFF8C4;
+            border: 3px solid rgba(26, 35, 126, 0.15);
+            font-weight: 900;
+            font-size: 1rem;
+            color: #1A237E;
+            flex-shrink: 0;
+        }
+
+        .jfb-detail-icon {
+            width: 3.5rem;
+            height: 3.5rem;
+            font-size: 1.05rem;
+        }
+
+        .jfb-card-helper {
+            margin: 0.75rem 0 0 0;
+            color: #1A237E;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            font-weight: 700;
+        }
+
+        .jfb-detail-panel,
+        .jfb-general-panel {
+            background: #FFFFFF;
+            border-radius: 22px;
+            border: 5px solid #1976D2;
+            padding: 1.4rem;
+            box-shadow: 0 12px 24px rgba(26, 35, 126, 0.14);
+        }
+
+        .jfb-general-panel {
+            border-color: #F57C00;
+            margin-top: 1.5rem;
+        }
+
+        .jfb-detail-head {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .jfb-detail-title {
+            margin: 0 0 0.25rem 0;
+            font-size: 1.45rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #1A237E;
+        }
+
+        .jfb-detail-copy,
+        .jfb-empty-copy {
+            margin: 0;
+            color: #4A5568;
+            font-size: 1rem;
+            line-height: 1.5;
+            font-weight: 700;
+        }
+
+        .jfb-detail-block + .jfb-detail-block {
+            margin-top: 1.2rem;
+        }
+
+        .jfb-detail-label {
+            margin: 0 0 0.7rem 0;
+            color: #1A237E;
+            font-size: 1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .jfb-chip-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+        }
+
+        .jfb-chip {
+            border: none;
+            background: #FFD54F;
+            color: #E65100;
+            border-radius: 999px;
+            padding: 0.65rem 1rem;
+            font-size: 0.9rem;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 5px 0 rgba(230, 81, 0, 0.22);
+        }
+
+        .jfb-rule-grid,
+        .jfb-link-grid,
+        .jfb-parent-tips {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .jfb-rule-grid {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        }
+
+        .jfb-link-grid,
+        .jfb-parent-tips {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        .jfb-rule-card,
+        .jfb-link-card,
+        .jfb-parent-tip {
+            border: 4px solid #90CAF9;
+            padding: 1rem;
+        }
+
+        .jfb-rule-title,
+        .jfb-link-title {
+            margin: 0 0 0.35rem 0;
+            color: #1A237E;
+            font-size: 1rem;
+            font-weight: 900;
+        }
+
+        .jfb-rule-copy,
+        .jfb-link-copy {
+            margin: 0;
+            color: #4A5568;
+            font-size: 0.92rem;
+            line-height: 1.45;
+            font-weight: 700;
+        }
+
+        .jfb-link-card a {
+            display: inline-block;
+            margin-top: 0.9rem;
+            background: #1976D2;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 999px;
+            padding: 0.75rem 1.2rem;
+            font-size: 0.9rem;
+            font-weight: 800;
+            box-shadow: 0 5px 0 #0D47A1;
+        }
+
+        .jfb-highlight-panel {
+            max-width: 780px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 20px;
+            border: 5px solid #4CAF50;
+            padding: 1.5rem;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .jfb-parent-tip {
+            text-align: left;
+        }
+
+        .jfb-parent-tip strong {
+            display: block;
+            color: #1A237E;
+            margin-bottom: 0.35rem;
+        }
+
         /* --- DESKTOP LAYOUT --- */
         @media (min-width: 768px) {
             .jfb-hero { height: 450px; display: block; }
@@ -705,6 +1033,11 @@
                 width: 480px; margin: 0; padding: 2.5rem;
                 transform: translateY(-50%) rotate(2deg); /* Slightly offset for a fun look */
             }
+
+            .jfb-skills-shell {
+                grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.9fr);
+                align-items: start;
+            }
         }
     </style>
 
@@ -716,119 +1049,70 @@
             <img class="jfb-hero-img" src="images/Jules-Football.jpg" alt="Young football players on a grassy pitch" />
         </div>
         <div class="jfb-hero-content">
-            <div class="jfb-animated-ball" aria-hidden="true">⚽</div>
-            <span class="jfb-label">🌟 For young football stars!</span>
+            <div class="jfb-animated-ball" aria-hidden="true">&#9917;</div>
+            <span class="jfb-label">For young football stars</span>
             <h2 class="jfb-title">Champion Football Stroud</h2>
-            <p class="jfb-intro">Welcome! We love football. 🥅 This page is all about skills, practice, and having fun on the pitch! Ready, Set, GOAL! 🏆</p>
-            <p class="jfb-credits">This website has been created by local kids in Stroud and District for everyone to enjoy. Thanks to Jules, Orrin and Theo.</p>
-        </div>
-    </div>
-
-    <!-- ==================================================================
-         KEY FOOTBALL SKILLS AREA
-         ================================================================== -->
-    <div class="jfb-key-skills-section">
-        <h2 class="jfb-key-skills-title">⭐ Key Football Skills</h2>
-        <p class="jfb-key-skills-intro">Every great player works on these skills!</p>
-        <div class="jfb-key-skills-grid">
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">⚽</div>
-                <h3 class="jfb-key-skill-name">Dribbling</h3>
-                <p class="jfb-key-skill-desc">Control the ball while you move</p>
-            </div>
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">🎯</div>
-                <h3 class="jfb-key-skill-name">Passing</h3>
-                <p class="jfb-key-skill-desc">Get the ball to your teammate</p>
-            </div>
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">🥅</div>
-                <h3 class="jfb-key-skill-name">Shooting</h3>
-                <p class="jfb-key-skill-desc">Aim and hit the target</p>
-            </div>
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">🦶</div>
-                <h3 class="jfb-key-skill-name">First Touch</h3>
-                <p class="jfb-key-skill-desc">Control the ball when it comes to you</p>
-            </div>
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">🔄</div>
-                <h3 class="jfb-key-skill-name">Turning</h3>
-                <p class="jfb-key-skill-desc">Change direction quickly with the ball</p>
-            </div>
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">⚖️</div>
-                <h3 class="jfb-key-skill-name">Balance</h3>
-                <p class="jfb-key-skill-desc">Stay steady on your feet</p>
-            </div>
-            <div class="jfb-key-skill-badge">
-                <div class="jfb-key-skill-emoji" aria-hidden="true">🏃</div>
-                <h3 class="jfb-key-skill-name">Movement</h3>
-                <p class="jfb-key-skill-desc">Find space and get into position</p>
-            </div>
+            <p class="jfb-intro">Welcome. This page is all about skills, practice, teamwork, and fun on the pitch.</p>
+            <p class="jfb-credits">Created by local children in Stroud and District. Thanks to Jules, Orrin, and Theo.</p>
         </div>
     </div>
 
     <!-- ==================================================================
          SKILLS AREA
          ================================================================== -->
-    <div class="jfb-skills-section">
+    <div class="jfb-skills-section" id="jfb-skills-section">
+        <div class="jfb-section-head">
+            <span class="jfb-label">Skills</span>
+            <h2 class="jfb-section-title">Build your football game</h2>
+            <p class="jfb-section-copy">Choose an Essentials skill to practise the basics, or open a Practice Area to learn simple match rules.</p>
+        </div>
 
-        <!-- Tab Navigation -->
-        <div class="jfb-tabs" role="tablist" aria-label="Football Skills Tabs">
-            <button class="jfb-tab jfb-active" role="tab" aria-selected="true" aria-controls="jfb-skills-grid" id="jfb-btn-learned" onclick="jfbSwitchTab('learned')">
-                🥇 Skills We've Learned
+        <div class="jfb-tabs" role="tablist" aria-label="Skills tabs">
+            <button class="jfb-tab jfb-active" type="button" role="tab" aria-selected="true" aria-controls="jfb-skills-panel" id="jfb-btn-essentials" onclick="jfbSwitchSkillsTab('essentials')">
+                Essentials
             </button>
-            <button class="jfb-tab" role="tab" aria-selected="false" aria-controls="jfb-skills-grid" id="jfb-btn-practising" onclick="jfbSwitchTab('practising')">
-                ⏱️ Skills to Practise
+            <button class="jfb-tab" type="button" role="tab" aria-selected="false" aria-controls="jfb-skills-panel" id="jfb-btn-practice-areas" onclick="jfbSwitchSkillsTab('practiceAreas')">
+                Practice Areas
             </button>
         </div>
 
-        <!-- Cards Container (Populated by JavaScript) -->
-        <div class="jfb-grid" id="jfb-skills-grid" role="tabpanel" aria-labelledby="jfb-btn-learned" aria-live="polite">
-            <!-- Cards will appear here automatically -->
+        <div class="jfb-skills-shell" id="jfb-skills-panel" role="tabpanel" aria-labelledby="jfb-btn-essentials">
+            <div class="jfb-grid" id="jfb-skills-grid" aria-live="polite"></div>
+            <div class="jfb-detail-panel" id="jfb-skills-detail" data-theme="essentials" aria-live="polite"></div>
         </div>
 
-        <!-- Randomizer Feature -->
-        <div class="jfb-randomizer">
-            <button class="jfb-btn-orange" onclick="jfbPickRandom()">
-                🎲 Pick a practice skill!
-            </button>
-            <div id="jfb-random-result" class="jfb-random-result" aria-live="polite">
-                <!-- Random skill will appear here -->
-            </div>
-        </div>
+        <div class="jfb-general-panel" id="jfb-skills-general" hidden></div>
     </div>
 
     <!-- ==================================================================
          FOOTBALL VIDEOS AREA
          ================================================================== -->
     <div class="jfb-videos-section">
-        <h2 class="jfb-videos-title">🎬 Football Videos</h2>
-        <p class="jfb-videos-intro">Watch, learn, and get inspired!</p>
+        <div class="jfb-section-head">
+            <span class="jfb-label">Videos</span>
+            <h2 class="jfb-section-title">Watch and get inspired</h2>
+            <p class="jfb-section-copy">See local highlights from Forest Green Rovers, or jump into a few cool football moments.</p>
+        </div>
 
-        <!-- FGR Featured Video -->
-        <div class="jfb-fgr-featured">
-            <h3 class="jfb-fgr-title">🏟️ Latest from Forest Green Rovers</h3>
-            <p class="jfb-fgr-intro">Brand new from our local club!</p>
-            <div id="jfb-fgr-player">
-                <!-- Populated by JS -->
+        <div class="jfb-video-tabs" role="tablist" aria-label="Video tabs">
+            <button class="jfb-video-tab jfb-active" type="button" role="tab" aria-selected="true" aria-controls="jfb-videos-panel" id="jfb-btn-highlights" onclick="jfbSwitchVideoTab('highlights')">
+                Football Highlights
+            </button>
+            <button class="jfb-video-tab" type="button" role="tab" aria-selected="false" aria-controls="jfb-videos-panel" id="jfb-btn-cool" onclick="jfbSwitchVideoTab('cool')">
+                Cool Moments
+            </button>
+        </div>
+
+        <div id="jfb-videos-panel" role="tabpanel" aria-labelledby="jfb-btn-highlights">
+            <div class="jfb-highlight-panel" id="jfb-video-highlights-panel">
+                <h3 class="jfb-fgr-title">Latest from Forest Green Rovers</h3>
+                <p class="jfb-fgr-intro">Fresh clips from our local club.</p>
+                <div id="jfb-fgr-player"></div>
             </div>
-        </div>
 
-        <!-- Video Category Tabs -->
-        <div class="jfb-video-tabs" role="tablist" aria-label="Video Category Tabs">
-            <button class="jfb-video-tab jfb-active" role="tab" aria-selected="true" aria-controls="jfb-videos-grid" id="jfb-btn-skills" onclick="jfbSwitchVideoTab('skills')">
-                📚 Skills Training
-            </button>
-            <button class="jfb-video-tab" role="tab" aria-selected="false" aria-controls="jfb-videos-grid" id="jfb-btn-cool" onclick="jfbSwitchVideoTab('cool')">
-                🔥 Cool Moments
-            </button>
-        </div>
-
-        <!-- Video Cards Grid -->
-        <div class="jfb-videos-grid" id="jfb-videos-grid" role="tabpanel" aria-labelledby="jfb-btn-skills" aria-live="polite">
-            <!-- Video cards will appear here automatically -->
+            <div id="jfb-video-cool-panel" hidden>
+                <div class="jfb-videos-grid" id="jfb-videos-grid" aria-live="polite"></div>
+            </div>
         </div>
     </div>
 
@@ -837,12 +1121,22 @@
          ================================================================== -->
     <div class="jfb-fixtures-section">
         <div class="jfb-fixtures-card">
-            <h2 class="jfb-fixtures-title">📋 Parent Zone</h2>
-            <p class="jfb-fixtures-text">Looking for match dates and team fixtures? You can view them on the official FA website.</p>
-            <a class="jfb-fixtures-link" href="https://fulltime.thefa.com/index.html?league=230090270" target="_blank" rel="noopener noreferrer">
-                🔗 See official fixtures
-            </a>
-            <br>
+            <h2 class="jfb-fixtures-title">Parent Zone</h2>
+            <p class="jfb-fixtures-text">Help football stay fun by praising effort, talking kindly, and keeping the game about learning together.</p>
+            <div class="jfb-parent-tips">
+                <div class="jfb-parent-tip">
+                    <strong>Cheer the effort</strong>
+                    Notice brave tries, good teamwork, and calm listening.
+                </div>
+                <div class="jfb-parent-tip">
+                    <strong>Keep it simple</strong>
+                    One friendly tip after the game is better than lots of instructions during it.
+                </div>
+                <div class="jfb-parent-tip">
+                    <strong>Make it fun</strong>
+                    Children learn best when football feels positive, safe, and playful.
+                </div>
+            </div>
         </div>
     </div>
 
@@ -850,71 +1144,376 @@
          JAVASCRIPT LOGIC
          ================================================================== -->
     <script>
-        var jfbLearned = [
-            { icon: '⚽', name: 'Passing with both feet', note: 'Pass to your teammate with your right and left foot.' },
-            { icon: '🏃', name: 'Dribbling in space', note: 'Keep the ball close when dribbling through cones.' },
-            { icon: '🛡️', name: 'Defending position', note: 'Stay goal-side and slow the attacker down.' },
-            { icon: '🎯', name: 'Aiming shots', note: 'Look up and try to shoot into the corners.' }
-        ];
+        var jfbSkillsState = {
+            data: null,
+            tab: "essentials",
+            selected: {
+                essentials: null,
+                practiceAreas: null
+            }
+        };
 
-        var jfbPractising = [
-            { icon: '🔄', name: 'Drag backs', note: 'Pull the ball back quickly to change direction.' },
-            { icon: '🦵', name: 'Keep ups', note: 'Foot-to-knee touches with good control.' },
-            { icon: '👀', name: 'Scanning before pass', note: 'Look up before you receive and pass.' },
-            { icon: '⚡', name: 'Recovering quickly', note: 'Run back to position straight after a goal.' }
-        ];
+        var jfbIconMap = {
+            target: "&#127919;",
+            "first-touch": "1st",
+            ball: "&#9917;",
+            turn: "&#128260;",
+            run: "RUN",
+            goal: "GOAL",
+            shield: "&#128737;",
+            eyes: "&#128064;",
+            navy: "DEF",
+            teal: "KEEP",
+            orange: "GOAL",
+            purple: "MOVE"
+        };
 
-        function jfbRenderSkills(category) {
-            var grid = document.getElementById('jfb-skills-grid');
-            var list = category === 'practising' ? jfbPractising : jfbLearned;
-
-            grid.innerHTML = list.map(function(skill) {
-                return '<article class="jfb-card">' +
-                    '<div class="jfb-card-icon" aria-hidden="true">' + skill.icon + '</div>' +
-                    '<h3 class="jfb-card-title">' + skill.name + '</h3>' +
-                    '<p class="jfb-card-note">' + skill.note + '</p>' +
-                '</article>';
-            }).join('');
+        function jfbGetIconMarkup(iconKey, fallbackText) {
+            return jfbIconMap[iconKey] || jfbEscapeHtml((fallbackText || "?").slice(0, 4).toUpperCase());
         }
 
-        function jfbSwitchTab(category) {
-            var learnedBtn = document.getElementById('jfb-btn-learned');
-            var practisingBtn = document.getElementById('jfb-btn-practising');
-            var grid = document.getElementById('jfb-skills-grid');
-
-            var isLearned = category === 'learned';
-            learnedBtn.classList.toggle('jfb-active', isLearned);
-            practisingBtn.classList.toggle('jfb-active', !isLearned);
-            learnedBtn.setAttribute('aria-selected', isLearned ? 'true' : 'false');
-            practisingBtn.setAttribute('aria-selected', !isLearned ? 'true' : 'false');
-            grid.setAttribute('aria-labelledby', isLearned ? 'jfb-btn-learned' : 'jfb-btn-practising');
-
-            jfbRenderSkills(category);
+        function jfbFindById(list, id) {
+            var i;
+            for (i = 0; i < list.length; i += 1) {
+                if (list[i].id === id) {
+                    return list[i];
+                }
+            }
+            return null;
         }
 
-        // =====================================================
-        // SKILLS TRAINING VIDEOS — exactly 3 entries
-        // Edit this list to update the skills training videos.
-        // =====================================================
-        var jfbSkillsVideos = [
-            { icon: '⚽', title: 'Basic Football Skills', url: 'https://www.youtube.com/watch?v=ekesFXtK8go', description: 'Learn the most important skills every young player needs.' },
-            { icon: '🔄', title: 'How to Do the Zidane Roulette', url: 'https://www.youtube.com/watch?v=RmmWrETzWfA', description: 'Master this famous spin move step by step.' },
-            { icon: '🦶', title: 'Double Turn for Kids', url: 'https://www.youtube.com/watch?v=O32wHarDd-U', description: 'A quick turning skill to beat defenders.' }
-        ];
+        function jfbPluralize(count, singular, plural) {
+            return count === 1 ? singular : plural;
+        }
 
-        // =====================================================
-        // COOL FOOTBALL MOMENTS — exactly 3 entries
-        // Edit this list to update the cool moments videos.
-        // =====================================================
+        function jfbSwitchSkillsTab(tabName) {
+            jfbSkillsState.tab = tabName;
+
+            var essentialsButton = document.getElementById("jfb-btn-essentials");
+            var practiceButton = document.getElementById("jfb-btn-practice-areas");
+            var panel = document.getElementById("jfb-skills-panel");
+            var isEssentials = tabName === "essentials";
+
+            essentialsButton.classList.toggle("jfb-active", isEssentials);
+            practiceButton.classList.toggle("jfb-active", !isEssentials);
+            essentialsButton.setAttribute("aria-selected", isEssentials ? "true" : "false");
+            practiceButton.setAttribute("aria-selected", !isEssentials ? "true" : "false");
+            panel.setAttribute("aria-labelledby", isEssentials ? "jfb-btn-essentials" : "jfb-btn-practice-areas");
+
+            if (jfbSkillsState.data && !jfbSkillsState.selected[tabName]) {
+                var list = isEssentials ? jfbSkillsState.data.essentials : jfbSkillsState.data.practiceAreas;
+                jfbSkillsState.selected[tabName] = list.length ? list[0].id : null;
+            }
+
+            jfbRenderSkillsSection();
+        }
+
+        function jfbSelectSkillItem(tabName, itemId) {
+            jfbSkillsState.selected[tabName] = itemId;
+            jfbRenderSkillsSection();
+        }
+
+        function jfbOpenLinkedItem(tabName, itemId) {
+            jfbSkillsState.tab = tabName;
+            jfbSkillsState.selected[tabName] = itemId;
+            jfbSwitchSkillsTab(tabName);
+
+            var section = document.getElementById("jfb-skills-section");
+            if (section && section.scrollIntoView) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+
+        function jfbRenderSkillsSection() {
+            if (!jfbSkillsState.data) {
+                return;
+            }
+
+            var isEssentials = jfbSkillsState.tab === "essentials";
+            var list = isEssentials ? jfbSkillsState.data.essentials : jfbSkillsState.data.practiceAreas;
+            var selectedId = jfbSkillsState.selected[jfbSkillsState.tab];
+
+            if (!selectedId && list.length) {
+                selectedId = list[0].id;
+                jfbSkillsState.selected[jfbSkillsState.tab] = selectedId;
+            }
+
+            jfbRenderSkillsGrid(list, selectedId, isEssentials);
+            jfbRenderSkillsDetail(selectedId, isEssentials);
+            jfbRenderGeneralSkillsPanel();
+        }
+
+        function jfbRenderSkillsGrid(list, selectedId, isEssentials) {
+            var grid = document.getElementById("jfb-skills-grid");
+
+            if (!list.length) {
+                grid.innerHTML = "<p class=\"jfb-empty-copy\">Skills cards are taking a quick water break. Please try again soon.</p>";
+                return;
+            }
+
+            grid.innerHTML = list.map(function(item) {
+                var theme = isEssentials ? "essentials" : item.theme;
+                var isSelected = item.id === selectedId;
+                var helper = "";
+                var tabKey = isEssentials ? "essentials" : "practiceAreas";
+
+                if (isEssentials) {
+                    helper = (item.linkedPracticeAreas || []).length + " linked " + jfbPluralize((item.linkedPracticeAreas || []).length, "area", "areas");
+                } else {
+                    helper = (item.simpleRules || []).length + " simple " + jfbPluralize((item.simpleRules || []).length, "rule", "rules");
+                }
+
+                return "" +
+                    "<button type=\"button\" class=\"jfb-card-button" + (isSelected ? " jfb-selected" : "") + "\" data-theme=\"" + jfbEscapeHtml(theme) + "\" aria-pressed=\"" + (isSelected ? "true" : "false") + "\" onclick=\"jfbSelectSkillItem('" + tabKey + "', '" + item.id + "')\">" +
+                        "<span class=\"jfb-card-kicker\">" + (isEssentials ? "Essential" : "Practice Area") + "</span>" +
+                        "<div class=\"jfb-card-top\">" +
+                            "<span class=\"jfb-card-icon\" aria-hidden=\"true\">" + jfbGetIconMarkup(item.icon, item.title) + "</span>" +
+                            "<h3 class=\"jfb-card-title\">" + jfbEscapeHtml(item.title) + "</h3>" +
+                        "</div>" +
+                        "<p class=\"jfb-card-note\">" + jfbEscapeHtml(item.summary) + "</p>" +
+                        "<p class=\"jfb-card-helper\">" + jfbEscapeHtml(helper) + "</p>" +
+                    "</button>";
+            }).join("");
+        }
+
+        function jfbRenderSkillsDetail(selectedId, isEssentials) {
+            var detail = document.getElementById("jfb-skills-detail");
+            var data = jfbSkillsState.data;
+            var item = jfbFindById(isEssentials ? data.essentials : data.practiceAreas, selectedId);
+
+            if (!item) {
+                detail.setAttribute("data-theme", "essentials");
+                detail.innerHTML = "<p class=\"jfb-empty-copy\">Pick a card to see more football ideas.</p>";
+                return;
+            }
+
+            detail.setAttribute("data-theme", isEssentials ? "essentials" : item.theme);
+            detail.innerHTML = isEssentials ? jfbRenderEssentialDetail(item, data.practiceAreas) : jfbRenderPracticeAreaDetail(item, data.essentials);
+        }
+
+        function jfbRenderEssentialDetail(item, practiceAreas) {
+            var blocks = [
+                "<div class=\"jfb-detail-head\">" +
+                    "<span class=\"jfb-detail-icon\" aria-hidden=\"true\">" + jfbGetIconMarkup(item.icon, item.title) + "</span>" +
+                    "<div>" +
+                        "<h3 class=\"jfb-detail-title\">" + jfbEscapeHtml(item.title) + "</h3>" +
+                        "<p class=\"jfb-detail-copy\">" + jfbEscapeHtml(item.summary) + "</p>" +
+                    "</div>" +
+                "</div>"
+            ];
+
+            if ((item.linkedPracticeAreas || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Linked Practice Areas</p>" +
+                        "<div class=\"jfb-chip-list\">" +
+                            item.linkedPracticeAreas.map(function(id) {
+                                var area = jfbFindById(practiceAreas, id);
+                                if (!area) {
+                                    return "";
+                                }
+                                return "<button type=\"button\" class=\"jfb-chip\" onclick=\"jfbOpenLinkedItem('practiceAreas', '" + area.id + "')\">" + jfbEscapeHtml(area.title) + "</button>";
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            if ((item.videos || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Videos</p>" +
+                        "<div class=\"jfb-link-grid\">" +
+                            item.videos.map(function(video) {
+                                return jfbRenderLinkCard(video, "Watch video");
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            if ((item.resources || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Further Resources</p>" +
+                        "<div class=\"jfb-link-grid\">" +
+                            item.resources.map(function(resource) {
+                                return jfbRenderLinkCard(resource, "Open resource");
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            return blocks.join("");
+        }
+
+        function jfbRenderPracticeAreaDetail(item, essentials) {
+            var blocks = [
+                "<div class=\"jfb-detail-head\">" +
+                    "<span class=\"jfb-detail-icon\" aria-hidden=\"true\">" + jfbGetIconMarkup(item.icon, item.title) + "</span>" +
+                    "<div>" +
+                        "<h3 class=\"jfb-detail-title\">" + jfbEscapeHtml(item.title) + "</h3>" +
+                        "<p class=\"jfb-detail-copy\">" + jfbEscapeHtml(item.summary) + "</p>" +
+                    "</div>" +
+                "</div>"
+            ];
+
+            if ((item.simpleRules || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Simple Rules</p>" +
+                        "<div class=\"jfb-rule-grid\">" +
+                            item.simpleRules.map(function(rule) {
+                                return "" +
+                                    "<article class=\"jfb-rule-card\" data-theme=\"" + jfbEscapeHtml(item.theme) + "\">" +
+                                        "<h4 class=\"jfb-rule-title\">" + jfbEscapeHtml(rule.title) + "</h4>" +
+                                        "<p class=\"jfb-rule-copy\">" + jfbEscapeHtml(rule.description) + "</p>" +
+                                    "</article>";
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            if ((item.linkedSkills || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Linked Essentials</p>" +
+                        "<div class=\"jfb-chip-list\">" +
+                            item.linkedSkills.map(function(id) {
+                                var skill = jfbFindById(essentials, id);
+                                if (!skill) {
+                                    return "";
+                                }
+                                return "<button type=\"button\" class=\"jfb-chip\" onclick=\"jfbOpenLinkedItem('essentials', '" + skill.id + "')\">" + jfbEscapeHtml(skill.title) + "</button>";
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            if ((item.videos || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Videos</p>" +
+                        "<div class=\"jfb-link-grid\">" +
+                            item.videos.map(function(video) {
+                                return jfbRenderLinkCard(video, "Watch video");
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            if ((item.resources || []).length) {
+                blocks.push(
+                    "<div class=\"jfb-detail-block\">" +
+                        "<p class=\"jfb-detail-label\">Further Resources</p>" +
+                        "<div class=\"jfb-link-grid\">" +
+                            item.resources.map(function(resource) {
+                                return jfbRenderLinkCard(resource, "Open resource");
+                            }).join("") +
+                        "</div>" +
+                    "</div>"
+                );
+            }
+
+            return blocks.join("");
+        }
+
+        function jfbRenderLinkCard(item, buttonLabel) {
+            return "" +
+                "<article class=\"jfb-link-card\">" +
+                    "<h4 class=\"jfb-link-title\">" + jfbEscapeHtml(item.title) + "</h4>" +
+                    "<p class=\"jfb-link-copy\">" + jfbEscapeHtml(item.description || "") + "</p>" +
+                    "<a href=\"" + jfbEscapeHtml(item.url) + "\" target=\"_blank\" rel=\"noopener noreferrer\">" + jfbEscapeHtml(buttonLabel) + "</a>" +
+                "</article>";
+        }
+
+        function jfbRenderGeneralSkillsPanel() {
+            var panel = document.getElementById("jfb-skills-general");
+            var data = jfbSkillsState.data;
+            var hasVideos = data && data.generalVideos && data.generalVideos.length;
+            var hasResources = data && data.generalResources && data.generalResources.length;
+
+            if (!hasVideos && !hasResources) {
+                panel.hidden = true;
+                panel.innerHTML = "";
+                return;
+            }
+
+            var html = "<p class=\"jfb-detail-label\">More Skills Fun</p>";
+
+            if (hasVideos) {
+                html += "<div class=\"jfb-link-grid\">" + data.generalVideos.map(function(video) {
+                    return jfbRenderLinkCard(video, "Watch video");
+                }).join("") + "</div>";
+            }
+
+            if (hasResources) {
+                html += "<div class=\"jfb-detail-block\"><div class=\"jfb-link-grid\">" + data.generalResources.map(function(resource) {
+                    return jfbRenderLinkCard(resource, "Open resource");
+                }).join("") + "</div></div>";
+            }
+
+            panel.hidden = false;
+            panel.innerHTML = html;
+        }
+
+        function jfbShowSkillsFallback() {
+            document.getElementById("jfb-skills-grid").innerHTML = "<p class=\"jfb-empty-copy\">Skills cards are taking a quick water break. Please try again soon.</p>";
+            document.getElementById("jfb-skills-detail").innerHTML = "<p class=\"jfb-empty-copy\">The skills panel could not load right now.</p>";
+            document.getElementById("jfb-skills-general").hidden = true;
+        }
+
+        function jfbLoadSkillsContent() {
+            fetch("data/skills-content.json")
+                .then(function(response) {
+                    if (!response.ok) {
+                        throw new Error("Failed to load skills data");
+                    }
+                    return response.json();
+                })
+                .then(function(data) {
+                    if (!data || !Array.isArray(data.essentials) || !Array.isArray(data.practiceAreas)) {
+                        throw new Error("Skills data is not in the expected format");
+                    }
+
+                    jfbSkillsState.data = data;
+                    jfbSkillsState.selected.essentials = data.essentials.length ? data.essentials[0].id : null;
+                    jfbSkillsState.selected.practiceAreas = data.practiceAreas.length ? data.practiceAreas[0].id : null;
+                    jfbRenderSkillsSection();
+                })
+                .catch(function() {
+                    jfbShowSkillsFallback();
+                });
+        }
+
         var jfbCoolVideos = [
-            { icon: '🚲', title: 'Ronaldo Bicycle Kick', url: 'https://www.youtube.com/shorts/0FZrKXIDyB0', description: 'Watch Ronaldo score an amazing bicycle kick goal!' },
-            { icon: '🌀', title: 'Zidane Roulette', url: 'https://www.youtube.com/shorts/eEsmLAmMhNM', description: 'See the legendary Zidane roulette in action!' },
-            { icon: '💚', title: 'Forest Green Goal Highlights', url: 'https://www.youtube.com/watch?v=uKgUbDO3oac', description: 'Great goals from our local club Forest Green Rovers.' }
+            {
+                title: "Ronaldo Bicycle Kick",
+                url: "https://www.youtube.com/shorts/0FZrKXIDyB0",
+                description: "Watch Ronaldo score an amazing bicycle kick."
+            },
+            {
+                title: "Zidane Roulette",
+                url: "https://www.youtube.com/shorts/eEsmLAmMhNM",
+                description: "See the famous roulette turn in action."
+            },
+            {
+                title: "Forest Green Goal Highlights",
+                url: "https://www.youtube.com/watch?v=uKgUbDO3oac",
+                description: "Enjoy a fast mix of goals from Forest Green Rovers."
+            }
         ];
 
-        // Escape HTML to prevent injection from video titles
         function jfbEscapeHtml(str) {
-            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+            return String(str || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;");
         }
 
         // Load FGR featured video from JSON
@@ -944,7 +1543,7 @@
             var featuredId = featured.videoId;
 
             var html =
-                '<span class="jfb-fgr-badge">🟢 FGR</span>' +
+                '<span class="jfb-fgr-badge">FGR</span>' +
                 '<div class="jfb-fgr-iframe-wrap">' +
                     '<iframe id="jfb-fgr-iframe" src="' + jfbEscapeHtml(featured.embedUrl) + '"' +
                     ' title="' + jfbEscapeHtml(featured.title) + '"' +
@@ -965,7 +1564,7 @@
                         ' data-embed="' + jfbEscapeHtml(v.embedUrl) + '"' +
                         ' data-title="' + jfbEscapeHtml(v.title) + '"' +
                         ' aria-label="Play: ' + jfbEscapeHtml(v.title) + '">' +
-                        (isFeatured ? '<span class="jfb-fgr-star-badge">⭐</span>' : '') +
+                        (isFeatured ? '<span class="jfb-fgr-star-badge">Top</span>' : '') +
                         '<img src="' + jfbEscapeHtml(v.thumbnailUrl) + '" alt="' + jfbEscapeHtml(v.title) + '">' +
                         '</button>';
                 }
@@ -994,9 +1593,9 @@
         function jfbShowFGRFallback(container) {
             container.innerHTML =
                 '<div class="jfb-fgr-fallback">' +
-                    '<p>Check out Forest Green Rovers on YouTube!</p>' +
+                    '<p class="jfb-empty-copy">Visit Forest Green Rovers on YouTube for fresh football highlights.</p>' +
                     '<a class="jfb-fgr-fallback-btn" href="https://www.youtube.com/@forestgreenrovers" target="_blank" rel="noopener noreferrer">' +
-                        '▶️ Visit FGR on YouTube' +
+                        'Visit FGR on YouTube' +
                     '</a>' +
                 '</div>';
         }
@@ -1004,47 +1603,45 @@
         // Render video cards for a given category
         function jfbRenderVideos(category) {
             var grid = document.getElementById('jfb-videos-grid');
-            var list = category === 'cool' ? jfbCoolVideos : jfbSkillsVideos;
+            var list = jfbCoolVideos;
 
             grid.innerHTML = list.map(function(video) {
                 return '<article class="jfb-video-card">' +
-                    '<div class="jfb-video-card-icon" aria-hidden="true">' + video.icon + '</div>' +
                     '<h3 class="jfb-video-card-title">' + video.title + '</h3>' +
                     '<p class="jfb-video-card-desc">' + video.description + '</p>' +
-                    '<a class="jfb-video-btn" href="' + video.url + '" target="_blank" rel="noopener noreferrer">▶️ Watch Video</a>' +
+                    '<a class="jfb-video-btn" href="' + video.url + '" target="_blank" rel="noopener noreferrer">Watch video</a>' +
                 '</article>';
             }).join('');
         }
 
         // Switch active video tab
         function jfbSwitchVideoTab(category) {
-            var skillsBtn = document.getElementById('jfb-btn-skills');
-            var coolBtn = document.getElementById('jfb-btn-cool');
-            var grid = document.getElementById('jfb-videos-grid');
+            var highlightsButton = document.getElementById("jfb-btn-highlights");
+            var coolButton = document.getElementById("jfb-btn-cool");
+            var panel = document.getElementById("jfb-videos-panel");
+            var highlightsPanel = document.getElementById("jfb-video-highlights-panel");
+            var coolPanel = document.getElementById("jfb-video-cool-panel");
+            var isHighlights = category === "highlights";
 
-            var isSkills = category === 'skills';
-            skillsBtn.classList.toggle('jfb-active', isSkills);
-            coolBtn.classList.toggle('jfb-active', !isSkills);
-            skillsBtn.setAttribute('aria-selected', isSkills ? 'true' : 'false');
-            coolBtn.setAttribute('aria-selected', !isSkills ? 'true' : 'false');
-            grid.setAttribute('aria-labelledby', isSkills ? 'jfb-btn-skills' : 'jfb-btn-cool');
+            highlightsButton.classList.toggle("jfb-active", isHighlights);
+            coolButton.classList.toggle("jfb-active", !isHighlights);
+            highlightsButton.setAttribute("aria-selected", isHighlights ? "true" : "false");
+            coolButton.setAttribute("aria-selected", !isHighlights ? "true" : "false");
+            panel.setAttribute("aria-labelledby", isHighlights ? "jfb-btn-highlights" : "jfb-btn-cool");
 
-            jfbRenderVideos(category);
+            highlightsPanel.hidden = !isHighlights;
+            coolPanel.hidden = isHighlights;
+
+            if (!isHighlights) {
+                jfbRenderVideos("cool");
+            }
         }
 
-        function jfbPickRandom() {
-            jfbSwitchTab('practising');
-
-            var choice = jfbPractising[Math.floor(Math.random() * jfbPractising.length)];
-            var result = document.getElementById('jfb-random-result');
-            result.style.display = 'block';
-            result.innerHTML = '<strong>' + choice.icon + ' ' + choice.name + '</strong><span>' + choice.note + '</span>';
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            jfbSwitchTab('learned');
+        document.addEventListener("DOMContentLoaded", function() {
+            jfbLoadSkillsContent();
             jfbLoadFGRVideo();
-            jfbSwitchVideoTab('skills');
+            jfbSwitchVideoTab("highlights");
         });
     </script>
 </section>
+
