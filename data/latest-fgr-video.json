@@ -1,5 +1,59 @@
 {
-  "featuredVideo": null,
-  "videos": [],
-  "fetchedAt": ""
+  "featuredVideo": {
+    "title": "Match Highlights | Forest Green Rovers 4-0 Brackley Town",
+    "videoId": "0JBJmD98TLg",
+    "publishedAt": "2026-04-03T21:21:52+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=0JBJmD98TLg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/0JBJmD98TLg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0JBJmD98TLg/hqdefault.jpg",
+    "score": 25
+  },
+  "videos": [
+    {
+      "title": "Match Highlights | Forest Green Rovers 4-0 Brackley Town",
+      "videoId": "0JBJmD98TLg",
+      "publishedAt": "2026-04-03T21:21:52+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=0JBJmD98TLg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0JBJmD98TLg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0JBJmD98TLg/hqdefault.jpg",
+      "score": 25
+    },
+    {
+      "title": "Robbie Savage pre-match | Truro City (A)",
+      "videoId": "NWqQq6kW2bw",
+      "publishedAt": "2026-04-05T08:18:41+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=NWqQq6kW2bw",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NWqQq6kW2bw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NWqQq6kW2bw/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Tom Knowles post-match | Brackley Town (H)",
+      "videoId": "4bTihRuFMZQ",
+      "publishedAt": "2026-04-03T17:26:31+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=4bTihRuFMZQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4bTihRuFMZQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4bTihRuFMZQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Robbie Savage post-match | Brackley Town (H)",
+      "videoId": "DdpAdvqfMbI",
+      "publishedAt": "2026-04-03T17:10:21+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=DdpAdvqfMbI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/DdpAdvqfMbI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DdpAdvqfMbI/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Jayden Clarke pre-match | Brackley Town (H)",
+      "videoId": "Po6PfqCKouc",
+      "publishedAt": "2026-04-02T09:25:16+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Po6PfqCKouc",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Po6PfqCKouc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Po6PfqCKouc/hqdefault.jpg",
+      "score": 0
+    }
+  ],
+  "fetchedAt": "2026-04-05T12:22:52Z"
 }
