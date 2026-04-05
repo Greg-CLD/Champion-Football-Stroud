@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beat the Keeper | Champion Football Stroud</title>
+    <link rel="stylesheet" href="game.css" />
+</head>
+<body class="btk-page">
+    <main class="btk-shell">
+        <a class="btk-home-link" href="../../index.html">Back to home</a>
+
+        <section class="btk-hero-card">
+            <div class="btk-hero-copy">
+                <p class="btk-kicker">Champion Football Stroud Game</p>
+                <h1 class="btk-title">Beat the Keeper</h1>
+                <p class="btk-intro">Take five shots. Choose left, middle, or right. If the keeper dives the other way, it is a goal.</p>
+
+                <div class="btk-rule-list" aria-label="How to play">
+                    <div class="btk-rule-pill">Press Start</div>
+                    <div class="btk-rule-pill">Pick a lane</div>
+                    <div class="btk-rule-pill">Score from 5 shots</div>
+                </div>
+            </div>
+
+            <div class="btk-hero-art" aria-hidden="true">
+                <div class="btk-hero-goal">
+                    <div class="btk-hero-net"></div>
+                    <div class="btk-hero-keeper">
+                        <span class="btk-hero-head"></span>
+                        <span class="btk-hero-body"></span>
+                    </div>
+                    <div class="btk-hero-ball"></div>
+                </div>
+                <div class="btk-hero-stars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="btk-panel btk-rules-panel">
+            <h2 class="btk-panel-title">How this game works</h2>
+            <div class="btk-rules-grid">
+                <article class="btk-mini-card">
+                    <h3>Choose your side</h3>
+                    <p>Tap or click Left, Middle, or Right. You can also press 1, 2, or 3 on a keyboard.</p>
+                </article>
+                <article class="btk-mini-card">
+                    <h3>Watch the keeper dive</h3>
+                    <p>If your shot beats the keeper, your score goes up by one.</p>
+                </article>
+                <article class="btk-mini-card">
+                    <h3>Finish the round</h3>
+                    <p>After 5 shots you will see your final score and a Play again button.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="btk-panel btk-game-panel" aria-labelledby="btk-game-title">
+            <div class="btk-panel-head">
+                <div>
+                    <p class="btk-panel-kicker">Mini-game</p>
+                    <h2 class="btk-panel-title" id="btk-game-title">Take your five shots</h2>
+                </div>
+                <button class="btk-start-button" id="btk-start-button" type="button">Start</button>
+            </div>
+
+            <div class="btk-scoreboard" aria-label="Game score">
+                <div class="btk-score-chip">
+                    <span class="btk-score-label">Goals</span>
+                    <strong class="btk-score-value" id="btk-score">0</strong>
+                </div>
+                <div class="btk-score-chip">
+                    <span class="btk-score-label">Shots</span>
+                    <strong class="btk-score-value" id="btk-shots">0/5</strong>
+                </div>
+                <div class="btk-score-chip">
+                    <span class="btk-score-label">Best score</span>
+                    <strong class="btk-score-value" id="btk-best-score">0</strong>
+                </div>
+            </div>
+
+            <div class="btk-stage-shell">
+                <div class="btk-stage" id="btk-stage" data-shot="idle" data-keeper="middle" data-result="ready" aria-hidden="true">
+                    <div class="btk-stage-lanes">
+                        <span>Left</span>
+                        <span>Middle</span>
+                        <span>Right</span>
+                    </div>
+                    <div class="btk-goal-frame"></div>
+                    <div class="btk-goal-net"></div>
+                    <div class="btk-stage-lines">
+                        <span class="btk-stage-line btk-stage-line-left"></span>
+                        <span class="btk-stage-line btk-stage-line-middle"></span>
+                        <span class="btk-stage-line btk-stage-line-right"></span>
+                    </div>
+                    <div class="btk-keeper" id="btk-keeper">
+                        <span class="btk-keeper-head"></span>
+                        <span class="btk-keeper-body"></span>
+                        <span class="btk-keeper-arm btk-keeper-arm-left"></span>
+                        <span class="btk-keeper-arm btk-keeper-arm-right"></span>
+                        <span class="btk-keeper-leg btk-keeper-leg-left"></span>
+                        <span class="btk-keeper-leg btk-keeper-leg-right"></span>
+                    </div>
+                    <div class="btk-ball" id="btk-ball"></div>
+                    <div class="btk-end-screen" id="btk-end-screen" hidden>
+                        <p class="btk-end-kicker">Round finished</p>
+                        <h3 class="btk-end-title" id="btk-end-title">Nice shooting!</h3>
+                        <p class="btk-end-copy" id="btk-end-copy">You scored 0 goals.</p>
+                        <button class="btk-play-again-button" id="btk-play-again-button" type="button">Play again</button>
+                    </div>
+                </div>
+            </div>
+
+            <p class="btk-status" id="btk-status" aria-live="polite">Press Start to play your five-shot round.</p>
+
+            <div class="btk-controls" aria-label="Shot controls">
+                <button class="btk-shot-button" type="button" data-lane="left" disabled>1 Left</button>
+                <button class="btk-shot-button" type="button" data-lane="middle" disabled>2 Middle</button>
+                <button class="btk-shot-button" type="button" data-lane="right" disabled>3 Right</button>
+            </div>
+
+            <p class="btk-help">Touch, click, or press 1, 2, or 3 to shoot.</p>
+        </section>
+    </main>
+
+    <script src="game.js"></script>
+</body>
+</html>
