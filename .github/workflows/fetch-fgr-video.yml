@@ -44,25 +44,68 @@ jobs:
               "media": "http://search.yahoo.com/mrss/"
           }
 
-          # Get the first (latest) entry
-          entry = root.find("atom:entry", ns)
-          if entry is None:
+          # Title-based scoring to identify match highlights
+          def score_title(title):
+              t = title.lower()
+              s = 0
+              boosts = [
+                  ("extended highlights", 15),
+                  ("match highlights", 15),
+                  ("highlights", 10),
+                  ("vs", 5),
+                  ("v ", 5),
+                  ("full-time", 3),
+                  ("full time", 3),
+                  ("goals", 3),
+              ]
+              penalties = [
+                  ("interview", -10),
+                  ("press conference", -10),
+                  ("training", -8),
+                  ("behind the scenes", -8),
+                  ("ticket", -8),
+                  ("shorts", -5),
+                  ("podcast", -5),
+                  ("commercial", -5),
+                  ("kit launch", -5),
+              ]
+              for term, pts in boosts + penalties:
+                  if term in t:
+                      s += pts
+              return s
+
+          # Get the 5 most recent entries
+          entries = root.findall("atom:entry", ns)[:5]
+          if not entries:
               print("No entries found in RSS feed")
               exit(1)
 
-          video_id = entry.find("yt:videoId", ns).text
-          title = entry.find("atom:title", ns).text
-          published = entry.find("atom:published", ns).text
+          videos = []
+          for entry in entries:
+              video_id = entry.find("yt:videoId", ns).text
+              title = entry.find("atom:title", ns).text
+              published = entry.find("atom:published", ns).text
+              score = score_title(title)
+              videos.append({
+                  "title": title,
+                  "videoId": video_id,
+                  "publishedAt": published,
+                  "watchUrl": f"https://www.youtube.com/watch?v={video_id}",
+                  "embedUrl": f"https://www.youtube-nocookie.com/embed/{video_id}",
+                  "thumbnailUrl": f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg",
+                  "score": score,
+              })
 
-          # Build the JSON data
+          # Sort by score descending, then by publishedAt descending for ties
+          # Two-pass stable sort: first by date (newest first), then by score
+          videos.sort(key=lambda v: v["publishedAt"], reverse=True)
+          videos.sort(key=lambda v: -v["score"])
+
+          # Build the output JSON
           data = {
-              "title": title,
-              "videoId": video_id,
-              "publishedAt": published,
-              "watchUrl": f"https://www.youtube.com/watch?v={video_id}",
-              "embedUrl": f"https://www.youtube-nocookie.com/embed/{video_id}",
-              "thumbnailUrl": f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg",
-              "fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+              "featuredVideo": videos[0],
+              "videos": videos,
+              "fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
           }
 
           # Write JSON file
@@ -71,7 +114,10 @@ jobs:
               json.dump(data, f, indent=2, ensure_ascii=False)
               f.write("\n")
 
-          print(f"Updated: {title} ({video_id})")
+          featured = videos[0]
+          print(f"Featured: {featured['title']} (score {featured['score']})")
+          for v in videos:
+              print(f"  [{v['score']:+d}] {v['title']}")
           PYTHON_SCRIPT
 
       - name: Commit and push if changed

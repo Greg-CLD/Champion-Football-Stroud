@@ -403,6 +403,69 @@
             font-weight: 800;
         }
 
+        .jfb-fgr-thumbstrip {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+            padding: 0.75rem 0.25rem;
+            margin-top: 0.75rem;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .jfb-fgr-thumb {
+            flex: 0 0 auto;
+            width: 120px;
+            cursor: pointer;
+            border-radius: 8px;
+            border: 3px solid #E0E0E0;
+            background: none;
+            padding: 0;
+            position: relative;
+            scroll-snap-align: start;
+            transition: border-color 0.15s, transform 0.15s, filter 0.15s;
+        }
+
+        .jfb-fgr-thumb:hover {
+            filter: brightness(1.1);
+        }
+
+        .jfb-fgr-thumb.jfb-active {
+            border-color: #4CAF50;
+            transform: scale(1.05);
+        }
+
+        .jfb-fgr-thumb img {
+            width: 100%;
+            display: block;
+            border-radius: 6px;
+        }
+
+        .jfb-fgr-star-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: #FFD54F;
+            color: #E65100;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 2px 6px;
+            border-radius: 999px;
+            box-shadow: 0 2px 4px rgba(230, 81, 0, 0.25);
+            z-index: 1;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            .jfb-fgr-thumbstrip {
+                justify-content: flex-start;
+            }
+            .jfb-fgr-thumb {
+                width: 100px;
+            }
+        }
+
         .jfb-fgr-fallback {
             padding: 1.5rem;
         }
@@ -849,6 +912,11 @@
             { icon: '💚', title: 'Forest Green Goal Highlights', url: 'https://www.youtube.com/watch?v=uKgUbDO3oac', description: 'Great goals from our local club Forest Green Rovers.' }
         ];
 
+        // Escape HTML to prevent injection from video titles
+        function jfbEscapeHtml(str) {
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
         // Load FGR featured video from JSON
         function jfbLoadFGRVideo() {
             var container = document.getElementById('jfb-fgr-player');
@@ -859,17 +927,8 @@
                     return response.json();
                 })
                 .then(function(data) {
-                    if (data.videoId && data.videoId.length > 0) {
-                        container.innerHTML =
-                            '<span class="jfb-fgr-badge">🟢 FGR</span>' +
-                            '<div class="jfb-fgr-iframe-wrap">' +
-                                '<iframe src="https://www.youtube-nocookie.com/embed/' + data.videoId + '"' +
-                                ' title="Latest Forest Green Rovers video"' +
-                                ' loading="lazy"' +
-                                ' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"' +
-                                ' allowfullscreen></iframe>' +
-                            '</div>' +
-                            '<p class="jfb-fgr-video-title">' + data.title + '</p>';
+                    if (data.featuredVideo && data.featuredVideo.videoId) {
+                        jfbRenderFGRFull(container, data);
                     } else {
                         jfbShowFGRFallback(container);
                     }
@@ -877,6 +936,59 @@
                 .catch(function() {
                     jfbShowFGRFallback(container);
                 });
+        }
+
+        function jfbRenderFGRFull(container, data) {
+            var featured = data.featuredVideo;
+            var videos = data.videos || [];
+            var featuredId = featured.videoId;
+
+            var html =
+                '<span class="jfb-fgr-badge">🟢 FGR</span>' +
+                '<div class="jfb-fgr-iframe-wrap">' +
+                    '<iframe id="jfb-fgr-iframe" src="' + jfbEscapeHtml(featured.embedUrl) + '"' +
+                    ' title="' + jfbEscapeHtml(featured.title) + '"' +
+                    ' loading="lazy"' +
+                    ' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"' +
+                    ' allowfullscreen></iframe>' +
+                '</div>' +
+                '<p class="jfb-fgr-video-title" id="jfb-fgr-current-title">' + jfbEscapeHtml(featured.title) + '</p>';
+
+            if (videos.length > 1) {
+                html += '<div class="jfb-fgr-thumbstrip">';
+                for (var i = 0; i < videos.length; i++) {
+                    var v = videos[i];
+                    var isActive = v.videoId === featuredId;
+                    var isFeatured = (v.videoId === featuredId);
+                    html +=
+                        '<button class="jfb-fgr-thumb' + (isActive ? ' jfb-active' : '') + '"' +
+                        ' data-embed="' + jfbEscapeHtml(v.embedUrl) + '"' +
+                        ' data-title="' + jfbEscapeHtml(v.title) + '"' +
+                        ' aria-label="Play: ' + jfbEscapeHtml(v.title) + '">' +
+                        (isFeatured ? '<span class="jfb-fgr-star-badge">⭐</span>' : '') +
+                        '<img src="' + jfbEscapeHtml(v.thumbnailUrl) + '" alt="' + jfbEscapeHtml(v.title) + '">' +
+                        '</button>';
+                }
+                html += '</div>';
+            }
+
+            container.innerHTML = html;
+
+            var thumbs = container.querySelectorAll('.jfb-fgr-thumb');
+            for (var j = 0; j < thumbs.length; j++) {
+                thumbs[j].addEventListener('click', function() {
+                    var iframe = document.getElementById('jfb-fgr-iframe');
+                    var titleEl = document.getElementById('jfb-fgr-current-title');
+                    iframe.src = this.getAttribute('data-embed');
+                    titleEl.textContent = this.getAttribute('data-title');
+
+                    var allThumbs = container.querySelectorAll('.jfb-fgr-thumb');
+                    for (var k = 0; k < allThumbs.length; k++) {
+                        allThumbs[k].classList.remove('jfb-active');
+                    }
+                    this.classList.add('jfb-active');
+                });
+            }
         }
 
         function jfbShowFGRFallback(container) {
