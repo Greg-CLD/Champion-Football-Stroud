@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage post-match | Hartlepool (A)",
-    "videoId": "vDZV4efap-s",
-    "publishedAt": "2026-04-18T17:39:50+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=vDZV4efap-s",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/vDZV4efap-s",
-    "thumbnailUrl": "https://i.ytimg.com/vi/vDZV4efap-s/hqdefault.jpg",
+    "title": "Sean Etaluku post-match | Hartlepool (A)",
+    "videoId": "ELb4UKIVNOI",
+    "publishedAt": "2026-04-18T18:43:05+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=ELb4UKIVNOI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ELb4UKIVNOI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ELb4UKIVNOI/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Sean Etaluku post-match | Hartlepool (A)",
+      "videoId": "ELb4UKIVNOI",
+      "publishedAt": "2026-04-18T18:43:05+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=ELb4UKIVNOI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ELb4UKIVNOI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ELb4UKIVNOI/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage post-match | Hartlepool (A)",
       "videoId": "vDZV4efap-s",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/qGPChaPfHMg",
       "thumbnailUrl": "https://i.ytimg.com/vi/qGPChaPfHMg/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Your 25/26 goal of the season from Mr. Tom Knowles 💚",
-      "videoId": "u0sE0Slc0_0",
-      "publishedAt": "2026-04-12T14:01:26+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=u0sE0Slc0_0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/u0sE0Slc0_0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u0sE0Slc0_0/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-04-18T18:04:30Z"
+  "fetchedAt": "2026-04-18T19:24:02Z"
 }
