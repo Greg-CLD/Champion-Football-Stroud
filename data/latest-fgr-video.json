@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Sean Etaluku post-match | Hartlepool (A)",
-    "videoId": "ELb4UKIVNOI",
-    "publishedAt": "2026-04-18T18:43:05+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=ELb4UKIVNOI",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/ELb4UKIVNOI",
-    "thumbnailUrl": "https://i.ytimg.com/vi/ELb4UKIVNOI/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | Hartlepool 2-1 Forest Green Rovers",
+    "videoId": "YvkxPgcLG2o",
+    "publishedAt": "2026-04-18T20:00:17+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=YvkxPgcLG2o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/YvkxPgcLG2o",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YvkxPgcLG2o/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | Hartlepool 2-1 Forest Green Rovers",
+      "videoId": "YvkxPgcLG2o",
+      "publishedAt": "2026-04-18T20:00:17+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=YvkxPgcLG2o",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/YvkxPgcLG2o",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YvkxPgcLG2o/hqdefault.jpg",
+      "score": 25
+    },
     {
       "title": "Sean Etaluku post-match | Hartlepool (A)",
       "videoId": "ELb4UKIVNOI",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/6048wvuLubQ",
       "thumbnailUrl": "https://i.ytimg.com/vi/6048wvuLubQ/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Rovers Reloaded | Braintree Town (H)",
-      "videoId": "qGPChaPfHMg",
-      "publishedAt": "2026-04-13T17:01:10+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=qGPChaPfHMg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/qGPChaPfHMg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qGPChaPfHMg/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-04-18T20:01:19Z"
+  "fetchedAt": "2026-04-18T21:03:20Z"
 }
