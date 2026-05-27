@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "This goal from Nick Haughton at Eastleigh is underrated 👏 #WeAreFGR💚",
-    "videoId": "NvimiKYJ4IM",
-    "publishedAt": "2026-05-24T09:00:16+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=NvimiKYJ4IM",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/NvimiKYJ4IM",
-    "thumbnailUrl": "https://i.ytimg.com/vi/NvimiKYJ4IM/hqdefault.jpg",
+    "title": "🍽️ Chef Rich has got a delicious plant based treat for you to try!",
+    "videoId": "4cGTO6Vaj0k",
+    "publishedAt": "2026-05-27T09:00:01+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=4cGTO6Vaj0k",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4cGTO6Vaj0k",
+    "thumbnailUrl": "https://i.ytimg.com/vi/4cGTO6Vaj0k/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "🍽️ Chef Rich has got a delicious plant based treat for you to try!",
+      "videoId": "4cGTO6Vaj0k",
+      "publishedAt": "2026-05-27T09:00:01+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=4cGTO6Vaj0k",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4cGTO6Vaj0k",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4cGTO6Vaj0k/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "This goal from Nick Haughton at Eastleigh is underrated 👏 #WeAreFGR💚",
       "videoId": "NvimiKYJ4IM",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Nine years ago today, OTD 🥹#WeAreFGR💚",
-      "videoId": "y8PdWHlC_ms",
-      "publishedAt": "2026-05-14T09:50:10+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=y8PdWHlC_ms",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/y8PdWHlC_ms",
-      "thumbnailUrl": "https://i.ytimg.com/vi/y8PdWHlC_ms/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "New signing Kyle Ajayi's first interview! Click link for full video.",
       "videoId": "eMFlQhOaVzw",
       "publishedAt": "2026-05-23T11:16:42+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-05-27T08:44:34Z"
+  "fetchedAt": "2026-05-27T12:24:02Z"
 }
