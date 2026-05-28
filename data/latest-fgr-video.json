@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "🍽️ Chef Rich has got a delicious plant based treat for you to try!",
-    "videoId": "4cGTO6Vaj0k",
-    "publishedAt": "2026-05-27T09:00:01+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=4cGTO6Vaj0k",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/4cGTO6Vaj0k",
-    "thumbnailUrl": "https://i.ytimg.com/vi/4cGTO6Vaj0k/hqdefault.jpg",
+    "title": "A little bit of Mendy Magic! 🪄",
+    "videoId": "4FRqRGpm8UQ",
+    "publishedAt": "2026-05-28T16:00:02+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=4FRqRGpm8UQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4FRqRGpm8UQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/4FRqRGpm8UQ/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "A little bit of Mendy Magic! 🪄",
+      "videoId": "4FRqRGpm8UQ",
+      "publishedAt": "2026-05-28T16:00:02+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=4FRqRGpm8UQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4FRqRGpm8UQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4FRqRGpm8UQ/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "🍽️ Chef Rich has got a delicious plant based treat for you to try!",
       "videoId": "4cGTO6Vaj0k",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "End of season message from retail Mike for you...",
-      "videoId": "NJs2emKaKzo",
-      "publishedAt": "2026-05-22T17:30:27+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=NJs2emKaKzo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NJs2emKaKzo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NJs2emKaKzo/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "New signing Kyle Ajayi's first interview! Click link for full video.",
       "videoId": "eMFlQhOaVzw",
       "publishedAt": "2026-05-23T11:16:42+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-05-28T12:33:08Z"
+  "fetchedAt": "2026-05-28T16:57:17Z"
 }
