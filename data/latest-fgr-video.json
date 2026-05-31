@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Every GOAL from the 2025/26 National League Campaign ⚽",
-    "videoId": "WBm0njTkQ5o",
-    "publishedAt": "2026-05-30T12:15:13+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=WBm0njTkQ5o",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/WBm0njTkQ5o",
-    "thumbnailUrl": "https://i.ytimg.com/vi/WBm0njTkQ5o/hqdefault.jpg",
+    "title": "🗣️ | First word from Bryan Ifeanyi.",
+    "videoId": "pkofwaE4x-U",
+    "publishedAt": "2026-05-31T17:58:27+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=pkofwaE4x-U",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pkofwaE4x-U",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pkofwaE4x-U/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "🗣️ | First word from Bryan Ifeanyi.",
+      "videoId": "pkofwaE4x-U",
+      "publishedAt": "2026-05-31T17:58:27+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=pkofwaE4x-U",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pkofwaE4x-U",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pkofwaE4x-U/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "First Word | Bryan Ifeanyi",
+      "videoId": "XMjE71EkLeg",
+      "publishedAt": "2026-05-31T17:40:00+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=XMjE71EkLeg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/XMjE71EkLeg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XMjE71EkLeg/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Every GOAL from the 2025/26 National League Campaign ⚽",
       "videoId": "WBm0njTkQ5o",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/4cGTO6Vaj0k",
       "thumbnailUrl": "https://i.ytimg.com/vi/4cGTO6Vaj0k/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "This goal from Nick Haughton at Eastleigh is underrated 👏 #WeAreFGR💚",
-      "videoId": "NvimiKYJ4IM",
-      "publishedAt": "2026-05-24T09:00:16+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=NvimiKYJ4IM",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/NvimiKYJ4IM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NvimiKYJ4IM/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "New signing Kyle Ajayi's first interview! Click link for full video.",
-      "videoId": "eMFlQhOaVzw",
-      "publishedAt": "2026-05-23T11:16:42+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=eMFlQhOaVzw",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/eMFlQhOaVzw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eMFlQhOaVzw/hqdefault.jpg",
-      "score": -10
     }
   ],
-  "fetchedAt": "2026-05-31T17:13:42Z"
+  "fetchedAt": "2026-05-31T18:45:31Z"
 }
