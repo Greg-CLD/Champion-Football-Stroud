@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "🗣️ | First word from Bryan Ifeanyi.",
-    "videoId": "pkofwaE4x-U",
-    "publishedAt": "2026-05-31T17:58:27+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=pkofwaE4x-U",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/pkofwaE4x-U",
-    "thumbnailUrl": "https://i.ytimg.com/vi/pkofwaE4x-U/hqdefault.jpg",
+    "title": "First Word | Oli Ewing",
+    "videoId": "BCTzsDJqZrY",
+    "publishedAt": "2026-06-06T15:58:01+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=BCTzsDJqZrY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/BCTzsDJqZrY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/BCTzsDJqZrY/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "First Word | Oli Ewing",
+      "videoId": "BCTzsDJqZrY",
+      "publishedAt": "2026-06-06T15:58:01+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=BCTzsDJqZrY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/BCTzsDJqZrY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BCTzsDJqZrY/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "🗣️ | First word from Bryan Ifeanyi.",
       "videoId": "pkofwaE4x-U",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "A little bit of Mendy Magic! 🪄",
-      "videoId": "4FRqRGpm8UQ",
-      "publishedAt": "2026-05-28T16:00:02+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=4FRqRGpm8UQ",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/4FRqRGpm8UQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4FRqRGpm8UQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "🙏 A huge thanks to all the volunteers working behind the scenes at The New Lawn!",
       "videoId": "fe1LqwchqBI",
       "publishedAt": "2026-06-04T09:21:46+00:00",
@@ -55,5 +55,5 @@
       "score": -8
     }
   ],
-  "fetchedAt": "2026-06-06T15:21:58Z"
+  "fetchedAt": "2026-06-06T16:41:16Z"
 }
