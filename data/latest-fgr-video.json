@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "First Word | Oli Ewing",
-    "videoId": "BCTzsDJqZrY",
-    "publishedAt": "2026-06-06T15:58:01+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=BCTzsDJqZrY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/BCTzsDJqZrY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/BCTzsDJqZrY/hqdefault.jpg",
+    "title": "👀 Who doesn't love watching a sublime assist?",
+    "videoId": "sP6yrBcEPW0",
+    "publishedAt": "2026-06-07T15:00:11+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=sP6yrBcEPW0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/sP6yrBcEPW0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/sP6yrBcEPW0/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "👀 Who doesn't love watching a sublime assist?",
+      "videoId": "sP6yrBcEPW0",
+      "publishedAt": "2026-06-07T15:00:11+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=sP6yrBcEPW0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sP6yrBcEPW0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sP6yrBcEPW0/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "First Word | Oli Ewing",
       "videoId": "BCTzsDJqZrY",
@@ -25,15 +34,6 @@
       "watchUrl": "https://www.youtube.com/watch?v=pkofwaE4x-U",
       "embedUrl": "https://www.youtube-nocookie.com/embed/pkofwaE4x-U",
       "thumbnailUrl": "https://i.ytimg.com/vi/pkofwaE4x-U/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "First Word | Bryan Ifeanyi",
-      "videoId": "XMjE71EkLeg",
-      "publishedAt": "2026-05-31T17:40:00+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=XMjE71EkLeg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/XMjE71EkLeg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XMjE71EkLeg/hqdefault.jpg",
       "score": 0
     },
     {
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-06-07T13:05:41Z"
+  "fetchedAt": "2026-06-07T15:11:38Z"
 }
