@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "👀 Who doesn't love watching a sublime assist?",
-    "videoId": "sP6yrBcEPW0",
-    "publishedAt": "2026-06-07T15:00:11+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=sP6yrBcEPW0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/sP6yrBcEPW0",
-    "thumbnailUrl": "https://i.ytimg.com/vi/sP6yrBcEPW0/hqdefault.jpg",
+    "title": "🍽️ Fancy hospitality at one of our upcoming pre-season friendlies?#WeAreFGR💚",
+    "videoId": "lEoGsaiFVXI",
+    "publishedAt": "2026-06-16T12:00:29+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=lEoGsaiFVXI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/lEoGsaiFVXI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/lEoGsaiFVXI/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "🍽️ Fancy hospitality at one of our upcoming pre-season friendlies?#WeAreFGR💚",
+      "videoId": "lEoGsaiFVXI",
+      "publishedAt": "2026-06-16T12:00:29+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=lEoGsaiFVXI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/lEoGsaiFVXI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lEoGsaiFVXI/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "👀 Who doesn't love watching a sublime assist?",
       "videoId": "sP6yrBcEPW0",
@@ -37,15 +46,6 @@
       "score": -8
     },
     {
-      "title": "🙏 A huge thanks to all the volunteers working behind the scenes at The New Lawn!",
-      "videoId": "fe1LqwchqBI",
-      "publishedAt": "2026-06-04T09:21:46+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=fe1LqwchqBI",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fe1LqwchqBI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fe1LqwchqBI/hqdefault.jpg",
-      "score": -8
-    },
-    {
       "title": "Oli Ewing Interview - Full interview below!",
       "videoId": "YDpUltIjw8M",
       "publishedAt": "2026-06-06T18:26:55+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-06-16T08:28:33Z"
+  "fetchedAt": "2026-06-16T13:14:36Z"
 }
