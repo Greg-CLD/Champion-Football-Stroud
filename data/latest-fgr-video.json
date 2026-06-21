@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "🍽️ Fancy hospitality at one of our upcoming pre-season friendlies?#WeAreFGR💚",
-    "videoId": "lEoGsaiFVXI",
-    "publishedAt": "2026-06-16T12:00:29+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=lEoGsaiFVXI",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/lEoGsaiFVXI",
-    "thumbnailUrl": "https://i.ytimg.com/vi/lEoGsaiFVXI/hqdefault.jpg",
+    "title": "Retail Mike's WC knowledge needs a bit of work!",
+    "videoId": "-voXYcX5woc",
+    "publishedAt": "2026-06-21T16:00:02+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=-voXYcX5woc",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/-voXYcX5woc",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-voXYcX5woc/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Retail Mike's WC knowledge needs a bit of work!",
+      "videoId": "-voXYcX5woc",
+      "publishedAt": "2026-06-21T16:00:02+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=-voXYcX5woc",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-voXYcX5woc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-voXYcX5woc/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "🍽️ Fancy hospitality at one of our upcoming pre-season friendlies?#WeAreFGR💚",
       "videoId": "lEoGsaiFVXI",
@@ -25,15 +34,6 @@
       "watchUrl": "https://www.youtube.com/watch?v=sP6yrBcEPW0",
       "embedUrl": "https://www.youtube-nocookie.com/embed/sP6yrBcEPW0",
       "thumbnailUrl": "https://i.ytimg.com/vi/sP6yrBcEPW0/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "First Word | Oli Ewing",
-      "videoId": "BCTzsDJqZrY",
-      "publishedAt": "2026-06-06T15:58:01+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=BCTzsDJqZrY",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/BCTzsDJqZrY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BCTzsDJqZrY/hqdefault.jpg",
       "score": 0
     },
     {
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-06-21T14:29:46Z"
+  "fetchedAt": "2026-06-21T16:16:39Z"
 }
