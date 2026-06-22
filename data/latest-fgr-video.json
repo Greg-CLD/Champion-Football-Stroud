@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Retail Mike's WC knowledge needs a bit of work!",
-    "videoId": "-voXYcX5woc",
-    "publishedAt": "2026-06-21T16:00:02+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=-voXYcX5woc",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/-voXYcX5woc",
-    "thumbnailUrl": "https://i.ytimg.com/vi/-voXYcX5woc/hqdefault.jpg",
+    "title": "Pitch Update | Nick Johnstone",
+    "videoId": "6YvoNtzCPqY",
+    "publishedAt": "2026-06-22T19:02:12+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=6YvoNtzCPqY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6YvoNtzCPqY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/6YvoNtzCPqY/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Pitch Update | Nick Johnstone",
+      "videoId": "6YvoNtzCPqY",
+      "publishedAt": "2026-06-22T19:02:12+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=6YvoNtzCPqY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6YvoNtzCPqY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6YvoNtzCPqY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Pitch Update | Nick Johnstone",
+      "videoId": "tPBOVEpz-w8",
+      "publishedAt": "2026-06-22T19:00:07+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=tPBOVEpz-w8",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/tPBOVEpz-w8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tPBOVEpz-w8/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Retail Mike's WC knowledge needs a bit of work!",
       "videoId": "-voXYcX5woc",
@@ -28,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "👀 Who doesn't love watching a sublime assist?",
-      "videoId": "sP6yrBcEPW0",
-      "publishedAt": "2026-06-07T15:00:11+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=sP6yrBcEPW0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/sP6yrBcEPW0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sP6yrBcEPW0/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "🎟️ 26/27 Season Tickets are now on general sale! #WeAreFGR💚",
       "videoId": "x-twY4mKB88",
       "publishedAt": "2026-06-08T13:02:06+00:00",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/x-twY4mKB88",
       "thumbnailUrl": "https://i.ytimg.com/vi/x-twY4mKB88/hqdefault.jpg",
       "score": -8
-    },
-    {
-      "title": "Oli Ewing Interview - Full interview below!",
-      "videoId": "YDpUltIjw8M",
-      "publishedAt": "2026-06-06T18:26:55+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=YDpUltIjw8M",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/YDpUltIjw8M",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YDpUltIjw8M/hqdefault.jpg",
-      "score": -10
     }
   ],
-  "fetchedAt": "2026-06-22T18:50:07Z"
+  "fetchedAt": "2026-06-22T21:33:01Z"
 }
