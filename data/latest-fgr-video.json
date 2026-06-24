@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Grass Cutting At The New Lawn | 4k ASMR",
-    "videoId": "pS501jOpPGg",
-    "publishedAt": "2026-06-24T07:55:21+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=pS501jOpPGg",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/pS501jOpPGg",
-    "thumbnailUrl": "https://i.ytimg.com/vi/pS501jOpPGg/hqdefault.jpg",
+    "title": "I know I should sleep...",
+    "videoId": "SIoxTd2E8ps",
+    "publishedAt": "2026-06-24T17:43:31+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=SIoxTd2E8ps",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SIoxTd2E8ps",
+    "thumbnailUrl": "https://i.ytimg.com/vi/SIoxTd2E8ps/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "I know I should sleep...",
+      "videoId": "SIoxTd2E8ps",
+      "publishedAt": "2026-06-24T17:43:31+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=SIoxTd2E8ps",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/SIoxTd2E8ps",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SIoxTd2E8ps/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Grass Cutting At The New Lawn | 4k ASMR",
       "videoId": "pS501jOpPGg",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/-voXYcX5woc",
       "thumbnailUrl": "https://i.ytimg.com/vi/-voXYcX5woc/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "🍽️ Fancy hospitality at one of our upcoming pre-season friendlies?#WeAreFGR💚",
-      "videoId": "lEoGsaiFVXI",
-      "publishedAt": "2026-06-16T12:00:29+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=lEoGsaiFVXI",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/lEoGsaiFVXI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lEoGsaiFVXI/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-06-24T16:25:02Z"
+  "fetchedAt": "2026-06-24T18:17:49Z"
 }
