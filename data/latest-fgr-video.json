@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Pitch Update | Nick Johnstone",
-    "videoId": "6YvoNtzCPqY",
-    "publishedAt": "2026-06-22T19:02:12+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=6YvoNtzCPqY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/6YvoNtzCPqY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/6YvoNtzCPqY/hqdefault.jpg",
+    "title": "Grass Cutting At The New Lawn | 4k ASMR",
+    "videoId": "pS501jOpPGg",
+    "publishedAt": "2026-06-24T07:55:21+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=pS501jOpPGg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pS501jOpPGg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pS501jOpPGg/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Grass Cutting At The New Lawn | 4k ASMR",
+      "videoId": "pS501jOpPGg",
+      "publishedAt": "2026-06-24T07:55:21+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=pS501jOpPGg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pS501jOpPGg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pS501jOpPGg/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Pitch Update | Nick Johnstone",
       "videoId": "6YvoNtzCPqY",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/lEoGsaiFVXI",
       "thumbnailUrl": "https://i.ytimg.com/vi/lEoGsaiFVXI/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "🎟️ 26/27 Season Tickets are now on general sale! #WeAreFGR💚",
-      "videoId": "x-twY4mKB88",
-      "publishedAt": "2026-06-08T13:02:06+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=x-twY4mKB88",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/x-twY4mKB88",
-      "thumbnailUrl": "https://i.ytimg.com/vi/x-twY4mKB88/hqdefault.jpg",
-      "score": -8
     }
   ],
-  "fetchedAt": "2026-06-23T23:36:13Z"
+  "fetchedAt": "2026-06-24T07:59:01Z"
 }
