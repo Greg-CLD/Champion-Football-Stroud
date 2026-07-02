@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "I know I should sleep...",
-    "videoId": "SIoxTd2E8ps",
-    "publishedAt": "2026-06-24T17:43:31+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=SIoxTd2E8ps",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/SIoxTd2E8ps",
-    "thumbnailUrl": "https://i.ytimg.com/vi/SIoxTd2E8ps/hqdefault.jpg",
+    "title": "Robbie Savage Pre-Season Update",
+    "videoId": "SzD0K7kOQfY",
+    "publishedAt": "2026-07-02T14:33:26+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=SzD0K7kOQfY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SzD0K7kOQfY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/SzD0K7kOQfY/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage Pre-Season Update",
+      "videoId": "SzD0K7kOQfY",
+      "publishedAt": "2026-07-02T14:33:26+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=SzD0K7kOQfY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/SzD0K7kOQfY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SzD0K7kOQfY/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "I know I should sleep...",
       "videoId": "SIoxTd2E8ps",
@@ -37,23 +46,14 @@
       "score": 0
     },
     {
-      "title": "Pitch Update | Nick Johnstone",
-      "videoId": "tPBOVEpz-w8",
-      "publishedAt": "2026-06-22T19:00:07+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=tPBOVEpz-w8",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/tPBOVEpz-w8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tPBOVEpz-w8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Retail Mike's WC knowledge needs a bit of work!",
-      "videoId": "-voXYcX5woc",
-      "publishedAt": "2026-06-21T16:00:02+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=-voXYcX5woc",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-voXYcX5woc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-voXYcX5woc/hqdefault.jpg",
-      "score": 0
+      "title": "Robbie Savage on pre-season - Full Interview ⬇️",
+      "videoId": "smdSuAXiMfc",
+      "publishedAt": "2026-07-02T14:35:39+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=smdSuAXiMfc",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/smdSuAXiMfc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/smdSuAXiMfc/hqdefault.jpg",
+      "score": -10
     }
   ],
-  "fetchedAt": "2026-07-02T13:18:17Z"
+  "fetchedAt": "2026-07-02T15:41:44Z"
 }
