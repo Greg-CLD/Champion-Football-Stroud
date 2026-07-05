@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Pre-Season Update",
-    "videoId": "SzD0K7kOQfY",
-    "publishedAt": "2026-07-02T14:33:26+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=SzD0K7kOQfY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/SzD0K7kOQfY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/SzD0K7kOQfY/hqdefault.jpg",
+    "title": "James Berry First Word",
+    "videoId": "da-kNTss9ew",
+    "publishedAt": "2026-07-05T16:00:11+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=da-kNTss9ew",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/da-kNTss9ew",
+    "thumbnailUrl": "https://i.ytimg.com/vi/da-kNTss9ew/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "James Berry First Word",
+      "videoId": "da-kNTss9ew",
+      "publishedAt": "2026-07-05T16:00:11+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=da-kNTss9ew",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/da-kNTss9ew",
+      "thumbnailUrl": "https://i.ytimg.com/vi/da-kNTss9ew/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Pre-Season Update",
       "videoId": "SzD0K7kOQfY",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Pitch Update | Nick Johnstone",
-      "videoId": "6YvoNtzCPqY",
-      "publishedAt": "2026-06-22T19:02:12+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=6YvoNtzCPqY",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/6YvoNtzCPqY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6YvoNtzCPqY/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "Robbie Savage on pre-season - Full Interview ⬇️",
       "videoId": "smdSuAXiMfc",
       "publishedAt": "2026-07-02T14:35:39+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-07-05T15:19:15Z"
+  "fetchedAt": "2026-07-05T16:35:25Z"
 }
