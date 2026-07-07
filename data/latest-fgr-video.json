@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "James Berry First Word",
-    "videoId": "da-kNTss9ew",
-    "publishedAt": "2026-07-05T16:00:11+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=da-kNTss9ew",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/da-kNTss9ew",
-    "thumbnailUrl": "https://i.ytimg.com/vi/da-kNTss9ew/hqdefault.jpg",
+    "title": "Never in doubt!",
+    "videoId": "3dpkS1VXkCE",
+    "publishedAt": "2026-07-07T20:22:48+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=3dpkS1VXkCE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/3dpkS1VXkCE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3dpkS1VXkCE/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Never in doubt!",
+      "videoId": "3dpkS1VXkCE",
+      "publishedAt": "2026-07-07T20:22:48+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=3dpkS1VXkCE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/3dpkS1VXkCE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3dpkS1VXkCE/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "James Berry First Word",
       "videoId": "da-kNTss9ew",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Grass Cutting At The New Lawn | 4k ASMR",
-      "videoId": "pS501jOpPGg",
-      "publishedAt": "2026-06-24T07:55:21+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=pS501jOpPGg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/pS501jOpPGg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pS501jOpPGg/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "Robbie Savage on pre-season - Full Interview ⬇️",
       "videoId": "smdSuAXiMfc",
       "publishedAt": "2026-07-02T14:35:39+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-07-07T19:05:04Z"
+  "fetchedAt": "2026-07-07T21:07:18Z"
 }
