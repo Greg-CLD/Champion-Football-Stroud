@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Luke who's back....",
-    "videoId": "HsmXBBguTz0",
-    "publishedAt": "2026-07-09T11:45:35+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=HsmXBBguTz0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/HsmXBBguTz0",
-    "thumbnailUrl": "https://i.ytimg.com/vi/HsmXBBguTz0/hqdefault.jpg",
+    "title": "Tuesday's order of the day 📋 #WeAreFGR💚",
+    "videoId": "kvTuBprRuyU",
+    "publishedAt": "2026-07-09T17:00:16+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=kvTuBprRuyU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/kvTuBprRuyU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/kvTuBprRuyU/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Tuesday's order of the day 📋 #WeAreFGR💚",
+      "videoId": "kvTuBprRuyU",
+      "publishedAt": "2026-07-09T17:00:16+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=kvTuBprRuyU",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kvTuBprRuyU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kvTuBprRuyU/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Luke who's back....",
       "videoId": "HsmXBBguTz0",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/da-kNTss9ew",
       "thumbnailUrl": "https://i.ytimg.com/vi/da-kNTss9ew/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage on pre-season - Full Interview ⬇️",
-      "videoId": "smdSuAXiMfc",
-      "publishedAt": "2026-07-02T14:35:39+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=smdSuAXiMfc",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/smdSuAXiMfc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/smdSuAXiMfc/hqdefault.jpg",
-      "score": -10
     }
   ],
-  "fetchedAt": "2026-07-09T15:41:29Z"
+  "fetchedAt": "2026-07-09T18:00:43Z"
 }
