@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Tuesday's order of the day 📋 #WeAreFGR💚",
-    "videoId": "kvTuBprRuyU",
-    "publishedAt": "2026-07-09T17:00:16+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=kvTuBprRuyU",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/kvTuBprRuyU",
-    "thumbnailUrl": "https://i.ytimg.com/vi/kvTuBprRuyU/hqdefault.jpg",
+    "title": "Robbie Savage On Fixtures, GK's & Mendy",
+    "videoId": "lIbNl8A3kUo",
+    "publishedAt": "2026-07-10T13:21:24+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=lIbNl8A3kUo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/lIbNl8A3kUo",
+    "thumbnailUrl": "https://i.ytimg.com/vi/lIbNl8A3kUo/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage On Fixtures, GK's & Mendy",
+      "videoId": "lIbNl8A3kUo",
+      "publishedAt": "2026-07-10T13:21:24+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=lIbNl8A3kUo",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/lIbNl8A3kUo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lIbNl8A3kUo/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Tuesday's order of the day 📋 #WeAreFGR💚",
       "videoId": "kvTuBprRuyU",
@@ -37,23 +46,14 @@
       "score": 0
     },
     {
-      "title": "Never in doubt!",
-      "videoId": "3dpkS1VXkCE",
-      "publishedAt": "2026-07-07T20:22:48+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=3dpkS1VXkCE",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/3dpkS1VXkCE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3dpkS1VXkCE/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "James Berry First Word",
-      "videoId": "da-kNTss9ew",
-      "publishedAt": "2026-07-05T16:00:11+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=da-kNTss9ew",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/da-kNTss9ew",
-      "thumbnailUrl": "https://i.ytimg.com/vi/da-kNTss9ew/hqdefault.jpg",
-      "score": 0
+      "title": "🗣️ Gaffer on fixture release day. Full interview live now.",
+      "videoId": "00JA06JQx78",
+      "publishedAt": "2026-07-10T13:34:19+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=00JA06JQx78",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/00JA06JQx78",
+      "thumbnailUrl": "https://i.ytimg.com/vi/00JA06JQx78/hqdefault.jpg",
+      "score": -10
     }
   ],
-  "fetchedAt": "2026-07-10T13:27:49Z"
+  "fetchedAt": "2026-07-10T15:58:06Z"
 }
