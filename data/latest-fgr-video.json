@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage On Fixtures, GK's & Mendy",
-    "videoId": "lIbNl8A3kUo",
-    "publishedAt": "2026-07-10T13:21:24+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=lIbNl8A3kUo",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/lIbNl8A3kUo",
-    "thumbnailUrl": "https://i.ytimg.com/vi/lIbNl8A3kUo/hqdefault.jpg",
+    "title": "Robbie Savage on Slimbridge Friendly",
+    "videoId": "r6RySeq6YoI",
+    "publishedAt": "2026-07-11T15:30:03+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=r6RySeq6YoI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/r6RySeq6YoI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/r6RySeq6YoI/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage on Slimbridge Friendly",
+      "videoId": "r6RySeq6YoI",
+      "publishedAt": "2026-07-11T15:30:03+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=r6RySeq6YoI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/r6RySeq6YoI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r6RySeq6YoI/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage On Fixtures, GK's & Mendy",
       "videoId": "lIbNl8A3kUo",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Robbie Savage post-match | Bishops Cleeve (A)",
-      "videoId": "XiKU2XUqZ3s",
-      "publishedAt": "2026-07-08T09:24:43+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=XiKU2XUqZ3s",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/XiKU2XUqZ3s",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XiKU2XUqZ3s/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "🗣️ Gaffer on fixture release day. Full interview live now.",
       "videoId": "00JA06JQx78",
       "publishedAt": "2026-07-10T13:34:19+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-07-11T15:31:39Z"
+  "fetchedAt": "2026-07-11T17:02:28Z"
 }
