@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "We think Sean enjoyed that one 😅 🚲#WeAreFGR💚",
-    "videoId": "1hMgGEQyvo0",
-    "publishedAt": "2026-07-14T08:30:22+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=1hMgGEQyvo0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/1hMgGEQyvo0",
-    "thumbnailUrl": "https://i.ytimg.com/vi/1hMgGEQyvo0/hqdefault.jpg",
+    "title": "22.07.26 | #WeAreFGR💚",
+    "videoId": "EWMNO5MiCig",
+    "publishedAt": "2026-07-17T11:00:37+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=EWMNO5MiCig",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/EWMNO5MiCig",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EWMNO5MiCig/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "22.07.26 | #WeAreFGR💚",
+      "videoId": "EWMNO5MiCig",
+      "publishedAt": "2026-07-17T11:00:37+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=EWMNO5MiCig",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EWMNO5MiCig",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EWMNO5MiCig/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "We think Sean enjoyed that one 😅 🚲#WeAreFGR💚",
       "videoId": "1hMgGEQyvo0",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Tuesday's order of the day 📋 #WeAreFGR💚",
-      "videoId": "kvTuBprRuyU",
-      "publishedAt": "2026-07-09T17:00:16+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=kvTuBprRuyU",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/kvTuBprRuyU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kvTuBprRuyU/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "🗣️ Gaffer on fixture release day. Full interview live now.",
       "videoId": "00JA06JQx78",
       "publishedAt": "2026-07-10T13:34:19+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-07-17T10:18:47Z"
+  "fetchedAt": "2026-07-17T11:52:46Z"
 }
