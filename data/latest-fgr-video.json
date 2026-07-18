@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage post Merthyr Town",
-    "videoId": "OR2OhGVENEs",
-    "publishedAt": "2026-07-18T17:00:16+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=OR2OhGVENEs",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/OR2OhGVENEs",
-    "thumbnailUrl": "https://i.ytimg.com/vi/OR2OhGVENEs/hqdefault.jpg",
-    "score": 0
+    "title": "⚽️ Our two goals from today's game at Merthyr Town. #WeAreFGR💚",
+    "videoId": "5eLQGXCT8Wg",
+    "publishedAt": "2026-07-18T18:37:15+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=5eLQGXCT8Wg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5eLQGXCT8Wg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5eLQGXCT8Wg/hqdefault.jpg",
+    "score": 3
   },
   "videos": [
+    {
+      "title": "⚽️ Our two goals from today's game at Merthyr Town. #WeAreFGR💚",
+      "videoId": "5eLQGXCT8Wg",
+      "publishedAt": "2026-07-18T18:37:15+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=5eLQGXCT8Wg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/5eLQGXCT8Wg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eLQGXCT8Wg/hqdefault.jpg",
+      "score": 3
+    },
     {
       "title": "Robbie Savage post Merthyr Town",
       "videoId": "OR2OhGVENEs",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/r6RySeq6YoI",
       "thumbnailUrl": "https://i.ytimg.com/vi/r6RySeq6YoI/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "🗣️ Gaffer on fixture release day. Full interview live now.",
-      "videoId": "00JA06JQx78",
-      "publishedAt": "2026-07-10T13:34:19+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=00JA06JQx78",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/00JA06JQx78",
-      "thumbnailUrl": "https://i.ytimg.com/vi/00JA06JQx78/hqdefault.jpg",
-      "score": -10
     }
   ],
-  "fetchedAt": "2026-07-18T17:58:33Z"
+  "fetchedAt": "2026-07-18T19:17:14Z"
 }
