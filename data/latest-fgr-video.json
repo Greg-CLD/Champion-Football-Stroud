@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "22.07.26 | #WeAreFGR💚",
-    "videoId": "EWMNO5MiCig",
-    "publishedAt": "2026-07-17T11:00:37+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=EWMNO5MiCig",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/EWMNO5MiCig",
-    "thumbnailUrl": "https://i.ytimg.com/vi/EWMNO5MiCig/hqdefault.jpg",
+    "title": "Robbie Savage post Merthyr Town",
+    "videoId": "OR2OhGVENEs",
+    "publishedAt": "2026-07-18T17:00:16+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=OR2OhGVENEs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/OR2OhGVENEs",
+    "thumbnailUrl": "https://i.ytimg.com/vi/OR2OhGVENEs/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage post Merthyr Town",
+      "videoId": "OR2OhGVENEs",
+      "publishedAt": "2026-07-18T17:00:16+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=OR2OhGVENEs",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/OR2OhGVENEs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OR2OhGVENEs/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "22.07.26 | #WeAreFGR💚",
       "videoId": "EWMNO5MiCig",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Robbie Savage On Fixtures, GK's & Mendy",
-      "videoId": "lIbNl8A3kUo",
-      "publishedAt": "2026-07-10T13:21:24+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=lIbNl8A3kUo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/lIbNl8A3kUo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lIbNl8A3kUo/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "🗣️ Gaffer on fixture release day. Full interview live now.",
       "videoId": "00JA06JQx78",
       "publishedAt": "2026-07-10T13:34:19+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-07-18T16:31:18Z"
+  "fetchedAt": "2026-07-18T17:58:33Z"
 }
