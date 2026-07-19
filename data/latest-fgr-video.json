@@ -19,6 +19,15 @@
       "score": 3
     },
     {
+      "title": "Ethan Ross |  First Word",
+      "videoId": "Neu_z7ySCYQ",
+      "publishedAt": "2026-07-19T18:00:27+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Neu_z7ySCYQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Neu_z7ySCYQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Neu_z7ySCYQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
       "title": "Robbie Savage post Merthyr Town",
       "videoId": "OR2OhGVENEs",
       "publishedAt": "2026-07-18T17:00:16+00:00",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/1hMgGEQyvo0",
       "thumbnailUrl": "https://i.ytimg.com/vi/1hMgGEQyvo0/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage on Slimbridge Friendly",
-      "videoId": "r6RySeq6YoI",
-      "publishedAt": "2026-07-11T15:30:03+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=r6RySeq6YoI",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/r6RySeq6YoI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r6RySeq6YoI/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-19T17:02:55Z"
+  "fetchedAt": "2026-07-19T18:28:49Z"
 }
