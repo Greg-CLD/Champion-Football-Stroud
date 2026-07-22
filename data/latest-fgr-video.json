@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "🗣️ Retail Mike has an important message for you! #WeAreFGR💚",
-    "videoId": "MwAnrJYk1yo",
-    "publishedAt": "2026-07-22T08:30:06+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=MwAnrJYk1yo",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/MwAnrJYk1yo",
-    "thumbnailUrl": "https://i.ytimg.com/vi/MwAnrJYk1yo/hqdefault.jpg",
+    "title": "Robbie Savage Transfer Update",
+    "videoId": "z8uInE82ms4",
+    "publishedAt": "2026-07-22T18:05:16+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=z8uInE82ms4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/z8uInE82ms4",
+    "thumbnailUrl": "https://i.ytimg.com/vi/z8uInE82ms4/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage Transfer Update",
+      "videoId": "z8uInE82ms4",
+      "publishedAt": "2026-07-22T18:05:16+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=z8uInE82ms4",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/z8uInE82ms4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z8uInE82ms4/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "🗣️ Retail Mike has an important message for you! #WeAreFGR💚",
       "videoId": "MwAnrJYk1yo",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/58zTBTjbeMA",
       "thumbnailUrl": "https://i.ytimg.com/vi/58zTBTjbeMA/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage on pre-season. Full interview live now. #WeAreFGR💚",
-      "videoId": "E6fK-YVe7r0",
-      "publishedAt": "2026-07-20T13:15:22+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=E6fK-YVe7r0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/E6fK-YVe7r0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E6fK-YVe7r0/hqdefault.jpg",
-      "score": -10
     }
   ],
-  "fetchedAt": "2026-07-22T16:56:46Z"
+  "fetchedAt": "2026-07-22T18:15:25Z"
 }
