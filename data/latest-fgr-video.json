@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Transfer Update",
-    "videoId": "z8uInE82ms4",
-    "publishedAt": "2026-07-22T18:05:16+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=z8uInE82ms4",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/z8uInE82ms4",
-    "thumbnailUrl": "https://i.ytimg.com/vi/z8uInE82ms4/hqdefault.jpg",
+    "title": "BTS - Louie's reaction seeing the new away kit for the first time. #WeAreFGR💚",
+    "videoId": "5qGRCI79Pww",
+    "publishedAt": "2026-07-23T08:00:05+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=5qGRCI79Pww",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5qGRCI79Pww",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5qGRCI79Pww/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "BTS - Louie's reaction seeing the new away kit for the first time. #WeAreFGR💚",
+      "videoId": "5qGRCI79Pww",
+      "publishedAt": "2026-07-23T08:00:05+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=5qGRCI79Pww",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/5qGRCI79Pww",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5qGRCI79Pww/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Transfer Update",
       "videoId": "z8uInE82ms4",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/Lp-3EQqO9KU",
       "thumbnailUrl": "https://i.ytimg.com/vi/Lp-3EQqO9KU/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "👀 Tomorrow. 9am. #WeAreFGR💚",
-      "videoId": "58zTBTjbeMA",
-      "publishedAt": "2026-07-21T11:00:34+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=58zTBTjbeMA",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/58zTBTjbeMA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/58zTBTjbeMA/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-23T03:54:56Z"
+  "fetchedAt": "2026-07-23T09:27:01Z"
 }
