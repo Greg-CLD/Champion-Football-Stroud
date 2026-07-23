@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "BTS - Louie's reaction seeing the new away kit for the first time. #WeAreFGR💚",
-    "videoId": "5qGRCI79Pww",
-    "publishedAt": "2026-07-23T08:00:05+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=5qGRCI79Pww",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/5qGRCI79Pww",
-    "thumbnailUrl": "https://i.ytimg.com/vi/5qGRCI79Pww/hqdefault.jpg",
+    "title": "Approval from the lads ✅ #WeAreFGR💚",
+    "videoId": "1TdmXFqhlzE",
+    "publishedAt": "2026-07-23T15:52:44+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=1TdmXFqhlzE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1TdmXFqhlzE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/1TdmXFqhlzE/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Approval from the lads ✅ #WeAreFGR💚",
+      "videoId": "1TdmXFqhlzE",
+      "publishedAt": "2026-07-23T15:52:44+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=1TdmXFqhlzE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1TdmXFqhlzE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1TdmXFqhlzE/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "BTS - Louie's reaction seeing the new away kit for the first time. #WeAreFGR💚",
       "videoId": "5qGRCI79Pww",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/pwsOGAAKVxU",
       "thumbnailUrl": "https://i.ytimg.com/vi/pwsOGAAKVxU/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage post-match | Bristol Rovers (H)",
-      "videoId": "Lp-3EQqO9KU",
-      "publishedAt": "2026-07-21T21:12:13+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=Lp-3EQqO9KU",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Lp-3EQqO9KU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Lp-3EQqO9KU/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-23T15:32:06Z"
+  "fetchedAt": "2026-07-23T17:34:28Z"
 }
