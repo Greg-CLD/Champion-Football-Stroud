@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "📸 BTS New Away Kit Photo Shoot. #WeAreFGR💚",
-    "videoId": "58VNSEzFiOM",
-    "publishedAt": "2026-07-24T12:00:17+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=58VNSEzFiOM",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/58VNSEzFiOM",
-    "thumbnailUrl": "https://i.ytimg.com/vi/58VNSEzFiOM/hqdefault.jpg",
+    "title": "Robbie Savage on Mendy signing for Hearts. #WeAreFGR💚",
+    "videoId": "gYEaI71zyWA",
+    "publishedAt": "2026-07-24T15:34:46+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=gYEaI71zyWA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/gYEaI71zyWA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/gYEaI71zyWA/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage on Mendy signing for Hearts. #WeAreFGR💚",
+      "videoId": "gYEaI71zyWA",
+      "publishedAt": "2026-07-24T15:34:46+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=gYEaI71zyWA",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/gYEaI71zyWA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gYEaI71zyWA/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "The Gaffer On Mendy Transfer",
+      "videoId": "uPS_LR6kmvY",
+      "publishedAt": "2026-07-24T15:25:07+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=uPS_LR6kmvY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/uPS_LR6kmvY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uPS_LR6kmvY/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "📸 BTS New Away Kit Photo Shoot. #WeAreFGR💚",
       "videoId": "58VNSEzFiOM",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/5qGRCI79Pww",
       "thumbnailUrl": "https://i.ytimg.com/vi/5qGRCI79Pww/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage Transfer Update",
-      "videoId": "z8uInE82ms4",
-      "publishedAt": "2026-07-22T18:05:16+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=z8uInE82ms4",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/z8uInE82ms4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z8uInE82ms4/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "🗣️ Retail Mike has an important message for you! #WeAreFGR💚",
-      "videoId": "MwAnrJYk1yo",
-      "publishedAt": "2026-07-22T08:30:06+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=MwAnrJYk1yo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/MwAnrJYk1yo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MwAnrJYk1yo/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-24T14:20:36Z"
+  "fetchedAt": "2026-07-24T15:55:11Z"
 }
