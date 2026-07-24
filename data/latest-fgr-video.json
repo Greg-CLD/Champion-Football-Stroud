@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage on Mendy signing for Hearts. #WeAreFGR💚",
-    "videoId": "gYEaI71zyWA",
-    "publishedAt": "2026-07-24T15:34:46+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=gYEaI71zyWA",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/gYEaI71zyWA",
-    "thumbnailUrl": "https://i.ytimg.com/vi/gYEaI71zyWA/hqdefault.jpg",
+    "title": "Building together as one 💪 | #WeAreFGR💚",
+    "videoId": "Zi-jOziMKLE",
+    "publishedAt": "2026-07-24T18:00:08+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=Zi-jOziMKLE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Zi-jOziMKLE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Zi-jOziMKLE/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Building together as one 💪 | #WeAreFGR💚",
+      "videoId": "Zi-jOziMKLE",
+      "publishedAt": "2026-07-24T18:00:08+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Zi-jOziMKLE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Zi-jOziMKLE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zi-jOziMKLE/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage on Mendy signing for Hearts. #WeAreFGR💚",
       "videoId": "gYEaI71zyWA",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/1TdmXFqhlzE",
       "thumbnailUrl": "https://i.ytimg.com/vi/1TdmXFqhlzE/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "BTS - Louie's reaction seeing the new away kit for the first time. #WeAreFGR💚",
-      "videoId": "5qGRCI79Pww",
-      "publishedAt": "2026-07-23T08:00:05+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=5qGRCI79Pww",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/5qGRCI79Pww",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5qGRCI79Pww/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-24T17:41:42Z"
+  "fetchedAt": "2026-07-24T19:35:55Z"
 }
