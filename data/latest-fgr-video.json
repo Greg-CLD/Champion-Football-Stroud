@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage post-match | Cardiff City (H)",
-    "videoId": "FVbK0GZNf9w",
-    "publishedAt": "2026-07-25T16:47:35+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=FVbK0GZNf9w",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/FVbK0GZNf9w",
-    "thumbnailUrl": "https://i.ytimg.com/vi/FVbK0GZNf9w/hqdefault.jpg",
+    "title": "⚽ | Kyle Kelly's debut goal from pitchside, brought to you by @backmarketusa #WeAreFGR💚",
+    "videoId": "k5te82hy-G0",
+    "publishedAt": "2026-07-25T18:19:57+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=k5te82hy-G0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/k5te82hy-G0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/k5te82hy-G0/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "⚽ | Kyle Kelly's debut goal from pitchside, brought to you by @backmarketusa #WeAreFGR💚",
+      "videoId": "k5te82hy-G0",
+      "publishedAt": "2026-07-25T18:19:57+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=k5te82hy-G0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/k5te82hy-G0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k5te82hy-G0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Kyle Kelly post-match | Cardiff City (H)",
+      "videoId": "wGqliA5wj2o",
+      "publishedAt": "2026-07-25T17:12:18+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=wGqliA5wj2o",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wGqliA5wj2o",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wGqliA5wj2o/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage post-match | Cardiff City (H)",
       "videoId": "FVbK0GZNf9w",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/gYEaI71zyWA",
       "thumbnailUrl": "https://i.ytimg.com/vi/gYEaI71zyWA/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "The Gaffer On Mendy Transfer",
-      "videoId": "uPS_LR6kmvY",
-      "publishedAt": "2026-07-24T15:25:07+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=uPS_LR6kmvY",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/uPS_LR6kmvY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uPS_LR6kmvY/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "📸 BTS New Away Kit Photo Shoot. #WeAreFGR💚",
-      "videoId": "58VNSEzFiOM",
-      "publishedAt": "2026-07-24T12:00:17+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=58VNSEzFiOM",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/58VNSEzFiOM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/58VNSEzFiOM/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-25T17:04:08Z"
+  "fetchedAt": "2026-07-25T18:27:35Z"
 }
