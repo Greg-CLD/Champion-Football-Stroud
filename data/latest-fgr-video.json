@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Building together as one 💪 | #WeAreFGR💚",
-    "videoId": "Zi-jOziMKLE",
-    "publishedAt": "2026-07-24T18:00:08+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=Zi-jOziMKLE",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/Zi-jOziMKLE",
-    "thumbnailUrl": "https://i.ytimg.com/vi/Zi-jOziMKLE/hqdefault.jpg",
+    "title": "Robbie Savage post-match | Cardiff City (H)",
+    "videoId": "FVbK0GZNf9w",
+    "publishedAt": "2026-07-25T16:47:35+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=FVbK0GZNf9w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/FVbK0GZNf9w",
+    "thumbnailUrl": "https://i.ytimg.com/vi/FVbK0GZNf9w/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage post-match | Cardiff City (H)",
+      "videoId": "FVbK0GZNf9w",
+      "publishedAt": "2026-07-25T16:47:35+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=FVbK0GZNf9w",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FVbK0GZNf9w",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FVbK0GZNf9w/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Building together as one 💪 | #WeAreFGR💚",
       "videoId": "Zi-jOziMKLE",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/58VNSEzFiOM",
       "thumbnailUrl": "https://i.ytimg.com/vi/58VNSEzFiOM/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Approval from the lads ✅ #WeAreFGR💚",
-      "videoId": "1TdmXFqhlzE",
-      "publishedAt": "2026-07-23T15:52:44+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=1TdmXFqhlzE",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1TdmXFqhlzE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1TdmXFqhlzE/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-25T15:41:41Z"
+  "fetchedAt": "2026-07-25T17:04:08Z"
 }
