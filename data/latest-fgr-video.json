@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "⚽ | Kyle Kelly's debut goal from pitchside, brought to you by @backmarketusa #WeAreFGR💚",
-    "videoId": "k5te82hy-G0",
-    "publishedAt": "2026-07-25T18:19:57+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=k5te82hy-G0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/k5te82hy-G0",
-    "thumbnailUrl": "https://i.ytimg.com/vi/k5te82hy-G0/hqdefault.jpg",
+    "title": "Kyle Kelly | First Word",
+    "videoId": "w2BVbZDkoQY",
+    "publishedAt": "2026-07-28T11:45:07+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=w2BVbZDkoQY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/w2BVbZDkoQY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/w2BVbZDkoQY/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Kyle Kelly | First Word",
+      "videoId": "w2BVbZDkoQY",
+      "publishedAt": "2026-07-28T11:45:07+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=w2BVbZDkoQY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/w2BVbZDkoQY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w2BVbZDkoQY/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "⚽ | Kyle Kelly's debut goal from pitchside, brought to you by @backmarketusa #WeAreFGR💚",
       "videoId": "k5te82hy-G0",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/Zi-jOziMKLE",
       "thumbnailUrl": "https://i.ytimg.com/vi/Zi-jOziMKLE/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage on Mendy signing for Hearts. #WeAreFGR💚",
-      "videoId": "gYEaI71zyWA",
-      "publishedAt": "2026-07-24T15:34:46+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=gYEaI71zyWA",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/gYEaI71zyWA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gYEaI71zyWA/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-28T11:22:02Z"
+  "fetchedAt": "2026-07-28T13:10:37Z"
 }
