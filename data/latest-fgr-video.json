@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Post-Match | Bristol City (H)",
-    "videoId": "u-TNNo7N240",
-    "publishedAt": "2026-07-29T21:12:23+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=u-TNNo7N240",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/u-TNNo7N240",
-    "thumbnailUrl": "https://i.ytimg.com/vi/u-TNNo7N240/hqdefault.jpg",
+    "title": "🙄 All we wanted to do was promote the upcoming FGR Holiday Camps....",
+    "videoId": "E8MP_SXDBjM",
+    "publishedAt": "2026-07-30T10:00:38+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=E8MP_SXDBjM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/E8MP_SXDBjM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/E8MP_SXDBjM/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "🙄 All we wanted to do was promote the upcoming FGR Holiday Camps....",
+      "videoId": "E8MP_SXDBjM",
+      "publishedAt": "2026-07-30T10:00:38+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=E8MP_SXDBjM",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/E8MP_SXDBjM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E8MP_SXDBjM/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Post-Match | Bristol City (H)",
       "videoId": "u-TNNo7N240",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/k5te82hy-G0",
       "thumbnailUrl": "https://i.ytimg.com/vi/k5te82hy-G0/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Kyle Kelly post-match | Cardiff City (H)",
-      "videoId": "wGqliA5wj2o",
-      "publishedAt": "2026-07-25T17:12:18+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=wGqliA5wj2o",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/wGqliA5wj2o",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wGqliA5wj2o/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-30T08:34:52Z"
+  "fetchedAt": "2026-07-30T11:11:34Z"
 }
