@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "🙄 All we wanted to do was promote the upcoming FGR Holiday Camps....",
-    "videoId": "E8MP_SXDBjM",
-    "publishedAt": "2026-07-30T10:00:38+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=E8MP_SXDBjM",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/E8MP_SXDBjM",
-    "thumbnailUrl": "https://i.ytimg.com/vi/E8MP_SXDBjM/hqdefault.jpg",
+    "title": "D'mani at the double with a classy finish! Captured on a Back Market refurbished device. #WeAreFGR💚",
+    "videoId": "FateFFvJAic",
+    "publishedAt": "2026-07-30T12:00:02+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=FateFFvJAic",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/FateFFvJAic",
+    "thumbnailUrl": "https://i.ytimg.com/vi/FateFFvJAic/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "D'mani at the double with a classy finish! Captured on a Back Market refurbished device. #WeAreFGR💚",
+      "videoId": "FateFFvJAic",
+      "publishedAt": "2026-07-30T12:00:02+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=FateFFvJAic",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FateFFvJAic",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FateFFvJAic/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "🙄 All we wanted to do was promote the upcoming FGR Holiday Camps....",
       "videoId": "E8MP_SXDBjM",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/w2BVbZDkoQY",
       "thumbnailUrl": "https://i.ytimg.com/vi/w2BVbZDkoQY/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "⚽ | Kyle Kelly's debut goal from pitchside, brought to you by @backmarketusa #WeAreFGR💚",
-      "videoId": "k5te82hy-G0",
-      "publishedAt": "2026-07-25T18:19:57+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=k5te82hy-G0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/k5te82hy-G0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k5te82hy-G0/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-07-30T11:11:34Z"
+  "fetchedAt": "2026-07-30T13:07:43Z"
 }
