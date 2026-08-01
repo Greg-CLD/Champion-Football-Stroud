@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "𝐖𝐡𝐚𝐭 𝐚𝐝𝐯𝐢𝐜𝐞 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐠𝐢𝐯𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐲𝐨𝐮𝐧𝐠𝐞𝐫 𝐬𝐞𝐥𝐟? 👴👵#WeAreFGR💚",
-    "videoId": "3DA10yXSbVA",
-    "publishedAt": "2026-07-30T17:00:20+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=3DA10yXSbVA",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/3DA10yXSbVA",
-    "thumbnailUrl": "https://i.ytimg.com/vi/3DA10yXSbVA/hqdefault.jpg",
+    "title": "Robbie Savage Post-Match | Swindon Town (H)",
+    "videoId": "hnl33EeRkqk",
+    "publishedAt": "2026-08-01T16:57:25+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=hnl33EeRkqk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hnl33EeRkqk",
+    "thumbnailUrl": "https://i.ytimg.com/vi/hnl33EeRkqk/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage Post-Match | Swindon Town (H)",
+      "videoId": "hnl33EeRkqk",
+      "publishedAt": "2026-08-01T16:57:25+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=hnl33EeRkqk",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hnl33EeRkqk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hnl33EeRkqk/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "𝐖𝐡𝐚𝐭 𝐚𝐝𝐯𝐢𝐜𝐞 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐠𝐢𝐯𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐲𝐨𝐮𝐧𝐠𝐞𝐫 𝐬𝐞𝐥𝐟? 👴👵#WeAreFGR💚",
       "videoId": "3DA10yXSbVA",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/u-TNNo7N240",
       "thumbnailUrl": "https://i.ytimg.com/vi/u-TNNo7N240/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Emeka Obi post-match | Bristol City (H)",
-      "videoId": "1dY3bZDwfXU",
-      "publishedAt": "2026-07-29T21:07:31+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=1dY3bZDwfXU",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1dY3bZDwfXU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1dY3bZDwfXU/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-01T16:03:50Z"
+  "fetchedAt": "2026-08-01T17:32:08Z"
 }
