@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Post-Match | Swindon Town (H)",
-    "videoId": "hnl33EeRkqk",
-    "publishedAt": "2026-08-01T16:57:25+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=hnl33EeRkqk",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/hnl33EeRkqk",
-    "thumbnailUrl": "https://i.ytimg.com/vi/hnl33EeRkqk/hqdefault.jpg",
+    "title": "Rees' goal from pitchside: 🤳Captured on a BackMarket refurbished device. #WeAreFGR💚",
+    "videoId": "GOlkMPwWx1A",
+    "publishedAt": "2026-08-02T08:00:24+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=GOlkMPwWx1A",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/GOlkMPwWx1A",
+    "thumbnailUrl": "https://i.ytimg.com/vi/GOlkMPwWx1A/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Rees' goal from pitchside: 🤳Captured on a BackMarket refurbished device. #WeAreFGR💚",
+      "videoId": "GOlkMPwWx1A",
+      "publishedAt": "2026-08-02T08:00:24+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=GOlkMPwWx1A",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GOlkMPwWx1A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOlkMPwWx1A/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Post-Match | Swindon Town (H)",
       "videoId": "hnl33EeRkqk",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/E8MP_SXDBjM",
       "thumbnailUrl": "https://i.ytimg.com/vi/E8MP_SXDBjM/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage Post-Match | Bristol City (H)",
-      "videoId": "u-TNNo7N240",
-      "publishedAt": "2026-07-29T21:12:23+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=u-TNNo7N240",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/u-TNNo7N240",
-      "thumbnailUrl": "https://i.ytimg.com/vi/u-TNNo7N240/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-02T06:18:38Z"
+  "fetchedAt": "2026-08-02T08:55:37Z"
 }
