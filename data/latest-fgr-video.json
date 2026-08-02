@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Rees' goal from pitchside: 🤳Captured on a BackMarket refurbished device. #WeAreFGR💚",
-    "videoId": "GOlkMPwWx1A",
-    "publishedAt": "2026-08-02T08:00:24+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=GOlkMPwWx1A",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/GOlkMPwWx1A",
-    "thumbnailUrl": "https://i.ytimg.com/vi/GOlkMPwWx1A/hqdefault.jpg",
+    "title": "This finish deserved a closer look.... #WeAreFGR💚",
+    "videoId": "8s-sCa5lRWg",
+    "publishedAt": "2026-08-02T10:15:39+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=8s-sCa5lRWg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/8s-sCa5lRWg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8s-sCa5lRWg/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "This finish deserved a closer look.... #WeAreFGR💚",
+      "videoId": "8s-sCa5lRWg",
+      "publishedAt": "2026-08-02T10:15:39+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=8s-sCa5lRWg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/8s-sCa5lRWg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8s-sCa5lRWg/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Rees' goal from pitchside: 🤳Captured on a BackMarket refurbished device. #WeAreFGR💚",
       "videoId": "GOlkMPwWx1A",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/FateFFvJAic",
       "thumbnailUrl": "https://i.ytimg.com/vi/FateFFvJAic/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "🙄 All we wanted to do was promote the upcoming FGR Holiday Camps....",
-      "videoId": "E8MP_SXDBjM",
-      "publishedAt": "2026-07-30T10:00:38+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=E8MP_SXDBjM",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/E8MP_SXDBjM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E8MP_SXDBjM/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-02T08:55:37Z"
+  "fetchedAt": "2026-08-02T10:44:09Z"
 }
