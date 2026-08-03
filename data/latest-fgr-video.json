@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "This finish deserved a closer look.... #WeAreFGR💚",
-    "videoId": "8s-sCa5lRWg",
-    "publishedAt": "2026-08-02T10:15:39+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=8s-sCa5lRWg",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/8s-sCa5lRWg",
-    "thumbnailUrl": "https://i.ytimg.com/vi/8s-sCa5lRWg/hqdefault.jpg",
+    "title": "🎥 Debs x Leo Di Caprio #WeAreFGR💚",
+    "videoId": "AXtEMJ2Q9yI",
+    "publishedAt": "2026-08-03T16:04:39+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=AXtEMJ2Q9yI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/AXtEMJ2Q9yI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/AXtEMJ2Q9yI/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "🎥 Debs x Leo Di Caprio #WeAreFGR💚",
+      "videoId": "AXtEMJ2Q9yI",
+      "publishedAt": "2026-08-03T16:04:39+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=AXtEMJ2Q9yI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/AXtEMJ2Q9yI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AXtEMJ2Q9yI/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "This finish deserved a closer look.... #WeAreFGR💚",
       "videoId": "8s-sCa5lRWg",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/3DA10yXSbVA",
       "thumbnailUrl": "https://i.ytimg.com/vi/3DA10yXSbVA/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "D'mani at the double with a classy finish! Captured on a Back Market refurbished device. #WeAreFGR💚",
-      "videoId": "FateFFvJAic",
-      "publishedAt": "2026-07-30T12:00:02+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=FateFFvJAic",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/FateFFvJAic",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FateFFvJAic/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-03T13:43:26Z"
+  "fetchedAt": "2026-08-03T16:29:13Z"
 }
