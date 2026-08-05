@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "🎥 Debs x Leo Di Caprio #WeAreFGR💚",
-    "videoId": "AXtEMJ2Q9yI",
-    "publishedAt": "2026-08-03T16:04:39+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=AXtEMJ2Q9yI",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/AXtEMJ2Q9yI",
-    "thumbnailUrl": "https://i.ytimg.com/vi/AXtEMJ2Q9yI/hqdefault.jpg",
+    "title": "Yesterday was a great day for some of the young FGR fans. #WeAreFGR💚",
+    "videoId": "1zFPykbOyls",
+    "publishedAt": "2026-08-05T14:30:17+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=1zFPykbOyls",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1zFPykbOyls",
+    "thumbnailUrl": "https://i.ytimg.com/vi/1zFPykbOyls/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Yesterday was a great day for some of the young FGR fans. #WeAreFGR💚",
+      "videoId": "1zFPykbOyls",
+      "publishedAt": "2026-08-05T14:30:17+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=1zFPykbOyls",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1zFPykbOyls",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1zFPykbOyls/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "🎥 Debs x Leo Di Caprio #WeAreFGR💚",
       "videoId": "AXtEMJ2Q9yI",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/hnl33EeRkqk",
       "thumbnailUrl": "https://i.ytimg.com/vi/hnl33EeRkqk/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "𝐖𝐡𝐚𝐭 𝐚𝐝𝐯𝐢𝐜𝐞 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐠𝐢𝐯𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐲𝐨𝐮𝐧𝐠𝐞𝐫 𝐬𝐞𝐥𝐟? 👴👵#WeAreFGR💚",
-      "videoId": "3DA10yXSbVA",
-      "publishedAt": "2026-07-30T17:00:20+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=3DA10yXSbVA",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/3DA10yXSbVA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3DA10yXSbVA/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-05T12:01:32Z"
+  "fetchedAt": "2026-08-05T14:55:49Z"
 }
