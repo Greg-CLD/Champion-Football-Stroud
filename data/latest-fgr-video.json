@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Yesterday was a great day for some of the young FGR fans. #WeAreFGR💚",
-    "videoId": "1zFPykbOyls",
-    "publishedAt": "2026-08-05T14:30:17+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=1zFPykbOyls",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/1zFPykbOyls",
-    "thumbnailUrl": "https://i.ytimg.com/vi/1zFPykbOyls/hqdefault.jpg",
+    "title": "Robbie Savage Pre-Match | Halifax Town (H)",
+    "videoId": "bm__TN711ak",
+    "publishedAt": "2026-08-06T12:09:06+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=bm__TN711ak",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bm__TN711ak",
+    "thumbnailUrl": "https://i.ytimg.com/vi/bm__TN711ak/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage Pre-Match | Halifax Town (H)",
+      "videoId": "bm__TN711ak",
+      "publishedAt": "2026-08-06T12:09:06+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=bm__TN711ak",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bm__TN711ak",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bm__TN711ak/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Yesterday was a great day for some of the young FGR fans. #WeAreFGR💚",
       "videoId": "1zFPykbOyls",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/GOlkMPwWx1A",
       "thumbnailUrl": "https://i.ytimg.com/vi/GOlkMPwWx1A/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage Post-Match | Swindon Town (H)",
-      "videoId": "hnl33EeRkqk",
-      "publishedAt": "2026-08-01T16:57:25+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=hnl33EeRkqk",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/hnl33EeRkqk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hnl33EeRkqk/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-06T10:09:54Z"
+  "fetchedAt": "2026-08-06T12:26:29Z"
 }
