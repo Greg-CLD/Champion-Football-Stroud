@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Kyle McAllister Pre-Match | Halifax Town (H)",
-    "videoId": "qwwXo0olSRY",
-    "publishedAt": "2026-08-06T14:19:40+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=qwwXo0olSRY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/qwwXo0olSRY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/qwwXo0olSRY/hqdefault.jpg",
+    "title": "Retail Mike is back!!",
+    "videoId": "EAeCSX7DvEY",
+    "publishedAt": "2026-08-08T16:30:13+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=EAeCSX7DvEY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/EAeCSX7DvEY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EAeCSX7DvEY/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Retail Mike is back!!",
+      "videoId": "EAeCSX7DvEY",
+      "publishedAt": "2026-08-08T16:30:13+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=EAeCSX7DvEY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EAeCSX7DvEY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EAeCSX7DvEY/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Kyle McAllister Pre-Match | Halifax Town (H)",
       "videoId": "qwwXo0olSRY",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/AXtEMJ2Q9yI",
       "thumbnailUrl": "https://i.ytimg.com/vi/AXtEMJ2Q9yI/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "This finish deserved a closer look.... #WeAreFGR💚",
-      "videoId": "8s-sCa5lRWg",
-      "publishedAt": "2026-08-02T10:15:39+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=8s-sCa5lRWg",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8s-sCa5lRWg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8s-sCa5lRWg/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-08T15:34:23Z"
+  "fetchedAt": "2026-08-08T16:38:55Z"
 }
