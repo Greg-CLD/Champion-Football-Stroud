@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Retail Mike is back!!",
-    "videoId": "EAeCSX7DvEY",
-    "publishedAt": "2026-08-08T16:30:13+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=EAeCSX7DvEY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/EAeCSX7DvEY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/EAeCSX7DvEY/hqdefault.jpg",
+    "title": "Robbie Savage Post-Match | Halifax Town (H)",
+    "videoId": "Y0RLxBpbP98",
+    "publishedAt": "2026-08-08T17:19:34+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=Y0RLxBpbP98",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Y0RLxBpbP98",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Y0RLxBpbP98/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Robbie Savage Post-Match | Halifax Town (H)",
+      "videoId": "Y0RLxBpbP98",
+      "publishedAt": "2026-08-08T17:19:34+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Y0RLxBpbP98",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Y0RLxBpbP98",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y0RLxBpbP98/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Retail Mike is back!!",
       "videoId": "EAeCSX7DvEY",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/1zFPykbOyls",
       "thumbnailUrl": "https://i.ytimg.com/vi/1zFPykbOyls/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "🎥 Debs x Leo Di Caprio #WeAreFGR💚",
-      "videoId": "AXtEMJ2Q9yI",
-      "publishedAt": "2026-08-03T16:04:39+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=AXtEMJ2Q9yI",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/AXtEMJ2Q9yI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AXtEMJ2Q9yI/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-08T16:38:55Z"
+  "fetchedAt": "2026-08-08T17:34:38Z"
 }
