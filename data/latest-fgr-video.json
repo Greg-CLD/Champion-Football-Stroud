@@ -1,6 +1,6 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | Forest Green Rovers 3-1 Halifax Town",
+    "title": "Match Highlights | Forest Green Rovers 3-2 Halifax Town",
     "videoId": "5GzYKNCjgSU",
     "publishedAt": "2026-08-08T20:00:03+00:00",
     "watchUrl": "https://www.youtube.com/watch?v=5GzYKNCjgSU",
@@ -10,7 +10,7 @@
   },
   "videos": [
     {
-      "title": "Match Highlights | Forest Green Rovers 3-1 Halifax Town",
+      "title": "Match Highlights | Forest Green Rovers 3-2 Halifax Town",
       "videoId": "5GzYKNCjgSU",
       "publishedAt": "2026-08-08T20:00:03+00:00",
       "watchUrl": "https://www.youtube.com/watch?v=5GzYKNCjgSU",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-08T20:34:58Z"
+  "fetchedAt": "2026-08-08T21:34:21Z"
 }
