@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Post-Match | Halifax Town (H)",
-    "videoId": "Y0RLxBpbP98",
-    "publishedAt": "2026-08-08T17:19:34+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=Y0RLxBpbP98",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/Y0RLxBpbP98",
-    "thumbnailUrl": "https://i.ytimg.com/vi/Y0RLxBpbP98/hqdefault.jpg",
+    "title": "Fil Mabete Post-Match | Halifax Town (H)",
+    "videoId": "vBj1UzxATl8",
+    "publishedAt": "2026-08-08T18:00:09+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=vBj1UzxATl8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vBj1UzxATl8",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vBj1UzxATl8/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Fil Mabete Post-Match | Halifax Town (H)",
+      "videoId": "vBj1UzxATl8",
+      "publishedAt": "2026-08-08T18:00:09+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=vBj1UzxATl8",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vBj1UzxATl8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vBj1UzxATl8/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Post-Match | Halifax Town (H)",
       "videoId": "Y0RLxBpbP98",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/bm__TN711ak",
       "thumbnailUrl": "https://i.ytimg.com/vi/bm__TN711ak/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Yesterday was a great day for some of the young FGR fans. #WeAreFGR💚",
-      "videoId": "1zFPykbOyls",
-      "publishedAt": "2026-08-05T14:30:17+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=1zFPykbOyls",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1zFPykbOyls",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1zFPykbOyls/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-08T17:34:38Z"
+  "fetchedAt": "2026-08-08T18:43:45Z"
 }
