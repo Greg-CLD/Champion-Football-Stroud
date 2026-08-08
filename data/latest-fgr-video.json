@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Fil Mabete Post-Match | Halifax Town (H)",
-    "videoId": "vBj1UzxATl8",
-    "publishedAt": "2026-08-08T18:00:09+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=vBj1UzxATl8",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/vBj1UzxATl8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/vBj1UzxATl8/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | Forest Green Rovers 3-1 Halifax Town",
+    "videoId": "5GzYKNCjgSU",
+    "publishedAt": "2026-08-08T20:00:03+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=5GzYKNCjgSU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5GzYKNCjgSU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5GzYKNCjgSU/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | Forest Green Rovers 3-1 Halifax Town",
+      "videoId": "5GzYKNCjgSU",
+      "publishedAt": "2026-08-08T20:00:03+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=5GzYKNCjgSU",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/5GzYKNCjgSU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5GzYKNCjgSU/hqdefault.jpg",
+      "score": 25
+    },
     {
       "title": "Fil Mabete Post-Match | Halifax Town (H)",
       "videoId": "vBj1UzxATl8",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/qwwXo0olSRY",
       "thumbnailUrl": "https://i.ytimg.com/vi/qwwXo0olSRY/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage Pre-Match | Halifax Town (H)",
-      "videoId": "bm__TN711ak",
-      "publishedAt": "2026-08-06T12:09:06+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=bm__TN711ak",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/bm__TN711ak",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bm__TN711ak/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-08T19:33:45Z"
+  "fetchedAt": "2026-08-08T20:34:58Z"
 }
