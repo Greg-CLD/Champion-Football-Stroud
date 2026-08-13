@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Pre-Match | Worthing (A)",
-    "videoId": "2iA9KbyN7jU",
-    "publishedAt": "2026-08-13T11:55:27+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=2iA9KbyN7jU",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/2iA9KbyN7jU",
-    "thumbnailUrl": "https://i.ytimg.com/vi/2iA9KbyN7jU/hqdefault.jpg",
+    "title": "Sean Etaluku Pre-Match | Worthing (A)",
+    "videoId": "cMdPpHHTH5c",
+    "publishedAt": "2026-08-13T14:45:34+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=cMdPpHHTH5c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cMdPpHHTH5c",
+    "thumbnailUrl": "https://i.ytimg.com/vi/cMdPpHHTH5c/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Sean Etaluku Pre-Match | Worthing (A)",
+      "videoId": "cMdPpHHTH5c",
+      "publishedAt": "2026-08-13T14:45:34+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=cMdPpHHTH5c",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/cMdPpHHTH5c",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cMdPpHHTH5c/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Pre-Match | Worthing (A)",
       "videoId": "2iA9KbyN7jU",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/jqilufd4WY8",
       "thumbnailUrl": "https://i.ytimg.com/vi/jqilufd4WY8/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Admin with Sean’s goal yesterday 😮 #WeAreFGR💚",
-      "videoId": "zT109zEfEdo",
-      "publishedAt": "2026-08-09T13:25:17+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=zT109zEfEdo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/zT109zEfEdo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zT109zEfEdo/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-13T13:58:18Z"
+  "fetchedAt": "2026-08-13T15:06:12Z"
 }
