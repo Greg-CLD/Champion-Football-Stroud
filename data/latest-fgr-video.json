@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Post-Match | Worthing (A)",
-    "videoId": "qeOJsKPp1cw",
-    "publishedAt": "2026-08-15T18:22:58+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=qeOJsKPp1cw",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/qeOJsKPp1cw",
-    "thumbnailUrl": "https://i.ytimg.com/vi/qeOJsKPp1cw/hqdefault.jpg",
+    "title": "Josh Osude Post-Match | Worthing (A)",
+    "videoId": "WrkWH2tbJvo",
+    "publishedAt": "2026-08-15T19:09:47+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=WrkWH2tbJvo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/WrkWH2tbJvo",
+    "thumbnailUrl": "https://i.ytimg.com/vi/WrkWH2tbJvo/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Josh Osude Post-Match | Worthing (A)",
+      "videoId": "WrkWH2tbJvo",
+      "publishedAt": "2026-08-15T19:09:47+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=WrkWH2tbJvo",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WrkWH2tbJvo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WrkWH2tbJvo/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Post-Match | Worthing (A)",
       "videoId": "qeOJsKPp1cw",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/nswQykHL00I",
       "thumbnailUrl": "https://i.ytimg.com/vi/nswQykHL00I/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Early goal of the season contender?",
-      "videoId": "1TFv5JhENac",
-      "publishedAt": "2026-08-10T15:00:34+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=1TFv5JhENac",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/1TFv5JhENac",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1TFv5JhENac/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-15T18:35:37Z"
+  "fetchedAt": "2026-08-15T19:24:20Z"
 }
