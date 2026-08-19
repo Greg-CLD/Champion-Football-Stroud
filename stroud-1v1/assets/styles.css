@@ -314,9 +314,11 @@ h3 {
     padding: 13px 24px;
     border: 2px solid transparent;
     clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+    font: inherit;
     font-weight: 700;
     line-height: 1.2;
     text-decoration: none;
+    cursor: pointer;
     transition: transform 140ms ease, background-color 140ms ease, color 140ms ease;
 }
 
@@ -347,6 +349,35 @@ h3 {
 .button--dark {
     color: var(--chalk);
     background: var(--ink);
+}
+
+.button--unavailable {
+    min-width: 220px;
+    flex-direction: column;
+    gap: 2px;
+    color: var(--chalk);
+    border-color: rgba(245, 240, 228, 0.34);
+    background: rgba(245, 240, 228, 0.1);
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.button--unavailable-secondary {
+    color: rgba(245, 240, 228, 0.78);
+    background: transparent;
+}
+
+.button--unavailable small {
+    color: rgba(245, 240, 228, 0.62);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.button--unavailable:hover,
+.button--unavailable:active {
+    transform: none;
 }
 
 .timer-mark {
@@ -977,6 +1008,107 @@ h3 {
     color: var(--muted);
 }
 
+.interest-preview {
+    overflow: hidden;
+    color: var(--chalk);
+    background:
+        linear-gradient(120deg, rgba(34, 122, 67, 0.2), transparent 54%),
+        var(--ink-soft);
+}
+
+.interest-preview::after {
+    content: "1v1";
+    position: absolute;
+    right: -0.05em;
+    bottom: -0.22em;
+    color: rgba(245, 240, 228, 0.035);
+    font-family: var(--display);
+    font-size: clamp(12rem, 32vw, 31rem);
+    font-weight: 900;
+    line-height: 0.7;
+    pointer-events: none;
+}
+
+.interest-preview .shell {
+    position: relative;
+    z-index: 1;
+}
+
+.interest-preview__heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: clamp(32px, 7vw, 100px);
+    align-items: end;
+    margin-bottom: 58px;
+}
+
+.interest-preview__heading > div:first-child {
+    max-width: 850px;
+}
+
+.interest-preview__heading h2 {
+    margin-bottom: 18px;
+}
+
+.interest-preview__heading p {
+    max-width: 760px;
+    margin: 0;
+    color: rgba(245, 240, 228, 0.76);
+    font-size: 1.08rem;
+}
+
+.interest-preview__status {
+    display: grid;
+    gap: 3px;
+    padding: 16px 0 16px 22px;
+    border-left: 3px solid var(--lime);
+}
+
+.interest-preview__status strong {
+    color: var(--lime);
+    font-family: var(--display);
+    font-size: 1.65rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.interest-preview__status span {
+    max-width: 210px;
+    color: rgba(245, 240, 228, 0.68);
+    font-size: 0.88rem;
+}
+
+.interest-choices {
+    border-top: 1px solid rgba(245, 240, 228, 0.3);
+}
+
+.interest-choice {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr) auto;
+    gap: 24px;
+    align-items: center;
+    padding-block: 28px;
+    border-bottom: 1px solid rgba(245, 240, 228, 0.3);
+}
+
+.interest-choice__number {
+    color: var(--lime);
+    font-family: var(--display);
+    font-size: 1.65rem;
+    line-height: 1;
+}
+
+.interest-choice h3 {
+    margin: 0 0 7px;
+    font-size: clamp(2rem, 4vw, 3.1rem);
+}
+
+.interest-choice p {
+    max-width: 630px;
+    margin: 0;
+    color: rgba(245, 240, 228, 0.68);
+}
+
 .site-footer {
     color: var(--chalk);
     background: #08160f;
@@ -1468,7 +1600,8 @@ h3 {
     .split-layout,
     .mindset-layout,
     .decision-layout,
-    .faq-layout {
+    .faq-layout,
+    .interest-preview__heading {
         grid-template-columns: 1fr;
     }
 
@@ -1479,6 +1612,10 @@ h3 {
     .decision-layout__intro,
     .faq-layout__intro {
         position: static;
+    }
+
+    .interest-preview__status {
+        max-width: 340px;
     }
 
     .pilot-facts {
@@ -1686,6 +1823,16 @@ h3 {
         flex-direction: column;
     }
 
+    .interest-choice {
+        grid-template-columns: 48px minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .interest-choice .button {
+        grid-column: 2;
+        justify-self: start;
+    }
+
     .site-footer__status {
         text-align: left;
     }
@@ -1744,6 +1891,25 @@ h3 {
         align-items: stretch;
         flex-direction: column;
         max-width: 270px;
+    }
+
+    .interest-preview__heading {
+        margin-bottom: 42px;
+    }
+
+    .interest-choice {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .interest-choice__number,
+    .interest-choice .button {
+        grid-column: 1;
+    }
+
+    .interest-choice .button {
+        width: 100%;
+        margin-top: 8px;
     }
 
     .timer-mark {
