@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -15,7 +15,7 @@
     <meta property="og:image:height" content="630">
     <title>Stroud 1v1 — Concept Preview</title>
     <link rel="canonical" href="https://greg-cld.github.io/Champion-Football-Stroud/stroud-1v1/">
-    <link rel="stylesheet" href="assets/styles.css?v=20260819-3">
+    <link rel="stylesheet" href="assets/styles.css?v=20260819-4">
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to the main idea</a>
@@ -48,16 +48,16 @@
             <div class="hero__shade" aria-hidden="true"></div>
             <div class="shell hero__inner">
                 <div class="hero__copy">
-                    <p class="descriptor">Performance Cup concept</p>
+                    <p class="descriptor">U7/U8 one-on-one tournament concept</p>
                     <h1 id="hero-title">One ball.<br>One defender.<br><em>Ten seconds.</em></h1>
-                    <p class="hero__intro">A fast one-on-one football tournament for U7 and U8 players. Everyone attacks, defends and takes a turn in goal.</p>
+                    <p class="hero__intro">Three attacks each. Take turns attacking and defending. The player with the most goals goes through.</p>
                     <div class="hero__actions">
                         <a class="button button--primary" href="#how-it-works">See how it works</a>
                         <a class="button button--quiet" href="rules/">Read the rules</a>
                     </div>
                 </div>
 
-                <div class="timer-mark" aria-label="Each attack lasts ten seconds">
+                <div class="timer-mark">
                     <svg viewBox="0 0 160 160" aria-hidden="true" focusable="false">
                         <circle class="timer-mark__track" cx="80" cy="80" r="67"></circle>
                         <circle class="timer-mark__run" cx="80" cy="80" r="67"></circle>
@@ -93,64 +93,70 @@
                     </li>
                     <li>
                         <span class="duel-steps__number">4</span>
-                        <div><strong>Rotate</strong><span>Score the point, move roles and go again.</span></div>
+                        <div><strong>Switch</strong><span>The other player attacks next.</span></div>
                     </li>
                 </ol>
+                <p class="working-rule-note"><strong>Working start:</strong> The one-two pass and ten-second limit are still to be confirmed through rehearsal.</p>
             </div>
         </section>
 
-        <section class="section section--field" aria-labelledby="stay-title">
+        <section class="section section--field" id="match-format" aria-labelledby="match-title">
             <div class="shell split-layout">
                 <div class="split-layout__copy">
                     <p class="section-number section-number--lime" aria-hidden="true">02</p>
-                    <h2 id="stay-title">Win. Stay on. Keep it moving.</h2>
-                    <p>Qualifying groups use a winner-stays format. Win the duel and you become—or remain—the holder. After two consecutive wins, the holder rotates so everyone gets repeated chances.</p>
-                    <a class="text-link" href="rules/#qualifying">Open the qualifying rules <span aria-hidden="true">→</span></a>
+                    <h2 id="match-title">Three attacks each. Highest score wins.</h2>
+                    <p>Player A and Player B alternate until both have attacked three times. That makes six short attacks in every match.</p>
+                    <a class="text-link" href="rules/#match">Open the match rules <span aria-hidden="true">→</span></a>
                 </div>
 
-                <div class="pitch-board" aria-label="Four roles rotate around a small pitch">
-                    <svg class="pitch-board__lines" viewBox="0 0 520 360" aria-hidden="true" focusable="false">
-                        <rect x="24" y="24" width="472" height="312" rx="2"></rect>
-                        <line x1="260" y1="24" x2="260" y2="336"></line>
-                        <circle cx="260" cy="180" r="52"></circle>
-                        <path d="M85 290 C155 334 365 334 435 290"></path>
-                        <path class="pitch-board__route" d="M98 116 C165 62 251 75 278 133 C301 183 367 199 425 154"></path>
-                    </svg>
-                    <div class="role role--holder"><span>1</span><strong>Holder</strong><small>Defends</small></div>
-                    <div class="role role--challenger"><span>2</span><strong>Challenger</strong><small>Attacks</small></div>
-                    <div class="role role--keeper"><span>3</span><strong>Goalkeeper</strong><small>Saves</small></div>
-                    <div class="role role--next"><span>4</span><strong>Next</strong><small>Gets ready</small></div>
+                <div class="match-board">
+                    <div class="match-board__players">
+                        <div><span>Player A</span><strong>3</strong><small>attacks</small></div>
+                        <span class="match-board__versus" aria-hidden="true">v</span>
+                        <div><span>Player B</span><strong>3</strong><small>attacks</small></div>
+                    </div>
+
+                    <ol class="turn-sequence" aria-label="Six alternating attacks">
+                        <li><span>01</span><strong>Player A attacks</strong></li>
+                        <li><span>02</span><strong>Player B attacks</strong></li>
+                        <li><span>03</span><strong>Player A attacks</strong></li>
+                        <li><span>04</span><strong>Player B attacks</strong></li>
+                        <li><span>05</span><strong>Player A attacks</strong></li>
+                        <li><span>06</span><strong>Player B attacks</strong></li>
+                    </ol>
+
+                    <div class="match-board__keeper">
+                        <span>One designated goalkeeper</span>
+                        <strong>Stays in goal for all six attacks</strong>
+                    </div>
+                    <div class="match-board__scoring">
+                        <strong>Goal = 1 point</strong>
+                        <span>Defending and saving earn no points.</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section--cream" aria-labelledby="path-title">
+        <section class="section section--cream" id="progression" aria-labelledby="progression-title">
             <div class="shell">
                 <div class="section-heading section-heading--dark">
                     <p class="section-number" aria-hidden="true">03</p>
                     <div>
-                        <h2 id="path-title">Everyone gets a pathway</h2>
-                        <p>Qualifying decides the route, not who gets sent home.</p>
+                        <h2 id="progression-title">Win the match. Move on.</h2>
+                        <p>The player with the most goals after six attacks advances. A level score goes to sudden death; the exact sequence is still to confirm.</p>
                     </div>
                 </div>
 
-                <div class="pathway" aria-label="Qualifying groups split into Cup and Plate competitions">
-                    <div class="pathway__start">
-                        <span>Groups of four</span>
-                        <strong>Qualifying</strong>
-                        <small>Attack · defend · save</small>
-                    </div>
-                    <div class="pathway__fork" aria-hidden="true"><span></span><span></span></div>
-                    <div class="pathway__finish pathway__finish--cup">
-                        <span>Top two</span>
-                        <strong>Cup</strong>
-                        <small>A new knockout challenge</small>
-                    </div>
-                    <div class="pathway__finish pathway__finish--plate">
-                        <span>Next two</span>
-                        <strong>Plate</strong>
-                        <small>A second knockout pathway</small>
-                    </div>
+                <div class="progression-flow">
+                    <div><span>Step 1</span><strong>Three attacks each</strong></div>
+                    <span class="progression-flow__arrow" aria-hidden="true">→</span>
+                    <div><span>Step 2</span><strong>Count the goals</strong></div>
+                    <span class="progression-flow__arrow" aria-hidden="true">→</span>
+                    <div class="progression-flow__finish"><span>Step 3</span><strong>Winner advances</strong></div>
+                </div>
+                <div class="sudden-death-note">
+                    <strong>Level after six?</strong>
+                    <span>Move to sudden death. The working detail still to decide is whether both players receive a paired attempt or the first goal wins.</span>
                 </div>
             </div>
         </section>
@@ -165,7 +171,7 @@
                 <div class="faq-list">
                     <details>
                         <summary>What is Stroud 1v1?</summary>
-                        <p>It is a proposed one-on-one football tournament for U7 and U8 players. Children rotate through attacking, defending and goalkeeping in short, ten-second duels.</p>
+                        <p>It is a proposed one-on-one football tournament for U7 and U8 players. Two players compete head-to-head, taking turns to attack and defend. The one-two start and ten-second limit are working rules to confirm through rehearsal.</p>
                     </details>
                     <details>
                         <summary>Is this event happening now?</summary>
@@ -173,11 +179,11 @@
                     </details>
                     <details>
                         <summary>What would my child actually do?</summary>
-                        <p>They would take turns as attacker, defender and goalkeeper. A qualifying win lets a player stay on, with a two-win cap so the group keeps rotating.</p>
+                        <p>They would attack three times and defend three times against the same opponent. One designated goalkeeper stays in goal throughout the six attacks.</p>
                     </details>
                     <details>
-                        <summary>Would everyone keep playing?</summary>
-                        <p>Yes. Qualifying leads into Cup and Plate pathways, so every child moves into another meaningful part of the competition.</p>
+                        <summary>How is a match decided?</summary>
+                        <p>Every goal scores one point. Defending and saving stop the attacker scoring but do not earn separate points. The player with most goals advances; a tie goes to sudden death, with its exact sequence still to confirm.</p>
                     </details>
                     <details>
                         <summary>How would children be safeguarded?</summary>
