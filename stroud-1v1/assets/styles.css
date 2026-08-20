@@ -708,6 +708,7 @@ h3 {
     text-transform: uppercase;
 }
 
+.match-board__final,
 .match-board__keeper,
 .match-board__scoring {
     display: flex;
@@ -717,16 +718,19 @@ h3 {
     padding: 18px 24px;
 }
 
+.match-board__final,
 .match-board__keeper {
     color: var(--chalk);
     border-top: 1px solid rgba(245, 240, 228, 0.34);
 }
 
+.match-board__final span,
 .match-board__keeper span,
 .match-board__scoring span {
     font-size: 0.86rem;
 }
 
+.match-board__final strong,
 .match-board__keeper strong,
 .match-board__scoring strong {
     font-family: var(--display);
@@ -736,9 +740,14 @@ h3 {
     text-transform: uppercase;
 }
 
+.match-board__final span,
 .match-board__keeper span {
     color: var(--lime);
     font-weight: 700;
+}
+
+.match-board__final {
+    background: rgba(221, 242, 71, 0.1);
 }
 
 .match-board__scoring {
@@ -1098,7 +1107,7 @@ h3 {
 .rules-hero__mark span {
     margin-top: 10px;
     font-family: var(--display);
-    font-size: 6rem;
+    font-size: 4.7rem;
     line-height: 0.6;
 }
 
@@ -1649,7 +1658,7 @@ h3 {
     }
 
     .rules-hero__mark span {
-        font-size: 4.2rem;
+        font-size: 3.2rem;
     }
 
     .rule-section {
@@ -1739,6 +1748,7 @@ h3 {
         padding: 18px 16px;
     }
 
+    .match-board__final,
     .match-board__keeper,
     .match-board__scoring {
         align-items: flex-start;
@@ -1747,6 +1757,7 @@ h3 {
         padding-inline: 16px;
     }
 
+    .match-board__final strong,
     .match-board__keeper strong,
     .match-board__scoring strong {
         text-align: left;
