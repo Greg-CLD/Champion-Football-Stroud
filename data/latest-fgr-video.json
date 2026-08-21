@@ -1,23 +1,14 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | Worthing 1-2 Forest Green Rovers",
-    "videoId": "cznppKO0ZYY",
-    "publishedAt": "2026-08-15T20:00:07+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=cznppKO0ZYY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/cznppKO0ZYY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/cznppKO0ZYY/hqdefault.jpg",
-    "score": 25
+    "title": "Great to see Ricardo back among the goals!",
+    "videoId": "j_tXI6uUfp4",
+    "publishedAt": "2026-08-16T13:30:22+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=j_tXI6uUfp4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/j_tXI6uUfp4",
+    "thumbnailUrl": "https://i.ytimg.com/vi/j_tXI6uUfp4/hqdefault.jpg",
+    "score": 3
   },
   "videos": [
-    {
-      "title": "Match Highlights | Worthing 1-2 Forest Green Rovers",
-      "videoId": "cznppKO0ZYY",
-      "publishedAt": "2026-08-15T20:00:07+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=cznppKO0ZYY",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/cznppKO0ZYY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cznppKO0ZYY/hqdefault.jpg",
-      "score": 25
-    },
     {
       "title": "Great to see Ricardo back among the goals!",
       "videoId": "j_tXI6uUfp4",
@@ -26,6 +17,15 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/j_tXI6uUfp4",
       "thumbnailUrl": "https://i.ytimg.com/vi/j_tXI6uUfp4/hqdefault.jpg",
       "score": 3
+    },
+    {
+      "title": "Ethan Ross Pre-Match | Boreham Wood (H)",
+      "videoId": "rqCzNanZmpM",
+      "publishedAt": "2026-08-21T11:36:52+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=rqCzNanZmpM",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/rqCzNanZmpM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rqCzNanZmpM/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Yan Klukowski Pre-Match |  Boreham Wood (H)",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-21T11:33:42Z"
+  "fetchedAt": "2026-08-21T12:56:13Z"
 }
