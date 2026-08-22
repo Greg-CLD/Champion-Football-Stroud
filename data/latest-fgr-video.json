@@ -1,22 +1,22 @@
 {
   "featuredVideo": {
-    "title": "Great to see Ricardo back among the goals!",
-    "videoId": "j_tXI6uUfp4",
-    "publishedAt": "2026-08-16T13:30:22+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=j_tXI6uUfp4",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/j_tXI6uUfp4",
-    "thumbnailUrl": "https://i.ytimg.com/vi/j_tXI6uUfp4/hqdefault.jpg",
-    "score": 3
+    "title": "Match Highlights | Forest Green Rovers 0-3 Boreham Wood",
+    "videoId": "EFNAqZpUY38",
+    "publishedAt": "2026-08-22T17:00:05+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=EFNAqZpUY38",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/EFNAqZpUY38",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EFNAqZpUY38/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
     {
-      "title": "Great to see Ricardo back among the goals!",
-      "videoId": "j_tXI6uUfp4",
-      "publishedAt": "2026-08-16T13:30:22+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=j_tXI6uUfp4",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/j_tXI6uUfp4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/j_tXI6uUfp4/hqdefault.jpg",
-      "score": 3
+      "title": "Match Highlights | Forest Green Rovers 0-3 Boreham Wood",
+      "videoId": "EFNAqZpUY38",
+      "publishedAt": "2026-08-22T17:00:05+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=EFNAqZpUY38",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EFNAqZpUY38",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EFNAqZpUY38/hqdefault.jpg",
+      "score": 25
     },
     {
       "title": "Robbie Savage Post-Match | Boreham Wood (H)",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-22T16:54:32Z"
+  "fetchedAt": "2026-08-22T17:24:38Z"
 }
