@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Robbie Savage Post-Match | AFC Fylde (A)",
-    "videoId": "GtCGtKNx_5c",
-    "publishedAt": "2026-08-28T21:55:34+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=GtCGtKNx_5c",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/GtCGtKNx_5c",
-    "thumbnailUrl": "https://i.ytimg.com/vi/GtCGtKNx_5c/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | AFC Fylde 2-0 FGR",
+    "videoId": "0wsZsbZuI0M",
+    "publishedAt": "2026-08-29T06:45:05+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=0wsZsbZuI0M",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/0wsZsbZuI0M",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0wsZsbZuI0M/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | AFC Fylde 2-0 FGR",
+      "videoId": "0wsZsbZuI0M",
+      "publishedAt": "2026-08-29T06:45:05+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=0wsZsbZuI0M",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0wsZsbZuI0M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0wsZsbZuI0M/hqdefault.jpg",
+      "score": 25
+    },
+    {
+      "title": "Kyle McAllister Post-Match | AFC Fylde (A)",
+      "videoId": "XMx3uJBMmmQ",
+      "publishedAt": "2026-08-29T08:11:08+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=XMx3uJBMmmQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/XMx3uJBMmmQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XMx3uJBMmmQ/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Robbie Savage Post-Match | AFC Fylde (A)",
       "videoId": "GtCGtKNx_5c",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/BtkgnsIsdQw",
       "thumbnailUrl": "https://i.ytimg.com/vi/BtkgnsIsdQw/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Tate Campbell Pre-Match | AFC Fylde (A)",
-      "videoId": "K5Q4wrUV7sU",
-      "publishedAt": "2026-08-27T10:03:42+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=K5Q4wrUV7sU",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/K5Q4wrUV7sU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K5Q4wrUV7sU/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Robbie Savage Pre-Match | AFC Fylde (A)",
-      "videoId": "oRCrlSp0xt0",
-      "publishedAt": "2026-08-26T15:25:19+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=oRCrlSp0xt0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/oRCrlSp0xt0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oRCrlSp0xt0/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-29T01:51:33Z"
+  "fetchedAt": "2026-08-29T08:48:32Z"
 }
