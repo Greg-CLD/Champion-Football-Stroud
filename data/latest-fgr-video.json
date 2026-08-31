@@ -1,21 +1,21 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | AFC Fylde 2-0 FGR",
-    "videoId": "0wsZsbZuI0M",
-    "publishedAt": "2026-08-29T06:45:05+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=0wsZsbZuI0M",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/0wsZsbZuI0M",
-    "thumbnailUrl": "https://i.ytimg.com/vi/0wsZsbZuI0M/hqdefault.jpg",
+    "title": "Match Highlights | FGR 1-2 Altrincham",
+    "videoId": "HyN4K4Txdr8",
+    "publishedAt": "2026-08-31T19:55:22+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=HyN4K4Txdr8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/HyN4K4Txdr8",
+    "thumbnailUrl": "https://i.ytimg.com/vi/HyN4K4Txdr8/hqdefault.jpg",
     "score": 25
   },
   "videos": [
     {
-      "title": "Match Highlights | AFC Fylde 2-0 FGR",
-      "videoId": "0wsZsbZuI0M",
-      "publishedAt": "2026-08-29T06:45:05+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=0wsZsbZuI0M",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/0wsZsbZuI0M",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0wsZsbZuI0M/hqdefault.jpg",
+      "title": "Match Highlights | FGR 1-2 Altrincham",
+      "videoId": "HyN4K4Txdr8",
+      "publishedAt": "2026-08-31T19:55:22+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=HyN4K4Txdr8",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/HyN4K4Txdr8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HyN4K4Txdr8/hqdefault.jpg",
       "score": 25
     },
     {
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-08-31T18:06:03Z"
+  "fetchedAt": "2026-08-31T22:58:48Z"
 }
