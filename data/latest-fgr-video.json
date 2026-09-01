@@ -19,6 +19,15 @@
       "score": 25
     },
     {
+      "title": "⚽️ Maccas' goal from yesterday.",
+      "videoId": "CpzoXfELRB0",
+      "publishedAt": "2026-09-01T07:00:30+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=CpzoXfELRB0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/CpzoXfELRB0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CpzoXfELRB0/hqdefault.jpg",
+      "score": 0
+    },
+    {
       "title": "Jayden Clarke Post-Match | Altrincham (H)",
       "videoId": "PFIFmnh1xEE",
       "publishedAt": "2026-08-31T17:33:51+00:00",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Kyle McAllister Post-Match | AFC Fylde (A)",
-      "videoId": "XMx3uJBMmmQ",
-      "publishedAt": "2026-08-29T08:11:08+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=XMx3uJBMmmQ",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/XMx3uJBMmmQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XMx3uJBMmmQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "Robbie Savage Pre-Match Interview | Altrincham (H)",
       "videoId": "o38NCc7Smt4",
       "publishedAt": "2026-08-30T11:12:38+00:00",
@@ -55,5 +55,5 @@
       "score": -10
     }
   ],
-  "fetchedAt": "2026-09-01T01:46:43Z"
+  "fetchedAt": "2026-09-01T07:33:50Z"
 }
