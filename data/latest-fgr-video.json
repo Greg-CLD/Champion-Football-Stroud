@@ -1,22 +1,31 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | FGR 1-2 Altrincham",
-    "videoId": "HyN4K4Txdr8",
-    "publishedAt": "2026-08-31T19:55:22+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=HyN4K4Txdr8",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/HyN4K4Txdr8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/HyN4K4Txdr8/hqdefault.jpg",
-    "score": 25
+    "title": "Robbie Savage Post-Match | Hornchurch (A)",
+    "videoId": "od0OgHHvWnU",
+    "publishedAt": "2026-09-05T17:58:56+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=od0OgHHvWnU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/od0OgHHvWnU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/od0OgHHvWnU/hqdefault.jpg",
+    "score": 0
   },
   "videos": [
     {
-      "title": "Match Highlights | FGR 1-2 Altrincham",
-      "videoId": "HyN4K4Txdr8",
-      "publishedAt": "2026-08-31T19:55:22+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=HyN4K4Txdr8",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/HyN4K4Txdr8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HyN4K4Txdr8/hqdefault.jpg",
-      "score": 25
+      "title": "Robbie Savage Post-Match | Hornchurch (A)",
+      "videoId": "od0OgHHvWnU",
+      "publishedAt": "2026-09-05T17:58:56+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=od0OgHHvWnU",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/od0OgHHvWnU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/od0OgHHvWnU/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "BACK TO WINNING WAYS 😤 #WeAreFGR💚",
+      "videoId": "DwvqW61C5AQ",
+      "publishedAt": "2026-09-05T16:33:58+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=DwvqW61C5AQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/DwvqW61C5AQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DwvqW61C5AQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "August Goal of The Month! Take a bow Sean Etaluku.",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/hdHH471ZptE",
       "thumbnailUrl": "https://i.ytimg.com/vi/hdHH471ZptE/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "⚽️ Maccas' goal from yesterday.",
-      "videoId": "CpzoXfELRB0",
-      "publishedAt": "2026-09-01T07:00:30+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=CpzoXfELRB0",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/CpzoXfELRB0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CpzoXfELRB0/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-05T15:56:25Z"
+  "fetchedAt": "2026-09-05T18:06:45Z"
 }
