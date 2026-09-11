@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Back to the drawing board for questions 🤦‍♂️#WeAreFGR💚",
-    "videoId": "Payn8Q0afdE",
-    "publishedAt": "2026-09-11T08:32:12+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=Payn8Q0afdE",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/Payn8Q0afdE",
-    "thumbnailUrl": "https://i.ytimg.com/vi/Payn8Q0afdE/hqdefault.jpg",
+    "title": "Kyle Ajayi Pre-Match | Gateshead (H)",
+    "videoId": "6pCuJ4aBg84",
+    "publishedAt": "2026-09-11T10:45:14+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=6pCuJ4aBg84",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6pCuJ4aBg84",
+    "thumbnailUrl": "https://i.ytimg.com/vi/6pCuJ4aBg84/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Kyle Ajayi Pre-Match | Gateshead (H)",
+      "videoId": "6pCuJ4aBg84",
+      "publishedAt": "2026-09-11T10:45:14+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=6pCuJ4aBg84",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6pCuJ4aBg84",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6pCuJ4aBg84/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Back to the drawing board for questions 🤦‍♂️#WeAreFGR💚",
       "videoId": "Payn8Q0afdE",
@@ -37,15 +46,6 @@
       "score": 0
     },
     {
-      "title": "Top saves & blocks out there today 🧤#WeAreFGR💚",
-      "videoId": "9pryRZb63jo",
-      "publishedAt": "2026-09-08T11:56:10+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=9pryRZb63jo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/9pryRZb63jo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9pryRZb63jo/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "title": "Season Ticket Holder Appreciation Day!",
       "videoId": "8Z_paUAF3sY",
       "publishedAt": "2026-09-08T15:36:47+00:00",
@@ -55,5 +55,5 @@
       "score": -8
     }
   ],
-  "fetchedAt": "2026-09-11T08:51:04Z"
+  "fetchedAt": "2026-09-11T13:25:19Z"
 }
