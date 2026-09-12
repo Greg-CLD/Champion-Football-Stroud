@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Kyle Ajayi Pre-Match | Gateshead (H)",
-    "videoId": "6pCuJ4aBg84",
-    "publishedAt": "2026-09-11T10:45:14+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=6pCuJ4aBg84",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/6pCuJ4aBg84",
-    "thumbnailUrl": "https://i.ytimg.com/vi/6pCuJ4aBg84/hqdefault.jpg",
+    "title": "Back-to-back wins and clean sheets 👀#WeAreFGR💚",
+    "videoId": "P8_1L_mAPKQ",
+    "publishedAt": "2026-09-12T16:45:35+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=P8_1L_mAPKQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/P8_1L_mAPKQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/P8_1L_mAPKQ/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Back-to-back wins and clean sheets 👀#WeAreFGR💚",
+      "videoId": "P8_1L_mAPKQ",
+      "publishedAt": "2026-09-12T16:45:35+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=P8_1L_mAPKQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/P8_1L_mAPKQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P8_1L_mAPKQ/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Kyle Ajayi Pre-Match | Gateshead (H)",
       "videoId": "6pCuJ4aBg84",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/y6t2GqAv0Co",
       "thumbnailUrl": "https://i.ytimg.com/vi/y6t2GqAv0Co/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Season Ticket Holder Appreciation Day!",
-      "videoId": "8Z_paUAF3sY",
-      "publishedAt": "2026-09-08T15:36:47+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=8Z_paUAF3sY",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/8Z_paUAF3sY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8Z_paUAF3sY/hqdefault.jpg",
-      "score": -8
     }
   ],
-  "fetchedAt": "2026-09-12T13:41:43Z"
+  "fetchedAt": "2026-09-12T16:52:04Z"
 }
