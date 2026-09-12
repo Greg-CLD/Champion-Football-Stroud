@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Back-to-back wins and clean sheets 👀#WeAreFGR💚",
-    "videoId": "P8_1L_mAPKQ",
-    "publishedAt": "2026-09-12T16:45:35+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=P8_1L_mAPKQ",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/P8_1L_mAPKQ",
-    "thumbnailUrl": "https://i.ytimg.com/vi/P8_1L_mAPKQ/hqdefault.jpg",
+    "title": "Oli Ewing Post-Match | Gateshead (H)",
+    "videoId": "DZFAd5TjXSA",
+    "publishedAt": "2026-09-12T17:44:24+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=DZFAd5TjXSA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/DZFAd5TjXSA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/DZFAd5TjXSA/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Oli Ewing Post-Match | Gateshead (H)",
+      "videoId": "DZFAd5TjXSA",
+      "publishedAt": "2026-09-12T17:44:24+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=DZFAd5TjXSA",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/DZFAd5TjXSA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DZFAd5TjXSA/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Robbie Savage Post-Match | Gateshead (H)",
+      "videoId": "wb4AhVhnsg0",
+      "publishedAt": "2026-09-12T17:17:43+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=wb4AhVhnsg0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wb4AhVhnsg0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wb4AhVhnsg0/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Back-to-back wins and clean sheets 👀#WeAreFGR💚",
       "videoId": "P8_1L_mAPKQ",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/Payn8Q0afdE",
       "thumbnailUrl": "https://i.ytimg.com/vi/Payn8Q0afdE/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage Pre-Match | Gateshead (H)",
-      "videoId": "gB2K4cR-Fw4",
-      "publishedAt": "2026-09-10T13:15:25+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=gB2K4cR-Fw4",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/gB2K4cR-Fw4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gB2K4cR-Fw4/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "𝐁𝐮𝐲 𝐨𝐧𝐞 𝐬𝐮𝐢𝐭𝐞, 𝐠𝐞𝐭 𝐚𝐧𝐨𝐭𝐡𝐞𝐫 𝐡𝐚𝐥𝐟-𝐩𝐫𝐢𝐜𝐞 🫰Contact hospitality@fgr.co.uk 𝐧𝐨𝐰 to book yours!#WeAreFGR💚",
-      "videoId": "y6t2GqAv0Co",
-      "publishedAt": "2026-09-09T18:00:14+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=y6t2GqAv0Co",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/y6t2GqAv0Co",
-      "thumbnailUrl": "https://i.ytimg.com/vi/y6t2GqAv0Co/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-12T16:52:04Z"
+  "fetchedAt": "2026-09-12T19:04:18Z"
 }
