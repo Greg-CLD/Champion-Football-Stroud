@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Oli Ewing Post-Match | Gateshead (H)",
-    "videoId": "DZFAd5TjXSA",
-    "publishedAt": "2026-09-12T17:44:24+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=DZFAd5TjXSA",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/DZFAd5TjXSA",
-    "thumbnailUrl": "https://i.ytimg.com/vi/DZFAd5TjXSA/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | FGR 4-0 Gateshead",
+    "videoId": "4I-k2bZZFck",
+    "publishedAt": "2026-09-12T20:00:09+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=4I-k2bZZFck",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4I-k2bZZFck",
+    "thumbnailUrl": "https://i.ytimg.com/vi/4I-k2bZZFck/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | FGR 4-0 Gateshead",
+      "videoId": "4I-k2bZZFck",
+      "publishedAt": "2026-09-12T20:00:09+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=4I-k2bZZFck",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4I-k2bZZFck",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4I-k2bZZFck/hqdefault.jpg",
+      "score": 25
+    },
     {
       "title": "Oli Ewing Post-Match | Gateshead (H)",
       "videoId": "DZFAd5TjXSA",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/6pCuJ4aBg84",
       "thumbnailUrl": "https://i.ytimg.com/vi/6pCuJ4aBg84/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Back to the drawing board for questions 🤦‍♂️#WeAreFGR💚",
-      "videoId": "Payn8Q0afdE",
-      "publishedAt": "2026-09-11T08:32:12+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=Payn8Q0afdE",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Payn8Q0afdE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Payn8Q0afdE/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-12T19:04:18Z"
+  "fetchedAt": "2026-09-12T21:34:08Z"
 }
