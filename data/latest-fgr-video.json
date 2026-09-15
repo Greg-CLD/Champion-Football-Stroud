@@ -1,23 +1,14 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | FGR 4-0 Gateshead",
-    "videoId": "4I-k2bZZFck",
-    "publishedAt": "2026-09-12T20:00:09+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=4I-k2bZZFck",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/4I-k2bZZFck",
-    "thumbnailUrl": "https://i.ytimg.com/vi/4I-k2bZZFck/hqdefault.jpg",
-    "score": 25
+    "title": "Morning, Rovers fans, anyone fancying the goals from yesterday? 👋@backmarketusa  |  #WeAreFGR💚",
+    "videoId": "yq_LQSzyfsY",
+    "publishedAt": "2026-09-13T08:00:38+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=yq_LQSzyfsY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/yq_LQSzyfsY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/yq_LQSzyfsY/hqdefault.jpg",
+    "score": 3
   },
   "videos": [
-    {
-      "title": "Match Highlights | FGR 4-0 Gateshead",
-      "videoId": "4I-k2bZZFck",
-      "publishedAt": "2026-09-12T20:00:09+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=4I-k2bZZFck",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/4I-k2bZZFck",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4I-k2bZZFck/hqdefault.jpg",
-      "score": 25
-    },
     {
       "title": "Morning, Rovers fans, anyone fancying the goals from yesterday? 👋@backmarketusa  |  #WeAreFGR💚",
       "videoId": "yq_LQSzyfsY",
@@ -26,6 +17,24 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/yq_LQSzyfsY",
       "thumbnailUrl": "https://i.ytimg.com/vi/yq_LQSzyfsY/hqdefault.jpg",
       "score": 3
+    },
+    {
+      "title": "Gabe Kircough Post-Match | Carlisle (A)",
+      "videoId": "F-AuMNjF5BE",
+      "publishedAt": "2026-09-15T22:20:27+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=F-AuMNjF5BE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/F-AuMNjF5BE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F-AuMNjF5BE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Robbie Savage Post-Match | Carlisle (A)",
+      "videoId": "0XumM5EswVg",
+      "publishedAt": "2026-09-15T21:49:40+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=0XumM5EswVg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/0XumM5EswVg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0XumM5EswVg/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Robbie Savage Pre-Match | Carlisle (A)",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/LZDrSdBqG5k",
       "thumbnailUrl": "https://i.ytimg.com/vi/LZDrSdBqG5k/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "What a team goal 🤤 #WeAreFGR💚",
-      "videoId": "-yWHbmhNXd8",
-      "publishedAt": "2026-09-12T22:48:58+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=-yWHbmhNXd8",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-yWHbmhNXd8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-yWHbmhNXd8/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-15T21:03:58Z"
+  "fetchedAt": "2026-09-15T23:36:30Z"
 }
