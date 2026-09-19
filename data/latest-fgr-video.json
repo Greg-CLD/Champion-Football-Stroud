@@ -1,22 +1,31 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | Carlisle 1-1 FGR",
-    "videoId": "JT_W2UFKHu4",
-    "publishedAt": "2026-09-16T06:55:29+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=JT_W2UFKHu4",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/JT_W2UFKHu4",
-    "thumbnailUrl": "https://i.ytimg.com/vi/JT_W2UFKHu4/hqdefault.jpg",
-    "score": 25
+    "title": "Sean Etaluku Post-Match | Boston Utd (H)",
+    "videoId": "RgOHfZcVxYU",
+    "publishedAt": "2026-09-19T17:44:10+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=RgOHfZcVxYU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/RgOHfZcVxYU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RgOHfZcVxYU/hqdefault.jpg",
+    "score": 0
   },
   "videos": [
     {
-      "title": "Match Highlights | Carlisle 1-1 FGR",
-      "videoId": "JT_W2UFKHu4",
-      "publishedAt": "2026-09-16T06:55:29+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=JT_W2UFKHu4",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/JT_W2UFKHu4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JT_W2UFKHu4/hqdefault.jpg",
-      "score": 25
+      "title": "Sean Etaluku Post-Match | Boston Utd (H)",
+      "videoId": "RgOHfZcVxYU",
+      "publishedAt": "2026-09-19T17:44:10+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=RgOHfZcVxYU",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RgOHfZcVxYU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RgOHfZcVxYU/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Robbie Savage Post-Match | Boston Utd (H)",
+      "videoId": "zpzIlMyt95I",
+      "publishedAt": "2026-09-19T17:26:13+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=zpzIlMyt95I",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/zpzIlMyt95I",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zpzIlMyt95I/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Kyle Kelly Pre-Match | Boston Utd (H)",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/53jofXSJ-_Y",
       "thumbnailUrl": "https://i.ytimg.com/vi/53jofXSJ-_Y/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Top glancing header from on-loan @LiverpoolFC youngster Kyle Kelly ⚽ @backmarketusa 📲 #WeAreFGR💚",
-      "videoId": "Wr1eTn-cu9I",
-      "publishedAt": "2026-09-16T10:00:12+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=Wr1eTn-cu9I",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Wr1eTn-cu9I",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wr1eTn-cu9I/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-19T16:23:03Z"
+  "fetchedAt": "2026-09-19T18:45:26Z"
 }
