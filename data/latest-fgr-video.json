@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Last time out against Sutton 😬 #WeAreFGR💚",
-    "videoId": "czUnKxVKz5k",
-    "publishedAt": "2026-09-25T14:04:41+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=czUnKxVKz5k",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/czUnKxVKz5k",
-    "thumbnailUrl": "https://i.ytimg.com/vi/czUnKxVKz5k/hqdefault.jpg",
+    "title": "Tate Campbell Post-Match | Sutton Utd (A)",
+    "videoId": "EP2UJ3B_8Vg",
+    "publishedAt": "2026-09-26T17:28:15+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=EP2UJ3B_8Vg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/EP2UJ3B_8Vg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EP2UJ3B_8Vg/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Tate Campbell Post-Match | Sutton Utd (A)",
+      "videoId": "EP2UJ3B_8Vg",
+      "publishedAt": "2026-09-26T17:28:15+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=EP2UJ3B_8Vg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/EP2UJ3B_8Vg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EP2UJ3B_8Vg/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Robbie Savage Post-Match | Sutton Utd (A)",
+      "videoId": "ppMkMrN_-h4",
+      "publishedAt": "2026-09-26T17:15:47+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=ppMkMrN_-h4",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ppMkMrN_-h4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ppMkMrN_-h4/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Last time out against Sutton 😬 #WeAreFGR💚",
       "videoId": "czUnKxVKz5k",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/YzZ5pVHpK0s",
       "thumbnailUrl": "https://i.ytimg.com/vi/YzZ5pVHpK0s/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Robbie Savage Pre-Match | Sutton Utd (A)",
-      "videoId": "yEv-1m5nt48",
-      "publishedAt": "2026-09-24T11:46:57+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=yEv-1m5nt48",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/yEv-1m5nt48",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yEv-1m5nt48/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "🎥 | Jayden's finish from pitchside yesterday captured on a refurbished @backmarketusa  device 🤳",
-      "videoId": "LYwyAHoy2Qw",
-      "publishedAt": "2026-09-20T08:00:30+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=LYwyAHoy2Qw",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/LYwyAHoy2Qw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LYwyAHoy2Qw/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-26T14:40:02Z"
+  "fetchedAt": "2026-09-26T18:26:27Z"
 }
