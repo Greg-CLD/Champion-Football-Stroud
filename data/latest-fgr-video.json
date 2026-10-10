@@ -1,22 +1,22 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | FGR 1-1 Wealdstone",
-    "videoId": "DLyr_FjymlA",
-    "publishedAt": "2026-09-30T06:55:00+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=DLyr_FjymlA",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/DLyr_FjymlA",
-    "thumbnailUrl": "https://i.ytimg.com/vi/DLyr_FjymlA/hqdefault.jpg",
-    "score": 25
+    "title": "This World Mental Health Day, remember to check in on your mates.",
+    "videoId": "xh80GThBV-M",
+    "publishedAt": "2026-10-10T12:00:24+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=xh80GThBV-M",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/xh80GThBV-M",
+    "thumbnailUrl": "https://i.ytimg.com/vi/xh80GThBV-M/hqdefault.jpg",
+    "score": 0
   },
   "videos": [
     {
-      "title": "Match Highlights | FGR 1-1 Wealdstone",
-      "videoId": "DLyr_FjymlA",
-      "publishedAt": "2026-09-30T06:55:00+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=DLyr_FjymlA",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/DLyr_FjymlA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DLyr_FjymlA/hqdefault.jpg",
-      "score": 25
+      "title": "This World Mental Health Day, remember to check in on your mates.",
+      "videoId": "xh80GThBV-M",
+      "publishedAt": "2026-10-10T12:00:24+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=xh80GThBV-M",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xh80GThBV-M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xh80GThBV-M/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "This World Mental Health Day, remember it's ok, to not always be ok.",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-10T00:14:46Z"
+  "fetchedAt": "2026-10-10T12:55:59Z"
 }
