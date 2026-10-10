@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "This World Mental Health Day, remember to check in on your mates.",
-    "videoId": "xh80GThBV-M",
-    "publishedAt": "2026-10-10T12:00:24+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=xh80GThBV-M",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/xh80GThBV-M",
-    "thumbnailUrl": "https://i.ytimg.com/vi/xh80GThBV-M/hqdefault.jpg",
+    "title": "Yan Klukowski Post-Match | Hartlepool Utd (H)",
+    "videoId": "hIB076OBBlg",
+    "publishedAt": "2026-10-10T19:18:20+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=hIB076OBBlg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hIB076OBBlg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/hIB076OBBlg/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Yan Klukowski Post-Match | Hartlepool Utd (H)",
+      "videoId": "hIB076OBBlg",
+      "publishedAt": "2026-10-10T19:18:20+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=hIB076OBBlg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hIB076OBBlg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hIB076OBBlg/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "This World Mental Health Day, remember to check in on your mates.",
       "videoId": "xh80GThBV-M",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/G07K7hnAGjk",
       "thumbnailUrl": "https://i.ytimg.com/vi/G07K7hnAGjk/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Nick Haughton Post-Match | Wealdstone (H)",
-      "videoId": "-yNujLtwHs8",
-      "publishedAt": "2026-09-30T13:55:36+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=-yNujLtwHs8",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/-yNujLtwHs8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-yNujLtwHs8/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-10T17:44:31Z"
+  "fetchedAt": "2026-10-10T21:23:52Z"
 }
