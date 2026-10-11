@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Yan Klukowski Post-Match | Hartlepool Utd (H)",
-    "videoId": "hIB076OBBlg",
-    "publishedAt": "2026-10-10T19:18:20+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=hIB076OBBlg",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/hIB076OBBlg",
-    "thumbnailUrl": "https://i.ytimg.com/vi/hIB076OBBlg/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | FGR 2-4 Hartlepool Utd",
+    "videoId": "HyUTMUTvK9Q",
+    "publishedAt": "2026-10-11T07:55:16+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=HyUTMUTvK9Q",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/HyUTMUTvK9Q",
+    "thumbnailUrl": "https://i.ytimg.com/vi/HyUTMUTvK9Q/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | FGR 2-4 Hartlepool Utd",
+      "videoId": "HyUTMUTvK9Q",
+      "publishedAt": "2026-10-11T07:55:16+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=HyUTMUTvK9Q",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/HyUTMUTvK9Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HyUTMUTvK9Q/hqdefault.jpg",
+      "score": 25
+    },
+    {
+      "title": "This World Mental Health Day, how are you feeling?",
+      "videoId": "Y65n9aVmqsI",
+      "publishedAt": "2026-10-11T12:00:04+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Y65n9aVmqsI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Y65n9aVmqsI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y65n9aVmqsI/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Yan Klukowski Post-Match | Hartlepool Utd (H)",
       "videoId": "hIB076OBBlg",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/s9NDy-Vprrw",
       "thumbnailUrl": "https://i.ytimg.com/vi/s9NDy-Vprrw/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "D'Mani Mellor Pre-Match | Hartlepool Utd (H)",
-      "videoId": "PjFZU94uvqQ",
-      "publishedAt": "2026-10-08T15:30:24+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=PjFZU94uvqQ",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/PjFZU94uvqQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PjFZU94uvqQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Yan Klukowski Pre-Match | Hartlepool Utd (H)",
-      "videoId": "G07K7hnAGjk",
-      "publishedAt": "2026-10-08T10:45:14+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=G07K7hnAGjk",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/G07K7hnAGjk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G07K7hnAGjk/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-10T21:23:52Z"
+  "fetchedAt": "2026-10-11T13:19:55Z"
 }
