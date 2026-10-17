@@ -1,22 +1,22 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | FGR 2-4 Hartlepool Utd",
-    "videoId": "HyUTMUTvK9Q",
-    "publishedAt": "2026-10-11T07:55:16+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=HyUTMUTvK9Q",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/HyUTMUTvK9Q",
-    "thumbnailUrl": "https://i.ytimg.com/vi/HyUTMUTvK9Q/hqdefault.jpg",
-    "score": 25
+    "title": "Josh Bowen Post-Match | Chesham Utd (A)",
+    "videoId": "mxxcfVLpC-M",
+    "publishedAt": "2026-10-17T17:44:19+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=mxxcfVLpC-M",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/mxxcfVLpC-M",
+    "thumbnailUrl": "https://i.ytimg.com/vi/mxxcfVLpC-M/hqdefault.jpg",
+    "score": 0
   },
   "videos": [
     {
-      "title": "Match Highlights | FGR 2-4 Hartlepool Utd",
-      "videoId": "HyUTMUTvK9Q",
-      "publishedAt": "2026-10-11T07:55:16+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=HyUTMUTvK9Q",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/HyUTMUTvK9Q",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HyUTMUTvK9Q/hqdefault.jpg",
-      "score": 25
+      "title": "Josh Bowen Post-Match | Chesham Utd (A)",
+      "videoId": "mxxcfVLpC-M",
+      "publishedAt": "2026-10-17T17:44:19+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=mxxcfVLpC-M",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/mxxcfVLpC-M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mxxcfVLpC-M/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "🏆 The lads share their favourite FA Cup moments #WeAreFGR💚",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-17T16:36:15Z"
+  "fetchedAt": "2026-10-17T19:07:34Z"
 }
