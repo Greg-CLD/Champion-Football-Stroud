@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Luke McNicholas Post-Match | Chesham Utd (A)",
-    "videoId": "ktumw4IWtvI",
-    "publishedAt": "2026-10-17T19:00:18+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=ktumw4IWtvI",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/ktumw4IWtvI",
-    "thumbnailUrl": "https://i.ytimg.com/vi/ktumw4IWtvI/hqdefault.jpg",
+    "title": "Nick Haughton Pre-Match | Chesham Utd (H) Replay",
+    "videoId": "GuVRbIZ6PKQ",
+    "publishedAt": "2026-10-19T15:00:07+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=GuVRbIZ6PKQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/GuVRbIZ6PKQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/GuVRbIZ6PKQ/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Nick Haughton Pre-Match | Chesham Utd (H) Replay",
+      "videoId": "GuVRbIZ6PKQ",
+      "publishedAt": "2026-10-19T15:00:07+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=GuVRbIZ6PKQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GuVRbIZ6PKQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GuVRbIZ6PKQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Jonathan Gould Pre-Match | Chesham Utd (H) Replay",
+      "videoId": "VCPhoTgmGtc",
+      "publishedAt": "2026-10-19T13:15:24+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=VCPhoTgmGtc",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/VCPhoTgmGtc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VCPhoTgmGtc/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Luke McNicholas Post-Match | Chesham Utd (A)",
       "videoId": "ktumw4IWtvI",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/K8swKoMGnRM",
       "thumbnailUrl": "https://i.ytimg.com/vi/K8swKoMGnRM/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Tom McIntyre Pre-Match | Chesham Utd (A)",
-      "videoId": "5I6wyqGoiPA",
-      "publishedAt": "2026-10-15T14:00:36+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=5I6wyqGoiPA",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/5I6wyqGoiPA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5I6wyqGoiPA/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Josh Bowen Pre-Match | Chesham Utd (A)",
-      "videoId": "jTFiFZjV11M",
-      "publishedAt": "2026-10-15T11:00:23+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=jTFiFZjV11M",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/jTFiFZjV11M",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jTFiFZjV11M/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-19T11:05:53Z"
+  "fetchedAt": "2026-10-19T17:39:54Z"
 }
