@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Nick Haughton Pre-Match | Chesham Utd (H) Replay",
-    "videoId": "GuVRbIZ6PKQ",
-    "publishedAt": "2026-10-19T15:00:07+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=GuVRbIZ6PKQ",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/GuVRbIZ6PKQ",
-    "thumbnailUrl": "https://i.ytimg.com/vi/GuVRbIZ6PKQ/hqdefault.jpg",
+    "title": "Jonathan Gould Post-Match | Chesham Utd (H)",
+    "videoId": "-WEv0i_iyn0",
+    "publishedAt": "2026-10-20T21:36:14+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=-WEv0i_iyn0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/-WEv0i_iyn0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-WEv0i_iyn0/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Jonathan Gould Post-Match | Chesham Utd (H)",
+      "videoId": "-WEv0i_iyn0",
+      "publishedAt": "2026-10-20T21:36:14+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=-WEv0i_iyn0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-WEv0i_iyn0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-WEv0i_iyn0/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Nick Haughton Pre-Match | Chesham Utd (H) Replay",
       "videoId": "GuVRbIZ6PKQ",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/mxxcfVLpC-M",
       "thumbnailUrl": "https://i.ytimg.com/vi/mxxcfVLpC-M/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "🏆 The lads share their favourite FA Cup moments #WeAreFGR💚",
-      "videoId": "K8swKoMGnRM",
-      "publishedAt": "2026-10-16T09:00:14+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=K8swKoMGnRM",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/K8swKoMGnRM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K8swKoMGnRM/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-20T20:20:33Z"
+  "fetchedAt": "2026-10-20T23:18:06Z"
 }
