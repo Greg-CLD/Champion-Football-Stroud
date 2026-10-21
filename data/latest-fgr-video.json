@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Jonathan Gould Post-Match | Chesham Utd (H)",
-    "videoId": "-WEv0i_iyn0",
-    "publishedAt": "2026-10-20T21:36:14+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=-WEv0i_iyn0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/-WEv0i_iyn0",
-    "thumbnailUrl": "https://i.ytimg.com/vi/-WEv0i_iyn0/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights FA Cup Fourth Qualifier Replay | FGR 5-0 Chesham Utd",
+    "videoId": "RTE9Uia2xx4",
+    "publishedAt": "2026-10-21T06:45:06+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=RTE9Uia2xx4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/RTE9Uia2xx4",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RTE9Uia2xx4/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights FA Cup Fourth Qualifier Replay | FGR 5-0 Chesham Utd",
+      "videoId": "RTE9Uia2xx4",
+      "publishedAt": "2026-10-21T06:45:06+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=RTE9Uia2xx4",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RTE9Uia2xx4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTE9Uia2xx4/hqdefault.jpg",
+      "score": 25
+    },
     {
       "title": "Jonathan Gould Post-Match | Chesham Utd (H)",
       "videoId": "-WEv0i_iyn0",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/ktumw4IWtvI",
       "thumbnailUrl": "https://i.ytimg.com/vi/ktumw4IWtvI/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Josh Bowen Post-Match | Chesham Utd (A)",
-      "videoId": "mxxcfVLpC-M",
-      "publishedAt": "2026-10-17T17:44:19+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=mxxcfVLpC-M",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/mxxcfVLpC-M",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mxxcfVLpC-M/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-20T23:18:06Z"
+  "fetchedAt": "2026-10-21T07:19:57Z"
 }
