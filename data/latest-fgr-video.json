@@ -1,23 +1,14 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights FA Cup Fourth Qualifier Replay | FGR 5-0 Chesham Utd",
-    "videoId": "RTE9Uia2xx4",
-    "publishedAt": "2026-10-21T06:45:06+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=RTE9Uia2xx4",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/RTE9Uia2xx4",
-    "thumbnailUrl": "https://i.ytimg.com/vi/RTE9Uia2xx4/hqdefault.jpg",
-    "score": 25
+    "title": "📲 All @thefacup goals from yesterday, captured on a refurbished @backmarketusa device #WeAreFGR💚",
+    "videoId": "UqFjMqm7gBY",
+    "publishedAt": "2026-10-21T18:00:07+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=UqFjMqm7gBY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/UqFjMqm7gBY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/UqFjMqm7gBY/hqdefault.jpg",
+    "score": 3
   },
   "videos": [
-    {
-      "title": "Match Highlights FA Cup Fourth Qualifier Replay | FGR 5-0 Chesham Utd",
-      "videoId": "RTE9Uia2xx4",
-      "publishedAt": "2026-10-21T06:45:06+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=RTE9Uia2xx4",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/RTE9Uia2xx4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RTE9Uia2xx4/hqdefault.jpg",
-      "score": 25
-    },
     {
       "title": "📲 All @thefacup goals from yesterday, captured on a refurbished @backmarketusa device #WeAreFGR💚",
       "videoId": "UqFjMqm7gBY",
@@ -26,6 +17,15 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/UqFjMqm7gBY",
       "thumbnailUrl": "https://i.ytimg.com/vi/UqFjMqm7gBY/hqdefault.jpg",
       "score": 3
+    },
+    {
+      "title": "“Will Grigg’s on fire, fossil fuels are terrified” 🎶#newsigning  #nonleague",
+      "videoId": "Blu9vIXpDXE",
+      "publishedAt": "2026-10-23T18:23:30+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Blu9vIXpDXE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Blu9vIXpDXE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Blu9vIXpDXE/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Freddie Sass Pre-Match | Barrow (A)",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-23T17:47:46Z"
+  "fetchedAt": "2026-10-23T21:13:01Z"
 }
