@@ -1,22 +1,31 @@
 {
   "featuredVideo": {
-    "title": "📲 All @thefacup goals from yesterday, captured on a refurbished @backmarketusa device #WeAreFGR💚",
-    "videoId": "UqFjMqm7gBY",
-    "publishedAt": "2026-10-21T18:00:07+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=UqFjMqm7gBY",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/UqFjMqm7gBY",
-    "thumbnailUrl": "https://i.ytimg.com/vi/UqFjMqm7gBY/hqdefault.jpg",
-    "score": 3
+    "title": "Will Grigg Pre-Match | Eastleigh (H)",
+    "videoId": "7NBo9KqkOvI",
+    "publishedAt": "2026-10-27T14:55:10+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=7NBo9KqkOvI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7NBo9KqkOvI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/7NBo9KqkOvI/hqdefault.jpg",
+    "score": 0
   },
   "videos": [
     {
-      "title": "📲 All @thefacup goals from yesterday, captured on a refurbished @backmarketusa device #WeAreFGR💚",
-      "videoId": "UqFjMqm7gBY",
-      "publishedAt": "2026-10-21T18:00:07+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=UqFjMqm7gBY",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/UqFjMqm7gBY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UqFjMqm7gBY/hqdefault.jpg",
-      "score": 3
+      "title": "Will Grigg Pre-Match | Eastleigh (H)",
+      "videoId": "7NBo9KqkOvI",
+      "publishedAt": "2026-10-27T14:55:10+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=7NBo9KqkOvI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/7NBo9KqkOvI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7NBo9KqkOvI/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Josh Bowen Pre-Match | Eastleigh (H)",
+      "videoId": "l7RhTI9tkes",
+      "publishedAt": "2026-10-27T12:05:52+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=l7RhTI9tkes",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/l7RhTI9tkes",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7RhTI9tkes/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Yan Klukowski on Barrow Postponement",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/kcgmonJHzlo",
       "thumbnailUrl": "https://i.ytimg.com/vi/kcgmonJHzlo/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Yan Klukowski Pre-Match | Barrow (A)",
-      "videoId": "10G_o_05fII",
-      "publishedAt": "2026-10-23T10:45:02+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=10G_o_05fII",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/10G_o_05fII",
-      "thumbnailUrl": "https://i.ytimg.com/vi/10G_o_05fII/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-27T10:50:20Z"
+  "fetchedAt": "2026-10-27T16:17:29Z"
 }
