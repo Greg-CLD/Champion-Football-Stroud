@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Josh Bowen Post-Match | Eastleigh (H)",
-    "videoId": "vKXLz69-QI8",
-    "publishedAt": "2026-10-28T23:17:00+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=vKXLz69-QI8",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/vKXLz69-QI8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/vKXLz69-QI8/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | FGR 2-0 Eastleigh",
+    "videoId": "ULBeFSNzMG8",
+    "publishedAt": "2026-10-29T09:55:17+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=ULBeFSNzMG8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ULBeFSNzMG8",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ULBeFSNzMG8/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | FGR 2-0 Eastleigh",
+      "videoId": "ULBeFSNzMG8",
+      "publishedAt": "2026-10-29T09:55:17+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=ULBeFSNzMG8",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ULBeFSNzMG8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ULBeFSNzMG8/hqdefault.jpg",
+      "score": 25
+    },
+    {
+      "title": "Kelvin Abrefa Post-Match | Eastleigh (H)",
+      "videoId": "2T-w_UGrPVo",
+      "publishedAt": "2026-10-29T11:58:20+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=2T-w_UGrPVo",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2T-w_UGrPVo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2T-w_UGrPVo/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Josh Bowen Post-Match | Eastleigh (H)",
       "videoId": "vKXLz69-QI8",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/l7RhTI9tkes",
       "thumbnailUrl": "https://i.ytimg.com/vi/l7RhTI9tkes/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Yan Klukowski on Barrow Postponement",
-      "videoId": "kfEPlBv0kPk",
-      "publishedAt": "2026-10-24T18:16:38+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=kfEPlBv0kPk",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/kfEPlBv0kPk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kfEPlBv0kPk/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "“Will Grigg’s on fire, fossil fuels are terrified” 🎶#newsigning  #nonleague",
-      "videoId": "Blu9vIXpDXE",
-      "publishedAt": "2026-10-23T18:23:30+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=Blu9vIXpDXE",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Blu9vIXpDXE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Blu9vIXpDXE/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-29T09:40:30Z"
+  "fetchedAt": "2026-10-29T16:46:36Z"
 }
