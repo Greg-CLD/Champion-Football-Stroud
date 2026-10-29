@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Will Grigg Pre-Match | Eastleigh (H)",
-    "videoId": "7NBo9KqkOvI",
-    "publishedAt": "2026-10-27T14:55:10+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=7NBo9KqkOvI",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/7NBo9KqkOvI",
-    "thumbnailUrl": "https://i.ytimg.com/vi/7NBo9KqkOvI/hqdefault.jpg",
+    "title": "Josh Bowen Post-Match | Eastleigh (H)",
+    "videoId": "vKXLz69-QI8",
+    "publishedAt": "2026-10-28T23:17:00+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=vKXLz69-QI8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vKXLz69-QI8",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vKXLz69-QI8/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Josh Bowen Post-Match | Eastleigh (H)",
+      "videoId": "vKXLz69-QI8",
+      "publishedAt": "2026-10-28T23:17:00+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=vKXLz69-QI8",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vKXLz69-QI8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vKXLz69-QI8/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Will Grigg Pre-Match | Eastleigh (H)",
       "videoId": "7NBo9KqkOvI",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/Blu9vIXpDXE",
       "thumbnailUrl": "https://i.ytimg.com/vi/Blu9vIXpDXE/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Freddie Sass Pre-Match | Barrow (A)",
-      "videoId": "kcgmonJHzlo",
-      "publishedAt": "2026-10-23T12:30:17+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=kcgmonJHzlo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/kcgmonJHzlo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kcgmonJHzlo/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-28T19:00:37Z"
+  "fetchedAt": "2026-10-29T09:40:30Z"
 }
