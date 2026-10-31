@@ -1,23 +1,14 @@
 {
   "featuredVideo": {
-    "title": "Match Highlights | FGR 2-0 Eastleigh",
-    "videoId": "ULBeFSNzMG8",
-    "publishedAt": "2026-10-29T09:55:17+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=ULBeFSNzMG8",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/ULBeFSNzMG8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/ULBeFSNzMG8/hqdefault.jpg",
-    "score": 25
+    "title": "The goals from last night's victory over Eastleigh - Captured on a  @backmarketusa device",
+    "videoId": "9weAzrdDjLU",
+    "publishedAt": "2026-10-30T18:30:29+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=9weAzrdDjLU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/9weAzrdDjLU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/9weAzrdDjLU/hqdefault.jpg",
+    "score": 3
   },
   "videos": [
-    {
-      "title": "Match Highlights | FGR 2-0 Eastleigh",
-      "videoId": "ULBeFSNzMG8",
-      "publishedAt": "2026-10-29T09:55:17+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=ULBeFSNzMG8",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ULBeFSNzMG8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ULBeFSNzMG8/hqdefault.jpg",
-      "score": 25
-    },
     {
       "title": "The goals from last night's victory over Eastleigh - Captured on a  @backmarketusa device",
       "videoId": "9weAzrdDjLU",
@@ -26,6 +17,15 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/9weAzrdDjLU",
       "thumbnailUrl": "https://i.ytimg.com/vi/9weAzrdDjLU/hqdefault.jpg",
       "score": 3
+    },
+    {
+      "title": "Jonathan Gould Post-Match | Harrogate (H)",
+      "videoId": "Hn4wBW0sdwY",
+      "publishedAt": "2026-10-31T15:46:05+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=Hn4wBW0sdwY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Hn4wBW0sdwY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Hn4wBW0sdwY/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Oli Ewing Pre-Match | Harrogate (H)",
@@ -55,5 +55,5 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-31T11:05:16Z"
+  "fetchedAt": "2026-10-31T16:14:50Z"
 }
