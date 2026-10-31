@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "The goals from last night's victory over Eastleigh - Captured on a  @backmarketusa device",
-    "videoId": "9weAzrdDjLU",
-    "publishedAt": "2026-10-30T18:30:29+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=9weAzrdDjLU",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/9weAzrdDjLU",
-    "thumbnailUrl": "https://i.ytimg.com/vi/9weAzrdDjLU/hqdefault.jpg",
-    "score": 3
+    "title": "Match Highlights | FGR 2-2 Harrogate",
+    "videoId": "_dSW2BNYd5Q",
+    "publishedAt": "2026-10-31T18:30:18+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=_dSW2BNYd5Q",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/_dSW2BNYd5Q",
+    "thumbnailUrl": "https://i.ytimg.com/vi/_dSW2BNYd5Q/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | FGR 2-2 Harrogate",
+      "videoId": "_dSW2BNYd5Q",
+      "publishedAt": "2026-10-31T18:30:18+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=_dSW2BNYd5Q",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_dSW2BNYd5Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_dSW2BNYd5Q/hqdefault.jpg",
+      "score": 25
+    },
     {
       "title": "The goals from last night's victory over Eastleigh - Captured on a  @backmarketusa device",
       "videoId": "9weAzrdDjLU",
@@ -17,6 +26,15 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/9weAzrdDjLU",
       "thumbnailUrl": "https://i.ytimg.com/vi/9weAzrdDjLU/hqdefault.jpg",
       "score": 3
+    },
+    {
+      "title": "Bryan Ifeanyi Post-Match | Harrogate (H)",
+      "videoId": "NMqCxfTAWyw",
+      "publishedAt": "2026-10-31T16:18:51+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=NMqCxfTAWyw",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NMqCxfTAWyw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NMqCxfTAWyw/hqdefault.jpg",
+      "score": 0
     },
     {
       "title": "Jonathan Gould Post-Match | Harrogate (H)",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/Y-3fqwOdHf8",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y-3fqwOdHf8/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Jonathan Gould Pre-Match | Harrogate Town (H)",
-      "videoId": "ZRCEKIpiBwA",
-      "publishedAt": "2026-10-30T13:29:17+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=ZRCEKIpiBwA",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/ZRCEKIpiBwA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZRCEKIpiBwA/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Kelvin Abrefa Post-Match | Eastleigh (H)",
-      "videoId": "2T-w_UGrPVo",
-      "publishedAt": "2026-10-29T11:58:20+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=2T-w_UGrPVo",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/2T-w_UGrPVo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2T-w_UGrPVo/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-31T16:14:50Z"
+  "fetchedAt": "2026-10-31T20:11:24Z"
 }
