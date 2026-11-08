@@ -1,14 +1,23 @@
 {
   "featuredVideo": {
-    "title": "Yan Klukowski Post-Match | Luton (A)",
-    "videoId": "zkKpE-RfXe8",
-    "publishedAt": "2026-11-07T18:49:43+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=zkKpE-RfXe8",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/zkKpE-RfXe8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/zkKpE-RfXe8/hqdefault.jpg",
+    "title": "Jayden Clarke Post-Match | Luton (A)",
+    "videoId": "vfAgrUOH5ow",
+    "publishedAt": "2026-11-08T09:55:31+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=vfAgrUOH5ow",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vfAgrUOH5ow",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vfAgrUOH5ow/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Jayden Clarke Post-Match | Luton (A)",
+      "videoId": "vfAgrUOH5ow",
+      "publishedAt": "2026-11-08T09:55:31+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=vfAgrUOH5ow",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vfAgrUOH5ow",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vfAgrUOH5ow/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Yan Klukowski Post-Match | Luton (A)",
       "videoId": "zkKpE-RfXe8",
@@ -44,16 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/Spbs0ZpRqFM",
       "thumbnailUrl": "https://i.ytimg.com/vi/Spbs0ZpRqFM/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Kengni’s lovely finish & Kelly’s 3rd of the season ⚽ 📱 @backmarketusa  #WeAreFGR💚",
-      "videoId": "M4ig6t0QzCQ",
-      "publishedAt": "2026-11-01T09:00:34+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=M4ig6t0QzCQ",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/M4ig6t0QzCQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M4ig6t0QzCQ/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-07T20:01:13Z"
+  "fetchedAt": "2026-11-08T12:07:15Z"
 }
