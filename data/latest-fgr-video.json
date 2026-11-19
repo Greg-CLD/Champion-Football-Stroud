@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Jayden Clarke Post-Match | Luton (A)",
-    "videoId": "vfAgrUOH5ow",
-    "publishedAt": "2026-11-08T09:55:31+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=vfAgrUOH5ow",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/vfAgrUOH5ow",
-    "thumbnailUrl": "https://i.ytimg.com/vi/vfAgrUOH5ow/hqdefault.jpg",
+    "title": "Ryan Rydel Pre-Match | Yeovil (A)",
+    "videoId": "IgT474X3ljg",
+    "publishedAt": "2026-11-19T15:15:39+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=IgT474X3ljg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/IgT474X3ljg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/IgT474X3ljg/hqdefault.jpg",
     "score": 0
   },
   "videos": [
+    {
+      "title": "Ryan Rydel Pre-Match | Yeovil (A)",
+      "videoId": "IgT474X3ljg",
+      "publishedAt": "2026-11-19T15:15:39+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=IgT474X3ljg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/IgT474X3ljg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IgT474X3ljg/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "title": "Josh Bowen Pre-Match Yeovil (A)",
+      "videoId": "bd8VwvDkgI0",
+      "publishedAt": "2026-11-19T12:55:27+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=bd8VwvDkgI0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bd8VwvDkgI0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bd8VwvDkgI0/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Jayden Clarke Post-Match | Luton (A)",
       "videoId": "vfAgrUOH5ow",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/pvagCqMgA5g",
       "thumbnailUrl": "https://i.ytimg.com/vi/pvagCqMgA5g/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Kyle McAllister Pre-Match FA Cup | Luton Town (A)",
-      "videoId": "fSI8j_5lXpQ",
-      "publishedAt": "2026-11-05T13:55:15+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=fSI8j_5lXpQ",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/fSI8j_5lXpQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fSI8j_5lXpQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Yan Klukowski Pre-Match FA Cup | Luton Town (A)",
-      "videoId": "Spbs0ZpRqFM",
-      "publishedAt": "2026-11-05T10:42:30+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=Spbs0ZpRqFM",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Spbs0ZpRqFM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Spbs0ZpRqFM/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-19T09:17:13Z"
+  "fetchedAt": "2026-11-19T18:32:00Z"
 }
