@@ -1,14 +1,32 @@
 {
   "featuredVideo": {
-    "title": "Ryan Rydel Pre-Match | Yeovil (A)",
-    "videoId": "IgT474X3ljg",
-    "publishedAt": "2026-11-19T15:15:39+00:00",
-    "watchUrl": "https://www.youtube.com/watch?v=IgT474X3ljg",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/IgT474X3ljg",
-    "thumbnailUrl": "https://i.ytimg.com/vi/IgT474X3ljg/hqdefault.jpg",
-    "score": 0
+    "title": "Match Highlights | Yeovil 3-2 FGR",
+    "videoId": "-HBlRMqMak4",
+    "publishedAt": "2026-11-21T23:29:39+00:00",
+    "watchUrl": "https://www.youtube.com/watch?v=-HBlRMqMak4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/-HBlRMqMak4",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-HBlRMqMak4/hqdefault.jpg",
+    "score": 25
   },
   "videos": [
+    {
+      "title": "Match Highlights | Yeovil 3-2 FGR",
+      "videoId": "-HBlRMqMak4",
+      "publishedAt": "2026-11-21T23:29:39+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=-HBlRMqMak4",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-HBlRMqMak4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-HBlRMqMak4/hqdefault.jpg",
+      "score": 25
+    },
+    {
+      "title": "Josh Bowen & Ethan Ross Post-Match Reaction | Yeovil (A)",
+      "videoId": "NkozIyyANFA",
+      "publishedAt": "2026-11-21T20:57:00+00:00",
+      "watchUrl": "https://www.youtube.com/watch?v=NkozIyyANFA",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NkozIyyANFA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NkozIyyANFA/hqdefault.jpg",
+      "score": 0
+    },
     {
       "title": "Ryan Rydel Pre-Match | Yeovil (A)",
       "videoId": "IgT474X3ljg",
@@ -35,25 +53,7 @@
       "embedUrl": "https://www.youtube-nocookie.com/embed/vfAgrUOH5ow",
       "thumbnailUrl": "https://i.ytimg.com/vi/vfAgrUOH5ow/hqdefault.jpg",
       "score": 0
-    },
-    {
-      "title": "Yan Klukowski Post-Match | Luton (A)",
-      "videoId": "zkKpE-RfXe8",
-      "publishedAt": "2026-11-07T18:49:43+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=zkKpE-RfXe8",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/zkKpE-RfXe8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zkKpE-RfXe8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "title": "Worst teammate to share a hotel with? 🤔  #WeAreFGR💚",
-      "videoId": "pvagCqMgA5g",
-      "publishedAt": "2026-11-06T13:22:58+00:00",
-      "watchUrl": "https://www.youtube.com/watch?v=pvagCqMgA5g",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/pvagCqMgA5g",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pvagCqMgA5g/hqdefault.jpg",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-21T20:50:18Z"
+  "fetchedAt": "2026-11-22T01:04:05Z"
 }
